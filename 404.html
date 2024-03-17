@@ -11,7 +11,7 @@
                 window.location.href = "https://srajma.substack.com";
             } else {
                 if (path.startsWith("/blog/")) {
-                    var targetPath = path.slice("/blog".length);
+                    var targetPath = path.slice("/blog/".length);
                     window.location.href = "https://srajma.substack.com/p/" + targetPath;
                 } else {
                     document.body.innerHTML = '<div>404. <a href="/">RETVRN.</a></div>';
