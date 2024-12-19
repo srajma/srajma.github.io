@@ -32,6 +32,7 @@ Docs will be posted on my [substack](srajma.github.io/blog/) when complete, and 
 3. [Some maps to visualize India in antiquity](history/old/maps.md)
 4. [Estimating Mauryan-era incomes from the weight of a mung bean](history/old/income.md)
 
+# The Great Empire
 Read here: https://srajma.github.io/book/
 - [0.1 INTRODUCTION](chapters/0/0.1.md)
 - [0.2 PROLOGUE: Pratiṣṭhāna Kāṇḍa](chapters/0/0.2.md)

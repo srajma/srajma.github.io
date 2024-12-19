@@ -1,4 +1,4 @@
-## History articles
+# History articles
 
 Docs will be posted on my [substack](srajma.github.io/blog/) when complete, and probably [X](https://x.com/real_mahalingam) and Reddit.
 
