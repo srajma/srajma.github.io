@@ -4,7 +4,7 @@
 * [srajma.github.io/x](https://srajma.github.io/writing/x) — redirect to the best twitter threads of NiṣādaHermaphroditarchaṃśa (Mal'ta boy ka parivar) [ `@real_mahalingam`]
 * [srajma.github.io/blog](https://srajma.github.io/blog) — redirect to my substack
 
-## History articles
+# History articles
 
 Docs will be posted on my [substack](srajma.github.io/blog/) when complete, and probably [X](https://x.com/real_mahalingam) and Reddit.
 
