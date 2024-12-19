@@ -1,0 +1,1 @@
+BTW this is the theory behind the “chagnon-pill” — it’s not that people like people who will kill them, but rather they will like people who are evidently (though left unsaid) on the same side as the people who will kill them. Either because they seek protection in the good cop from the bad cop, or evaluate him relatively to his company the bad cop.

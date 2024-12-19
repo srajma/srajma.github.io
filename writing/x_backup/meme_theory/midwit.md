@@ -1,0 +1,1 @@
+If you want to understand the theory behind the midwit meme, here it is. Midwits are people who (are smart enough to) use science/rationality/etc for support but not illumination. Priests who bestow legitimacy on kings, rather than bestow kingship on the legitimate.
