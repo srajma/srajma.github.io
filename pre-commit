@@ -3,6 +3,7 @@
   echo
   cat writing/history/README.md
   echo
+  echo '# The Great Empire'
   awk '/^# content/{p=1;next} /^#/{p=0} p' ../book/index.md
   echo
   cat README_end.md

@@ -3,6 +3,7 @@
 * [srajma.github.io/book](https://srajma.github.io/book) — _The Great Empire_, a fictionalized account of Kautilya's rise to power
 * [srajma.github.io/x](https://srajma.github.io/writing/x) — redirect to the best twitter threads of NiṣādaHermaphroditarchaṃśa (Mal'ta boy ka parivar) [ `@real_mahalingam`]
 * [srajma.github.io/blog](https://srajma.github.io/blog) — redirect to my substack
+
 ## History articles
 
 Docs will be posted on my [substack](srajma.github.io/blog/) when complete, and probably [X](https://x.com/real_mahalingam) and Reddit.
@@ -30,7 +31,7 @@ Docs will be posted on my [substack](srajma.github.io/blog/) when complete, and 
 2. [Note on Vikramāditya](history/old/vikramaditya.md)
 3. [Some maps to visualize India in antiquity](history/old/maps.md)
 4. [Estimating Mauryan-era incomes from the weight of a mung bean](history/old/income.md)
-# content
+
 Read here: https://srajma.github.io/book/
 - [0.1 INTRODUCTION](chapters/0/0.1.md)
 - [0.2 PROLOGUE: Pratiṣṭhāna Kāṇḍa](chapters/0/0.2.md)
@@ -107,14 +108,8 @@ Read here: https://srajma.github.io/book/
 		- [quotable](chapters/specials/quotes/quotable.md) (quotes from Baba NiṣādaHermaphroditarchyaṃśa aka Baba Srajma, not any primary source)
 	- … (more, navigate through the folders to find as it’s too much to maintain)
 
-# dev
 
-Finishing this book is currently very low on my list of priorities. If any of you are some really good writers, and want to contribute in line with the plot outline in the below links — send in some contributions via a Github pull request (maybe send some previous writing sample in advance so I can tell you beforehand if I’m likely to accept your PR).  
-
-- [TODO](TODO.md)
-- [outline](outline.md)
-- [lore](lore.md)
-- [rough notes folder](chapters/rough/) (access through obsidian or github, not accessible from the website).# Tips, tools and links 
+# Tips, tools and links 
 
 * Useful symbols: – — ― 卐 卍
 * [IAST transliteration tool](https://www.yesvedanta.com/transliterate/), [Convertcase](https://convertcase.net/)
