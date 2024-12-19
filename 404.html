@@ -9,14 +9,17 @@
             var path = window.location.pathname;
             if (path == "/blog" || path == "/blog/") {
                 window.location.href = "https://srajma.substack.com";
-            } else {
-                if (path.startsWith("/blog/")) {
-                    var targetPath = path.slice("/blog/".length);
-                    window.location.href = "https://srajma.substack.com/p/" + targetPath;
-                } else {
-                    document.body.innerHTML = '<div>404. <a href="/">RETVRN.</a></div>';
-                }
             }
+            else if (path.startsWith("/blog/")) {
+                var targetPath = path.slice("/blog/".length);
+                window.location.href = "https://srajma.substack.com/p/" + targetPath;
+            }
+            else if (path == "/x" || path == "/x/") {
+                window.location.href = "https://x.com/real_mahalingam/status/1825165727684321361";
+            }
+            else {
+                document.body.innerHTML = '<div>404. <a href="/">RETVRN.</a></div>';
+            }            
         }
     </script>
 </head>
