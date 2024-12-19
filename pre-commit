@@ -1,1 +1,9 @@
-cat README_start.md writing/history/README.md ../book/index.md README_end.md > README.md
+(
+  cat README_start.md
+  echo
+  cat writing/history/README.md
+  echo
+  awk '/^# content/{p=1;next} /^#/{p=0} p' ../book/index.md
+  echo
+  cat README_end.md
+) > README.md
