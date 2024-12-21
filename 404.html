@@ -14,7 +14,7 @@
                 var targetPath = path.slice("/blog/".length);
                 window.location.href = "https://srajma.substack.com/p/" + targetPath;
             }
-            else if (path == "/x" || path == "/x/") {
+            else if (path.startsWith("/x") || path.startsWith("/x/")) {
                 window.location.href = "https://x.com/real_mahalingam/status/1825165727684321361";
             }
             else {
