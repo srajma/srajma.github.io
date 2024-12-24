@@ -7,12 +7,41 @@
     <script>
         window.onload = function () {
             var path = window.location.pathname;
-            if (path == "/blog" || path == "/blog/") {
+            if (path.endsWith("/")) {
+                path = path.slice(0, -1); // remove trailing slash
+            }
+            if (path.endsWith("/index.html")) {
+                path = path.slice(0, -11); // remove trailing /index.html
+            }
+            if (path == "/blog") {
                 window.location.href = "https://srajma.substack.com";
             }
             else if (path.startsWith("/blog/")) {
                 var targetPath = path.slice("/blog/".length);
                 window.location.href = "https://srajma.substack.com/p/" + targetPath;
+            }
+            else if (path == '/drafts/Articles/features') {
+                window.location.href = "https://srajma.github.io/writing/history/features";
+            }
+            else if (path.startsWith('/drafts/Articles/features/')) { // /hinduism/* or /foreign/*
+                var targetPath = path.slice('/drafts/Articles/features/'.length);
+                window.location.href = "https://srajma.github.io/writing/history/" + targetPath;
+            }
+            else if (path == '/drafts/Articles/myths') {
+                window.location.href = "https://srajma.github.io/writing/history/myths/intro";
+            }
+            else if (path == '/drafts/Articles/myths/barbarians') {
+                window.location.href = "https://srajma.github.io/writing/history/myths/barbarians";
+            }
+            else if (path.startsWith('/drafts/Articles/sources/')) { // /primary or /secondary
+                var targetPath = path.slice('/drafts/Articles/sources/'.length);
+                window.location.href = "https://srajma.github.io/writing/history/sources" + targetPath;
+            }
+            else if (path == "/drafts/Articles/") {
+                window.location.href = "https://srajma.github.io/writing/history/pitfalls";
+            }
+            else if (path == "/drafts/") {
+                window.location.href = "https://srajma.github.io/writing/history";
             }
             else if (path.startsWith("/x") || path.startsWith("/x/")) {
                 window.location.href = "https://x.com/real_mahalingam/status/1825165727684321361";
