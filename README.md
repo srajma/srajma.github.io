@@ -40,7 +40,7 @@ Docs will be posted on my [substack](srajma.github.io/blog/) when complete, and 
 4. [Estimating Mauryan-era incomes from the weight of a mung bean](history/old/income.md)
 
 # The Great Empire
-Read here: https://srajma.github.io/book/
+Read here: [https://srajma.github.io/book/](https://srajma.github.io/book/)
 - [0.1 INTRODUCTION](chapters/0/0.1.md)
 - [0.2 PROLOGUE: Pratiṣṭhāna Kāṇḍa](chapters/0/0.2.md)
 - 1 Takṣaśila Kāṇḍa (*The Taxila Chapter*). In a world where the Vedic light appears to be dying, crushed from both sides by the Magadhas and the Persians, a young Cāṇakya resolves to make some changes.
