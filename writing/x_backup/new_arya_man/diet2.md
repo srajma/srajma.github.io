@@ -11,17 +11,25 @@ As with all other things, health/diet discourse on HX is low-signal slop dominat
 If you want to drain the slop and become HIGH-SIGNAL ELITE HVMAN CAPITAL, you must forget everything you think you know and just listen to me. Again, as with all other things.
 
 **A. The goals of health are four-fold:**
+
 Avoiding heart disease and cancer
+
 Avoiding micronutrient deficiencies
+
 Building a powerhouse of a brain and body
+
 Building capacity for mass-REPRODVCTION (high T for men, industrial-standard menstrual cycle for women)
 
 minor goals: avoiding kidney and liver failure, spine knees and bones of rearden metal, a powerful neck and jaw, immunity, good teeth eyes skin hair, flexibility
 
 **B. The method to achieve these goals is four-fold:**
+
 Eat according to this guide.
+
 Exercise — VO2 max training ~2-4 days/wk, lift 4-5 days/wk, at least light cardio everyday.
-<12\% bodyfat for men, 20% for women.
+
+<12% bodyfat for men, 20% for women.
+
 Sleep at a consistent time and get sunlight upon waking.
 
 Take a moment to appreciate how *surprising and fortunate* it is that this is all you need to do, to achieve all four goals of health — that there are almost *no trade-offs* between the goals of health; the things you must do are the same for all. What is good for your brain is what is good for your heart is what is good for building muscle. I can count the exceptions on my fingers. You have nothing to lose but your vaḍāpāv.
@@ -29,8 +37,11 @@ Take a moment to appreciate how *surprising and fortunate* it is that this is al
 This guide focuses on diet, but exercise > diet. VO2-max is the single greatest predictor of life expectancy, and is best trained by HIIT (google it). Unless you’re fat, then diet matters more until you lose it.
 
 other helpful things:
+
 chugging water (your machine needs coolant, plus your kidneys demand it)
+
 get an air purifier if you live in the karmabhūmī (but Kerala exceptionalism strikes again)
+
 use a standing desk if you can, and exercise whenever you feel like taking a break while working
 
 **C. The main contents of your diet >> “preservatives”**
@@ -44,14 +55,23 @@ If you’re eating deep-fried foods, sugar, refined grains — you have forfeite
 Improving your overall diet, to have correct macro ratios, correct fruits and vegetables and nuts and spices, eliminating junk, will be infinitely more valuable than avoiding “preservatives”.
 
 **D. Things that are ALWAYS bad for you.**
+
 Any food at or ordered from a restaurant. Full of gutter oil.`**`
+
 Processed meats.
+
 Deep-fried foods.
+
 Drugs, including alcohol and smoking.
+
 Trans-fats.
+
 Red meats.
+
 Refined grains: white rice, maida, many flours and ravās`***`.
+
 Sugar (yes, jaggery, honey and syrups are sugar).
+
 Saturated fats: ghee, coconut oil`*`
 
 `*` “Oh but SeedOilDestroyer429 told me saturated fats are *good*!” No, shut up. Saturated fats causing heart disease and raising LDL is the single most replicated finding in all of nutrition. 
@@ -75,10 +95,15 @@ Eating out literally means getting cvcked (by all the dudes who tasted that oil 
 Healthier alternatives for each of these:
 
 **Saturated fats → monounsaturated fats (avocado/olive/mustard oil).** If you like the taste of ghee, try shallow-frying some milk powder in some avocado oil.
+
 **Sugar → stevia, allulose, monk fruit.** Make sure to check it’s pure stevia extract — it will be a very tiny quantity, either powder or drops, because it’s like 100x sweeter than sugar. But even artificial sweeteners like sucralose are better  than sugar.
+
 **Refined grains → Legumes, whole grains, root vegetables.**
+
 **Deep-fried foods → Air-frying.**
+
 **Drugs → Rat poison.** (this is a joke, don’t sue me if you kill yourself)
+
 **Eating out → Learn how to cook, you overgrown child.**
 
 The fundamental reason why eating out, or eating ultra-processed foods is *always* unhealthy, is that optimizing really well in an even slightly imperfect direction leads to inevitable disaster. Markets are really good at optimization, but they optimize for what consumers can transparently see (e.g. taste, color). They will sacrifice enormous amounts of “healthiness” to squeeze out even the slightest gains in taste, because the consumer cannot observe or verify “healthiness” and so it doesn’t affect his decision to buy.
@@ -100,8 +125,11 @@ Diagram shows the macronutrients, i.e. the bulk of your food, which you can see 
 ![](../../-attachments/Pasted%20image%2020250101154043.png)
 
 For a 3000 calorie diet, these ratios amount to:
+
 300g carbs
+
 150g protein
+
 120g fat, of which:
 - less than 20g SFA
 - 60g MUFA
@@ -145,6 +173,7 @@ Legumes (chickpeas, rajma, mung, urad, lentils) are awesome because you can gobb
 **2 —** Pomegranates and (blue/black/rasp-)berries are the best among fruits. Lemons are cool too.
 
 https://www.youtube.com/watch?v=Xp_lb_Pe7gE
+
 https://www.youtube.com/watch?v=Bgp4_N2Sjrg 
 
 **3 —** Allium (onion and garlic) and cruciferous (those in green below)  are the best among vegetables. Cancer cell proliferation under each vegetable:
@@ -177,6 +206,7 @@ This is very important, do not skip it! Lack of ω-3 is one of the most serious 
 - black pepper
 - cacao powder
 - matcha powder (i.e. green tea)
+
 are all some of the most antioxidant-rich foods in the world. 
 
 And there is one, single, god-tier food in the world that you must consume if nothing else — and that is Amla: 
@@ -225,7 +255,7 @@ If you are losing weight, you can use this diet as-is without changing anything.
 
 ***Appendix.***
 
-The modern Indian’s diet is bad. Note that I say “Indian’s diet”, not “Indian diet” which is a much more complex historical topic — this is a simple empirical fact, and it’s not just protein: Indians have a child stunting rate of 36\%, some of the lowest fruit and vegetable consumption in the world (!), and the highest Hidden Hunger Index in the world barring only a few sub-saharan countries [3, 4].
+The modern Indian’s diet is bad. Note that I say “Indian’s diet”, not “Indian diet” which is a much more complex historical topic — this is a simple empirical fact, and it’s not just protein: Indians have a child stunting rate of 36%, some of the lowest fruit and vegetable consumption in the world (!), and the highest Hidden Hunger Index in the world barring only a few sub-saharan countries [3, 4].
 
 Moreover, Indian diet discourse is *extremely useless* and misinformed: e.g. in India, non-vegetarians do even *worse* than vegetarians on protein [5]. You have twitter “doctors” of every real, vestigal and conjectured organ in the body whose source of information about diet is some quack “carnivore diet” fatbro, fighting random aunties who think whey protein is an anabolic steroid and ghee cures cancer.
 
