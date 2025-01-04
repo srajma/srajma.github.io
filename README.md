@@ -18,7 +18,7 @@ Docs will be posted on my [substack](https://srajma.github.io/blog/) when comple
 🏜️ (not started) | 🏗️ (work-in-progress) | ❗ (current project) | 📤 (waiting to post) | ✅ (all done)
 
 1. [3 pitfalls to avoid in reading Indian history](writing/history/pitfalls) 📤
-2. [Features and contradictions of premodern Indian civilization](writing/history/features) 🏗️
+2. [Features and contradictions of premodern Indian civilization](writing/history/features.md) 🏗️
 3. Sources/secondary: [A short bibiliography of good sources for Indian history](writing/history/sources/secondary) ✅
 4. Sources/primary: [A catalog of ancient Indian literary sources](writing/history/sources/primary) 🏗️
 6. Hinduism/philosophy: [The early development of Indian philosophy](writing/history/hinduism/philosophy) 🏗️
@@ -41,42 +41,42 @@ Docs will be posted on my [substack](https://srajma.github.io/blog/) when comple
 
 # The Great Empire
 Read here: [https://srajma.github.io/book/](https://srajma.github.io/book/)
-- [0.1 INTRODUCTION](book/chapters/0/0.1.md)
-- [0.2 PROLOGUE: Pratiṣṭhāna Kāṇḍa](book/chapters/0/0.2.md)
+- [0.1 INTRODUCTION](https://srajma.github.io/book/chapters/0/0.1)
+- [0.2 PROLOGUE: Pratiṣṭhāna Kāṇḍa](https://srajma.github.io/book/chapters/0/0.2)
 - 1 Takṣaśila Kāṇḍa (*The Taxila Chapter*). In a world where the Vedic light appears to be dying, crushed from both sides by the Magadhas and the Persians, a young Cāṇakya resolves to make some changes.
-	- [1.1 Neti Kautilyaḥ! (“No, says Kautilya”)](book/chapters/1/1.1.md)
-	- [1.2 Of picking one’s battles](book/chapters/1/1.2.md)
-	- [1.3 The enemy of my enemy](book/chapters/1/1.3.md)
-	- [1.4 Deception games](book/chapters/1/1.4.md)
-	- [1.5 The art of manipulation](book/chapters/1/1.5.md)
-	- [1.6 Clandestine operations](book/chapters/1/1.6.md)
-	- [1.7 The art of double crossing](book/chapters/1/1.7.md)
-	- [1.8 Mundia and modia](book/chapters/1/1.8.md)
-	- [1.9 Reductionism](book/chapters/1/1.9.md)
-	- [1.10 Hero worship](book/chapters/1/1.10.md)
-	- [1.11 Availing opportunities](book/chapters/1/1.11.md)
+	- [1.1 Neti Kautilyaḥ! (“No, says Kautilya”)](https://srajma.github.io/book/chapters/1/1.1)
+	- [1.2 Of picking one’s battles](https://srajma.github.io/book/chapters/1/1.2)
+	- [1.3 The enemy of my enemy](https://srajma.github.io/book/chapters/1/1.3)
+	- [1.4 Deception games](https://srajma.github.io/book/chapters/1/1.4)
+	- [1.5 The art of manipulation](https://srajma.github.io/book/chapters/1/1.5)
+	- [1.6 Clandestine operations](https://srajma.github.io/book/chapters/1/1.6)
+	- [1.7 The art of double crossing](https://srajma.github.io/book/chapters/1/1.7)
+	- [1.8 Mundia and modia](https://srajma.github.io/book/chapters/1/1.8)
+	- [1.9 Reductionism](https://srajma.github.io/book/chapters/1/1.9)
+	- [1.10 Hero worship](https://srajma.github.io/book/chapters/1/1.10)
+	- [1.11 Availing opportunities](https://srajma.github.io/book/chapters/1/1.11)
 - 2 Mathura Kāṇḍa (*The Mathura Chapter*). Cāṇakya makes contact the mysterious Order of Saṅkarṣaṇa, and seeks to be titled as their chosen hero. But for that he must first rise as a statesman, plotting, with his new aides, some of his first schemes to manipulate the great empires of his day.
-	- [2.1 Motivated questionnaire](book/chapters/2/2.1.md)
-	- [2.2 Pavel Morozov](book/chapters/2/2.2.md)
-	- [2.3 Work experience](book/chapters/2/2.3.md)
-	- [2.4 The Manhattan Project](book/chapters/2/2.4.md)
-	- [2.5 Cutting the Gordian knot](book/chapters/2/2.5.md)
+	- [2.1 Motivated questionnaire](https://srajma.github.io/book/chapters/2/2.1)
+	- [2.2 Pavel Morozov](https://srajma.github.io/book/chapters/2/2.2)
+	- [2.3 Work experience](https://srajma.github.io/book/chapters/2/2.3)
+	- [2.4 The Manhattan Project](https://srajma.github.io/book/chapters/2/2.4)
+	- [2.5 Cutting the Gordian knot](https://srajma.github.io/book/chapters/2/2.5)
 - 3 Yavana Kāṇḍa (*The Hellenic Chapter*). A new player appears on the scene, an ambitious conqueror from a distant land called Macedon. But Cāṇakya intends to turn this into an opportunity, and ensure that the fruits of the newcomer’s efforts will be solely reaped by Candragupta.
-	- [3.1 Signalling networks](book/chapters/3/3.1.md)
-	- [3.2 Learning to lose](book/chapters/3/3.2.md)
-	- [3.3 Fake rebelliousness](book/chapters/3/3.3.md)
-	- [3.4 Coalitions](book/chapters/3/3.4.md)
-	- [3.5 The (in)validity of feelings](book/chapters/3/3.5.md)
-	- [3.6 Image consciousness](book/chapters/3/3.6.md)
-	- [3.7 Synecdoche](book/chapters/3/3.7.md)
-	- [3.8 Speaking ill of the dead](book/chapters/3/3.8.md)
-	- [3.9 Showing empathy](book/chapters/3/3.9.md)
-	- [3.10 Hell](book/chapters/3/3.10.md)
-	- [3.11 Gifting knives](book/chapters/3/3.11.md)
-	- [3.12 Linus’s law](book/chapters/3/3.12.md)
+	- [3.1 Signalling networks](https://srajma.github.io/book/chapters/3/3.1)
+	- [3.2 Learning to lose](https://srajma.github.io/book/chapters/3/3.2)
+	- [3.3 Fake rebelliousness](https://srajma.github.io/book/chapters/3/3.3)
+	- [3.4 Coalitions](https://srajma.github.io/book/chapters/3/3.4)
+	- [3.5 The (in)validity of feelings](https://srajma.github.io/book/chapters/3/3.5)
+	- [3.6 Image consciousness](https://srajma.github.io/book/chapters/3/3.6)
+	- [3.7 Synecdoche](https://srajma.github.io/book/chapters/3/3.7)
+	- [3.8 Speaking ill of the dead](https://srajma.github.io/book/chapters/3/3.8)
+	- [3.9 Showing empathy](https://srajma.github.io/book/chapters/3/3.9)
+	- [3.10 Hell](https://srajma.github.io/book/chapters/3/3.10)
+	- [3.11 Gifting knives](https://srajma.github.io/book/chapters/3/3.11)
+	- [3.12 Linus’s law](https://srajma.github.io/book/chapters/3/3.12)
 - 4 Āryāvarta Kāṇḍa (*The Central Country Chapter*). Instead of enjoying his well-fought win, Cāṇakya decides to stake it all in the most unhinged gamble any man had ever took. Will he extract the nectar of victory from the sea of tumult?
-	- [4.1 Putting in the effort](book/chapters/4/4.1.md)
-	- [4.2 Repugnant alliances](book/chapters/4/4.2.md)
+	- [4.1 Putting in the effort](https://srajma.github.io/book/chapters/4/4.1)
+	- [4.2 Repugnant alliances](https://srajma.github.io/book/chapters/4/4.2)
 	- …
 - 5 Magadha Kāṇḍa (*The Magadha Chapter*). Yes. He did.
 	- …
@@ -86,21 +86,21 @@ Read here: [https://srajma.github.io/book/](https://srajma.github.io/book/)
 	- …
 - Supplements
 	- Vāsudeva
-		- [1.1_catapult](book/chapters/vasudeva/1.1_catapult.md)
-		- [1.2_rebels](book/chapters/vasudeva/1.2_rebels.md)
-		- [1.3_coup](book/chapters/vasudeva/1.3_coup.md)
-		- [1.4_coronation](book/chapters/vasudeva/1.4_coronation.md)
-		- [1.5_birth](book/chapters/vasudeva/1.5_birth.md)
-		- [2.1_childhood](book/chapters/vasudeva/2.1_childhood.md)
-		- [2.2_licchavi](book/chapters/vasudeva/2.2_licchavi.md)
-		- [2.3_mother](book/chapters/vasudeva/2.3_mother.md)
-		- [2.4_father](book/chapters/vasudeva/2.4_father.md)
-		- [2.5_wife](book/chapters/vasudeva/2.5_wife.md)
-		- [2.6_letter](book/chapters/vasudeva/2.6_letter.md)
-		- [2.7_ayodhya_1](book/chapters/vasudeva/2.7_ayodhya_1.md)
-		- [2.7_ayodhya_2](book/chapters/vasudeva/2.7_ayodhya_2.md)
-		- [2.8_death](book/chapters/vasudeva/2.8_death.md)
-	- [Dāśarājña](book/chapters/dasarajna.md)
+		- [1.1_catapult](https://srajma.github.io/book/chapters/vasudeva/1.1_catapult)
+		- [1.2_rebels](https://srajma.github.io/book/chapters/vasudeva/1.2_rebels)
+		- [1.3_coup](https://srajma.github.io/book/chapters/vasudeva/1.3_coup)
+		- [1.4_coronation](https://srajma.github.io/book/chapters/vasudeva/1.4_coronation)
+		- [1.5_birth](https://srajma.github.io/book/chapters/vasudeva/1.5_birth)
+		- [2.1_childhood](https://srajma.github.io/book/chapters/vasudeva/2.1_childhood)
+		- [2.2_licchavi](https://srajma.github.io/book/chapters/vasudeva/2.2_licchavi)
+		- [2.3_mother](https://srajma.github.io/book/chapters/vasudeva/2.3_mother)
+		- [2.4_father](https://srajma.github.io/book/chapters/vasudeva/2.4_father)
+		- [2.5_wife](https://srajma.github.io/book/chapters/vasudeva/2.5_wife)
+		- [2.6_letter](https://srajma.github.io/book/chapters/vasudeva/2.6_letter)
+		- [2.7_ayodhya_1](https://srajma.github.io/book/chapters/vasudeva/2.7_ayodhya_1)
+		- [2.7_ayodhya_2](https://srajma.github.io/book/chapters/vasudeva/2.7_ayodhya_2)
+		- [2.8_death](https://srajma.github.io/book/chapters/vasudeva/2.8_death)
+	- [Dāśarājña](https://srajma.github.io/book/chapters/dasarajna)
 	- The Men who Built India
 	- The Great Indian Civil War
 	- Delhi 1200 BC
@@ -108,12 +108,12 @@ Read here: [https://srajma.github.io/book/](https://srajma.github.io/book/)
 	- The Man who Built Civilization
 - Special
 	- quotes
-		- [arthashastra](book/chapters/specials/quotes/arthashastra/index.md)
-		- [canakya_niti](book/chapters/specials/quotes/canakya_niti/index.md)
-		- [greek](book/chapters/specials/quotes/greek/index.md)
-		- [misc](book/chapters/specials/quotes/misc/index.md)
-		- [full_page_vizhdam](book/chapters/specials/quotes/full_page_vizhdam.md) (quotes from Baba NiṣādaHermaphroditarchyaṃśa aka Baba Srajma, not any primary source)
-		- [quotable](book/chapters/specials/quotes/quotable.md) (quotes from Baba NiṣādaHermaphroditarchyaṃśa aka Baba Srajma, not any primary source)
+		- [arthashastra](https://srajma.github.io/book/chapters/specials/quotes/arthashastra/index)
+		- [canakya_niti](https://srajma.github.io/book/chapters/specials/quotes/canakya_niti/index)
+		- [greek](https://srajma.github.io/book/chapters/specials/quotes/greek/index)
+		- [misc](https://srajma.github.io/book/chapters/specials/quotes/misc/index)
+		- [full_page_vizhdam](https://srajma.github.io/book/chapters/specials/quotes/full_page_vizhdam) (quotes from Baba NiṣādaHermaphroditarchyaṃśa aka Baba Srajma, not any primary source)
+		- [quotable](https://srajma.github.io/book/chapters/specials/quotes/quotable) (quotes from Baba NiṣādaHermaphroditarchyaṃśa aka Baba Srajma, not any primary source)
 	- … (more, navigate through the folders to find as it’s too much to maintain)
 
 

@@ -5,7 +5,7 @@ Docs will be posted on my [substack](https://srajma.github.io/blog/) when comple
 🏜️ (not started) | 🏗️ (work-in-progress) | ❗ (current project) | 📤 (waiting to post) | ✅ (all done)
 
 1. [3 pitfalls to avoid in reading Indian history](pitfalls) 📤
-2. [Features and contradictions of premodern Indian civilization](features) 🏗️
+2. [Features and contradictions of premodern Indian civilization](features.md) 🏗️
 3. Sources/secondary: [A short bibiliography of good sources for Indian history](sources/secondary) ✅
 4. Sources/primary: [A catalog of ancient Indian literary sources](sources/primary) 🏗️
 6. Hinduism/philosophy: [The early development of Indian philosophy](hinduism/philosophy) 🏗️

@@ -1,6 +1,6 @@
 # Create temporary files with the modified content
 sed '/https:\/\//!s/\[\([^]]*\)\](\([^)]*\))/[\1](writing\/history\/\2)/g' writing/history/README.md > history_temp.md
-sed '/https:\/\//!s/\[\([^]]*\)\](\([^)]*\))/[\1](book\/\2)/g' ../book/index.md > book_temp.md
+sed '/https:\/\//!s/\[\([^]]*\)\](\([^)]*\)\.md)/[\1](https:\/\/srajma.github.io\/book\/\2)/g' ../book/index.md > book_temp.md
 
 # Combine everything with the modified files
 (
