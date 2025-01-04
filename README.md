@@ -17,12 +17,12 @@ Docs will be posted on my [substack](https://srajma.github.io/blog/) when comple
 
 🏜️ (not started) | 🏗️ (work-in-progress) | ❗ (current project) | 📤 (waiting to post) | ✅ (all done)
 
-1. [3 pitfalls to avoid in reading Indian history](writing/history/pitfalls) 📤
+1. [3 pitfalls to avoid in reading Indian history](writing/history/pitfalls.md) 📤
 2. [Features and contradictions of premodern Indian civilization](writing/history/features.md) 🏗️
-3. Sources/secondary: [A short bibiliography of good sources for Indian history](writing/history/sources/secondary) ✅
-4. Sources/primary: [A catalog of ancient Indian literary sources](writing/history/sources/primary) 🏗️
-6. Hinduism/philosophy: [The early development of Indian philosophy](writing/history/hinduism/philosophy) 🏗️
-7. Hinduism/theology: [Early Vedic society and theological developments](writing/history/hinduism/theology) 🏗️
+3. Sources/secondary: [A short bibiliography of good sources for Indian history](writing/history/sources/secondary.md) ✅
+4. Sources/primary: [A catalog of ancient Indian literary sources](writing/history/sources/primary.md) 🏗️
+6. Hinduism/philosophy: [The early development of Indian philosophy](writing/history/hinduism/philosophy.md) 🏗️
+7. Hinduism/theology: [Early Vedic society and theological developments](writing/history/hinduism/theology.md) 🏗️
 8. Foreign/west: [Axial age Indian influences on the Western realms](writing/history/foreign/axial) 🏗️
 9. Foreign/silkrd: [The Sanskritization of the Overland and Maritime Silk Roads](writing/history/foreign/silkrd) 🏗️
 10. Foreign/accounts: [Foreign accounts of India](writing/history/foreign/accounts) 🏜️
@@ -123,6 +123,6 @@ Read here: [https://srajma.github.io/book/](https://srajma.github.io/book/)
 * [IAST transliteration tool](https://www.yesvedanta.com/transliterate/), [Convertcase](https://convertcase.net/)
 * [Mapchart](https://www.mapchart.net/)
 * Stable Diffusion: Just use their API via their colab notebooks: [homepage](https://platform.stability.ai/pricing), [direct notebook link](https://colab.research.google.com/github/stability-ai/stability-sdk/blob/main/nbs/Stable_Image_API_Public.ipynb). Other tips: [[1]](https://www.reddit.com/r/StableDiffusion/comments/13bvbps/ive_created_200_sd_images_of_a_consistent/), [[2]](https://stable-diffusion-art.com/beginners-guide/), [[3]](https://mythicalai.substack.com/p/how-to-create-consistent-characters), [[4]](https://www.reddit.com/r/StableDiffusion/comments/16xfv6z/dalles_ability_to_adhere_to_prompts_great_img2img/) -- ComfyUI (see [tutorial](https://www.youtube.com/watch?v=gHI6PjTkBF4)) seems great too
-* Vishvas Vasuki: [website](https://vishvasa.github.io/), [gotra haplogroup proj](https://github.com/sanskrit/gotra-haplogroup/tree/master)
+* Vishvas Vasuki: [website](https://vishvasa.github.io/), [gotra haplogroup proj](https://github.com/sanskrit/gotra-haplogroup/tree/master), [mānasataraṅginī dictionary](https://github.com/indic-dict/stardict-sanskrit/blob/master/sa-head/en-entries/MT-paribhAShA/MT-paribhAShA.babylon)
 * [yfull.com](https://yfull.com)
 * Indian units [[1]](https://www.sanskritimagazine.com/ancient-indian-units-system-of-length-measurement/) [[2]](https://indiadatagraphics.wordpress.com/2021/06/09/ancient-indian-units-and-measures/), [Sanskrit names](https://www.fantasynamegenerators.com/sanskrit-names.php), [Persian names](https://www.behindthename.com/submit/names/usage/ancient-persian)
