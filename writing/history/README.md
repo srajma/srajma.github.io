@@ -4,12 +4,12 @@ Docs will be posted on my [substack](https://srajma.github.io/blog/) when comple
 
 🏜️ (not started) | 🏗️ (work-in-progress) | ❗ (current project) | 📤 (waiting to post) | ✅ (all done)
 
-1. [3 pitfalls to avoid in reading Indian history](pitfalls) 📤
+1. [3 pitfalls to avoid in reading Indian history](pitfalls.md) 📤
 2. [Features and contradictions of premodern Indian civilization](features.md) 🏗️
-3. Sources/secondary: [A short bibiliography of good sources for Indian history](sources/secondary) ✅
-4. Sources/primary: [A catalog of ancient Indian literary sources](sources/primary) 🏗️
-6. Hinduism/philosophy: [The early development of Indian philosophy](hinduism/philosophy) 🏗️
-7. Hinduism/theology: [Early Vedic society and theological developments](hinduism/theology) 🏗️
+3. Sources/secondary: [A short bibiliography of good sources for Indian history](sources/secondary.md) ✅
+4. Sources/primary: [A catalog of ancient Indian literary sources](sources/primary.md) 🏗️
+6. Hinduism/philosophy: [The early development of Indian philosophy](hinduism/philosophy.md) 🏗️
+7. Hinduism/theology: [Early Vedic society and theological developments](hinduism/theology.md) 🏗️
 8. Foreign/west: [Axial age Indian influences on the Western realms](foreign/axial) 🏗️
 9. Foreign/silkrd: [The Sanskritization of the Overland and Maritime Silk Roads](foreign/silkrd) 🏗️
 10. Foreign/accounts: [Foreign accounts of India](foreign/accounts) 🏜️
