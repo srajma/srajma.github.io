@@ -1,2 +1,43 @@
-writing/pers/
-writing/.obsidian/
+# macOS system files
+.DS_Store
+
+# JetBrains IDE settings
+.idea/
+
+# Logs
+*.log
+
+# Temporary files and folders
+tmp/
+
+# Org-mode backup and auto-save files
+*~
+# Emacs auto save files
+# (e.g., #file.org#)
+# and backup files (e.g., file.org~)
+.*.swp
+# OR
+.#*
+
+# Python virtual environments
+**/.venv/
+**/venv/
+**/env/
+
+# Python bytecode
+__pycache__/
+*.py[cod]
+
+# Compiled C extensions
+*.so
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Image editing source files (e.g., GIMP)
+# *.xcf
+
+# OS or editor-specific metadata
+Thumbs.db
+ehthumbs.db
+Desktop.ini

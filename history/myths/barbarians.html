@@ -1,0 +1,442 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+<!-- 2025-05-09 Fri 22:21 -->
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Notes on barbarians</title>
+<meta name="author" content="NiṣādaHermaphroditarchaṃśa (Mal'ta boy ka parivar)" />
+<meta name="generator" content="Org Mode" />
+<style type="text/css">
+  #content { max-width: 60em; margin: auto; }
+  .title  { text-align: center;
+             margin-bottom: .2em; }
+  .subtitle { text-align: center;
+              font-size: medium;
+              font-weight: bold;
+              margin-top:0; }
+  .todo   { font-family: monospace; color: red; }
+  .done   { font-family: monospace; color: green; }
+  .priority { font-family: monospace; color: orange; }
+  .tag    { background-color: #eee; font-family: monospace;
+            padding: 2px; font-size: 80%; font-weight: normal; }
+  .timestamp { color: #bebebe; }
+  .timestamp-kwd { color: #5f9ea0; }
+  .org-right  { margin-left: auto; margin-right: 0px;  text-align: right; }
+  .org-left   { margin-left: 0px;  margin-right: auto; text-align: left; }
+  .org-center { margin-left: auto; margin-right: auto; text-align: center; }
+  .underline { text-decoration: underline; }
+  #postamble p, #preamble p { font-size: 90%; margin: .2em; }
+  p.verse { margin-left: 3%; }
+  pre {
+    border: 1px solid #e6e6e6;
+    border-radius: 3px;
+    background-color: #f2f2f2;
+    padding: 8pt;
+    font-family: monospace;
+    overflow: auto;
+    margin: 1.2em;
+  }
+  pre.src {
+    position: relative;
+    overflow: auto;
+  }
+  pre.src:before {
+    display: none;
+    position: absolute;
+    top: -8px;
+    right: 12px;
+    padding: 3px;
+    color: #555;
+    background-color: #f2f2f299;
+  }
+  pre.src:hover:before { display: inline; margin-top: 14px;}
+  /* Languages per Org manual */
+  pre.src-asymptote:before { content: 'Asymptote'; }
+  pre.src-awk:before { content: 'Awk'; }
+  pre.src-authinfo::before { content: 'Authinfo'; }
+  pre.src-C:before { content: 'C'; }
+  /* pre.src-C++ doesn't work in CSS */
+  pre.src-clojure:before { content: 'Clojure'; }
+  pre.src-css:before { content: 'CSS'; }
+  pre.src-D:before { content: 'D'; }
+  pre.src-ditaa:before { content: 'ditaa'; }
+  pre.src-dot:before { content: 'Graphviz'; }
+  pre.src-calc:before { content: 'Emacs Calc'; }
+  pre.src-emacs-lisp:before { content: 'Emacs Lisp'; }
+  pre.src-fortran:before { content: 'Fortran'; }
+  pre.src-gnuplot:before { content: 'gnuplot'; }
+  pre.src-haskell:before { content: 'Haskell'; }
+  pre.src-hledger:before { content: 'hledger'; }
+  pre.src-java:before { content: 'Java'; }
+  pre.src-js:before { content: 'Javascript'; }
+  pre.src-latex:before { content: 'LaTeX'; }
+  pre.src-ledger:before { content: 'Ledger'; }
+  pre.src-lisp:before { content: 'Lisp'; }
+  pre.src-lilypond:before { content: 'Lilypond'; }
+  pre.src-lua:before { content: 'Lua'; }
+  pre.src-matlab:before { content: 'MATLAB'; }
+  pre.src-mscgen:before { content: 'Mscgen'; }
+  pre.src-ocaml:before { content: 'Objective Caml'; }
+  pre.src-octave:before { content: 'Octave'; }
+  pre.src-org:before { content: 'Org mode'; }
+  pre.src-oz:before { content: 'OZ'; }
+  pre.src-plantuml:before { content: 'Plantuml'; }
+  pre.src-processing:before { content: 'Processing.js'; }
+  pre.src-python:before { content: 'Python'; }
+  pre.src-R:before { content: 'R'; }
+  pre.src-ruby:before { content: 'Ruby'; }
+  pre.src-sass:before { content: 'Sass'; }
+  pre.src-scheme:before { content: 'Scheme'; }
+  pre.src-screen:before { content: 'Gnu Screen'; }
+  pre.src-sed:before { content: 'Sed'; }
+  pre.src-sh:before { content: 'shell'; }
+  pre.src-sql:before { content: 'SQL'; }
+  pre.src-sqlite:before { content: 'SQLite'; }
+  /* additional languages in org.el's org-babel-load-languages alist */
+  pre.src-forth:before { content: 'Forth'; }
+  pre.src-io:before { content: 'IO'; }
+  pre.src-J:before { content: 'J'; }
+  pre.src-makefile:before { content: 'Makefile'; }
+  pre.src-maxima:before { content: 'Maxima'; }
+  pre.src-perl:before { content: 'Perl'; }
+  pre.src-picolisp:before { content: 'Pico Lisp'; }
+  pre.src-scala:before { content: 'Scala'; }
+  pre.src-shell:before { content: 'Shell Script'; }
+  pre.src-ebnf2ps:before { content: 'ebfn2ps'; }
+  /* additional language identifiers per "defun org-babel-execute"
+       in ob-*.el */
+  pre.src-cpp:before  { content: 'C++'; }
+  pre.src-abc:before  { content: 'ABC'; }
+  pre.src-coq:before  { content: 'Coq'; }
+  pre.src-groovy:before  { content: 'Groovy'; }
+  /* additional language identifiers from org-babel-shell-names in
+     ob-shell.el: ob-shell is the only babel language using a lambda to put
+     the execution function name together. */
+  pre.src-bash:before  { content: 'bash'; }
+  pre.src-csh:before  { content: 'csh'; }
+  pre.src-ash:before  { content: 'ash'; }
+  pre.src-dash:before  { content: 'dash'; }
+  pre.src-ksh:before  { content: 'ksh'; }
+  pre.src-mksh:before  { content: 'mksh'; }
+  pre.src-posh:before  { content: 'posh'; }
+  /* Additional Emacs modes also supported by the LaTeX listings package */
+  pre.src-ada:before { content: 'Ada'; }
+  pre.src-asm:before { content: 'Assembler'; }
+  pre.src-caml:before { content: 'Caml'; }
+  pre.src-delphi:before { content: 'Delphi'; }
+  pre.src-html:before { content: 'HTML'; }
+  pre.src-idl:before { content: 'IDL'; }
+  pre.src-mercury:before { content: 'Mercury'; }
+  pre.src-metapost:before { content: 'MetaPost'; }
+  pre.src-modula-2:before { content: 'Modula-2'; }
+  pre.src-pascal:before { content: 'Pascal'; }
+  pre.src-ps:before { content: 'PostScript'; }
+  pre.src-prolog:before { content: 'Prolog'; }
+  pre.src-simula:before { content: 'Simula'; }
+  pre.src-tcl:before { content: 'tcl'; }
+  pre.src-tex:before { content: 'TeX'; }
+  pre.src-plain-tex:before { content: 'Plain TeX'; }
+  pre.src-verilog:before { content: 'Verilog'; }
+  pre.src-vhdl:before { content: 'VHDL'; }
+  pre.src-xml:before { content: 'XML'; }
+  pre.src-nxml:before { content: 'XML'; }
+  /* add a generic configuration mode; LaTeX export needs an additional
+     (add-to-list 'org-latex-listings-langs '(conf " ")) in .emacs */
+  pre.src-conf:before { content: 'Configuration File'; }
+
+  table { border-collapse:collapse; }
+  caption.t-above { caption-side: top; }
+  caption.t-bottom { caption-side: bottom; }
+  td, th { vertical-align:top;  }
+  th.org-right  { text-align: center;  }
+  th.org-left   { text-align: center;   }
+  th.org-center { text-align: center; }
+  td.org-right  { text-align: right;  }
+  td.org-left   { text-align: left;   }
+  td.org-center { text-align: center; }
+  dt { font-weight: bold; }
+  .footpara { display: inline; }
+  .footdef  { margin-bottom: 1em; }
+  .figure { padding: 1em; }
+  .figure p { text-align: center; }
+  .equation-container {
+    display: table;
+    text-align: center;
+    width: 100%;
+  }
+  .equation {
+    vertical-align: middle;
+  }
+  .equation-label {
+    display: table-cell;
+    text-align: right;
+    vertical-align: middle;
+  }
+  .inlinetask {
+    padding: 10px;
+    border: 2px solid gray;
+    margin: 10px;
+    background: #ffffcc;
+  }
+  #org-div-home-and-up
+   { text-align: right; font-size: 70%; white-space: nowrap; }
+  textarea { overflow-x: auto; }
+  .linenr { font-size: smaller }
+  .code-highlighted { background-color: #ffff00; }
+  .org-info-js_info-navigation { border-style: none; }
+  #org-info-js_console-label
+    { font-size: 10px; font-weight: bold; white-space: nowrap; }
+  .org-info-js_search-highlight
+    { background-color: #ffff00; color: #000000; font-weight: bold; }
+  .org-svg { }
+</style>
+</head>
+<body>
+<div id="content" class="content">
+<h1 class="title">Notes on barbarians</h1>
+<div id="table-of-contents" role="doc-toc">
+<h2>Table of Contents</h2>
+<div id="text-table-of-contents" role="doc-toc">
+<ul>
+<li><a href="#āryan-invasions">1. Āryan invasions</a></li>
+<li><a href="#alexander">2. Alexander</a></li>
+<li><a href="#maurya-gupta-interregnum">3. Maurya-Gupta Interregnum</a></li>
+<li><a href="#identity-of-kambojas-scythians-pratiharas">4. Identity of Kambojas, Scythians, Pratiharas</a></li>
+<li><a href="#crackpot-islamist-narratives">5. Crackpot Islamist narratives</a></li>
+<li><a href="#a-comparative-perspective">6. A comparative perspective</a></li>
+</ul>
+</div>
+</div>
+<div id="outline-container-āryan-invasions" class="outline-2">
+<h2 id="āryan-invasions"><span class="section-number-2">1.</span> Āryan invasions</h2>
+<div class="outline-text-2" id="text-āryan-invasions">
+</div>
+</div>
+<div id="outline-container-alexander" class="outline-2">
+<h2 id="alexander"><span class="section-number-2">2.</span> Alexander</h2>
+<div class="outline-text-2" id="text-alexander">
+<p>
+Greco-Roman sources, in chronological order of events &#x2013; tell me if I&rsquo;ve missed anything:
+</p>
+
+<p>
+[At Aornos, in the part of Gāndhāra West of the Indus river, ruled by the Aśvakāyanas] He offered sacrifice upon it, and arranged a fort, committing the superintendence of the garrison to Sisicottus, who long before had deserted from the Indians to Bessus in Bactra, and after Alexander had acquired possession of the country of Bactra, entered his army and appeared to be eminently trustworthy.
+</p>
+
+<p>
+---<a href="https://en.wikisource.org/wiki/The_Anabasis_of_Alexander/Book_IV/Chapter_XXX">Arrian, 4.30, c. 130 AD</a>
+</p>
+
+<p>
+But not even on this account was Alexander angry with Porus; but he kept on sending others in succession; and last of all Meroës an Indian, because he ascertained that he was an old friend of Porus. As soon as the latter heard the message brought to him by Meroës, being at the same time overcome by thirst, he stopped his elephant and dismounted from it. After he had drunk some water and felt refreshed, he ordered Meroës to lead him without delay to Alexander; and Meroës led him thither.
+</p>
+
+<p>
+---<a href="https://en.wikisource.org/wiki/The_Anabasis_of_Alexander/Book_V/Chapter_XVIII">Arrian, 5.18, c. 130 AD</a>
+</p>
+
+<p>
+[After the war against Porus] Messengers also came from Sisicottus, viceroy of the Assacenians (Aśvakāyanas), to inform him that those people had slain their governor and revolted from Alexander. Against these he despatched Philip and Tyriaspes with an army, to arrange and set in order the affairs of their land. He himself advanced towards the river Acesines (Chenab).
+</p>
+
+<p>
+---<a href="https://en.wikisource.org/wiki/The_Anabasis_of_Alexander/Book_V/Chapter_XX">Arrian, 5.20, c. 130 AD</a>
+</p>
+
+<p>
+Alexander marched thence into the Patalian territory. Its king was Moeres, but he had abandoned the town and fled for safety to the mountains.
+</p>
+
+<p>
+---<a href="https://www.gutenberg.org/files/66388/66388-h/66388-h.htm">Curtius, 9.8, c. 1st century</a>
+</p>
+
+<p>
+Now, I am something of a fanboy of Alexander myself, but I find the Greek records after the battle with Porus to be possibly unreliable. The account of Alexander fetching for Moeres &#x2013; all the way from the Swat Valley &#x2013; right in the middle of battle (with Porus fighting for that entire duration) seems almost mythological, <a href="https://www.google.com/maps/dir/Jhelum,+Pakistan/RVHJ%2BJ8V+Pir-Sar+Ridge+(Rock+of+Aornos),+Dandai,+Shangla,+Khyber+Pakhtunkhwa,+Pakistan/@33.8787563,71.9443515,8z/">that&rsquo;s a 3-day journey (double of that for the back and forth) by foot even today</a>. Several more implausible accounts appear in the story afterward:
+</p>
+
+<p>
+·       The Aśvakāyana rebellion threatened to completely cut off Alexander&rsquo;s supply lines from the West, yet he seems to have cared little for it, proceeding to conquer regions in Punjab further East.
+</p>
+
+<p>
+·       &#x2026; which he apparently did by the end of the monsoon (which is possible if you had done significant planning, planting spies and turning loyalties beforehand &#x2013; but he is to have done this  (with comparatively little detail of all of these battles, except of the names of the tribes and their cities).
+</p>
+
+<p>
+·       The names of the tribes of Eastern Punjab seem disconnected from their identifications based on Pāṇini, and indeed the accounts between different writers are different &#x2013; suggesting that they may have been made up based on a vague knowledge of the region.
+</p>
+
+<p>
+·       Abisares, a king based somewhere near Kashmir, presented a constant nuisance for Alexander: he first supported the Aśvakāyanas in their defense against Alexander, then provided them refuge after their defeat (Arrian 4.30), then apparently sent him an embassy once Taxila surrendered (Arrian 5.8), yet moved to help Porus against Alexander, albeit too late (Arrian 5.20), then sent Alexander gifts again at the end of the monsoon (Arrian 5.29), excusing his absence claiming illness despite Alexander previously having demanded he show himself (5.20), yet Alexander &ldquo;readily believed that such was the case&rdquo; and appointed Abisares as satrap, even placing the allied king Arsakes under his dominion &#x2013; and took no measures to stop him from rebelling, despite the obvious threat he posed to his supply line.
+</p>
+
+<p>
+·       In his Southward expedition into the Sauvīra country, rather vague explanations are given as to whether Alexander really fought against the Kṣudrakas, Śivis and Agalassoi or merely prevented them from allying with the Mālavas.
+</p>
+
+<p>
+·       The descriptions of all of Alexander after Porus border on a mythological hero &#x2013; with him jumping past the Mālava walls alone in the midst of a siege, or pursuing the king of Pātāla who had apparently fled the country with &ldquo;all his people&rdquo;.
+</p>
+
+<p>
+·       He made no attempt to take Sattagydia, or the Kekaya country (which I have labelled as part of Gāndhāra in this map but there is no real basis for this).
+</p>
+
+<p>
+·       The picture of Alexander&rsquo;s territories in India at the time of his departure were obviously unstable and in constant rebellion when he left, very different from the situation back in the West. Alexander would have known that he hadn&rsquo;t really consolidated his rule.
+</p>
+
+<p>
+<b>My take:</b> All of Alexander&rsquo;s actions after his Pyrrhic victory against Porus were taken out of <i>desperation</i> &#x2014; out of having his army seriously weakened, and from having his supply lines cut off by Śaśigupta (which was already quite unstable, e.g. depending on a road that his own army had to build, Arrian 4.30) &#x2014; to find and establish new routes back to Babylon. All of his further Eastward marches are false, or they were really assignments he gave to Porus or Eudemus &#x2013; instead he travelled Southward.
+</p>
+
+<p>
+The destruction he inflicted in Sauvīra and Sindh were probably real (mainly because a <i>jauhar</i> is described, a ritual he could not have otherwise known of &#x2013; and because of an interesting passage in the Arthaśāstra, see below), but undertaken either out of a sort of &ldquo;If I can&rsquo;t have it no one can&rdquo; desperation, or to please his restless soldiers, or in defensive fights against armies, such as Maurya&rsquo;s, that sought to obstruct his passage and trap him completely. [while in Sauvīra he still probably expected Philip to quell the rebellion in the North &#x2013; but by the time he had gotten to Sindh, he just sought to escape the place.
+</p>
+
+<p>
+This also explains the apparent mystery of why Alexander marched his army back through the desert &#x2013; he really was quite unaware of routes back to Babylon at this point, even though he could have learned it from the Persians or from merchants, e.g. he had thought the Indus was the source of the Nile (Arrian 6.1), and was seeking all possible routes back to the West, thus he sent Craterus back early through Arachosia, himself through the desert, and Nearchus by ship, not knowing which routes were really possible.
+</p>
+
+<p>
+I do not believe the theory pushed in some RW circles that Alexander was actually defeated by Porus, though &#x2013; mainly because of this passage by Kautilya.
+</p>
+
+<p>
+<i>When a king of poor resources is attacked by a powerful enemy, he should surrender himself together with his sons to the enemy and live like a reed (in the midst of a current of water).</i>
+</p>
+
+<p>
+<i>Bhāradvāja says that he who surrenders himself to the strong, bows down before Indra (the god of rain).</i>
+</p>
+
+<p>
+<i>But Viśālākṣa says that a weak king should rather fight with all his resources, for bravery destroys all troubles; fighting is the natural duty of a kṣatriya, no matter whether he achieves victory or sustains defeat in battle.</i>
+</p>
+
+<p>
+<i>No, says Kauṭilya: he who bows down to all like a crab on the riverbank lives in despair; whoever goes with his small army to fight perishes like a man attempting to cross the sea without a boat. Hence, a weak king should either seek the protection of a powerful king or maintain himself in an impregnable fort.</i>
+</p>
+
+<p>
+&#x2014;Kautilya, in the Arthaśāstra, 12.1:1-9
+</p>
+
+<p>
+This is probably the only bit of Indian literature even vaguely referencing the events of Alexander&rsquo;s invasion &#x2013; it really reads like Viśālākṣa was the advisor of Porus, while the tribes ruling Sauvīra (especially the Mālavas) had followed Kautilya&rsquo;s advice, and Kautilya uses this as a lesson.
+</p>
+</div>
+</div>
+<div id="outline-container-maurya-gupta-interregnum" class="outline-2">
+<h2 id="maurya-gupta-interregnum"><span class="section-number-2">3.</span> Maurya-Gupta Interregnum</h2>
+<div class="outline-text-2" id="text-maurya-gupta-interregnum">
+</div>
+</div>
+<div id="outline-container-identity-of-kambojas-scythians-pratiharas" class="outline-2">
+<h2 id="identity-of-kambojas-scythians-pratiharas"><span class="section-number-2">4.</span> Identity of Kambojas, Scythians, Pratiharas</h2>
+<div class="outline-text-2" id="text-identity-of-kambojas-scythians-pratiharas">
+<p>
+<a href="https://archive.org/details/in.gov.ignca.36138/page/53/mode/2up">https://archive.org/details/in.gov.ignca.36138/page/53/mode/2up</a> Abhiras their history and culture (Bhagwansingh Suryavanshi) <a href="https://en.wikipedia.org/wiki/Ishwarsena">https://en.wikipedia.org/wiki/Ishwarsena</a>
+</p>
+</div>
+</div>
+<div id="outline-container-crackpot-islamist-narratives" class="outline-2">
+<h2 id="crackpot-islamist-narratives"><span class="section-number-2">5.</span> Crackpot Islamist narratives</h2>
+<div class="outline-text-2" id="text-crackpot-islamist-narratives">
+</div>
+</div>
+<div id="outline-container-a-comparative-perspective" class="outline-2">
+<h2 id="a-comparative-perspective"><span class="section-number-2">6.</span> A comparative perspective</h2>
+<div class="outline-text-2" id="text-a-comparative-perspective">
+<p>
+The popular conception of Ancient Indian civilization is as a militarily weak one &#x2013; one which was often subject to foreign invasions, but which never invaded any territory outside its boundaries (with the one exception of the Chola invasion of Srivijaya noted under an asterisk), often attributed to &ldquo;the foolishness of our kings&rdquo; or our insularity.
+</p>
+
+<p>
+It is worth having a comparative perspective on things. Here is a full list of periods of foreign occupations in frontier regions of India during the 2000-year period of idiomatic Indian history (800 BC - 1200), compared to other civilizations: <sup><a id="fnr.i" class="footref" href="#fn.i" role="doc-backlink">1</a></sup>
+</p>
+
+<ul class="org-ul">
+<li><b>Takṣaśilā: 599 years.</b> Achaemenid (518 BC - 330 BC), Greek (170 BC - 100 BC, 57 BC - 45 BC), Scythian (100 BC - 57 BC, 45 BC - 12 BC), Parthian (19 - 50), Kushan (78 - 250), Hun (470 - 520).</li>
+
+<li><b>Śākala: 180 years.</b> Greek (160 BC - 100 BC), Scythian (0 - 20), Kushan (100 - 200).</li>
+
+<li><b>Sindhu: 440 years.</b> Greek (170 BC - 70 BC), Scythian (WS) (10-78, 78 - 200), Sassanian (200-300), Hun (470 - 520).</li>
+
+<li><b>Mathura: 140 years.</b> Scythian (10-50), Kushan (100-200).</li>
+
+<li><b>Ujjayini: 172 years.</b> Scythian (WS) (78-250).</li>
+
+<li><b>Persia: 1163 years.</b> Median (610 BC - 550 BC), Greek (330 BC - 160 BC), Parthian (160 BC - 224), Caliph (651 onward).</li>
+
+<li><b>Mesopotamia: 1745 years.</b> Wasn&rsquo;t ever independent after 545 BC.</li>
+
+<li><b>Egypt: 2000 years.</b> Wasn&rsquo;t ever independent in this period.</li>
+
+<li><b>Northern China: 284 years.</b> Under the Conquest dynasties from 916 onward.</li>
+
+<li><b>Sicily: 700 years.</b> Phoenician (800 BC - 250 BC), Islamic (850 - 1000)</li>
+
+<li><b>Sardinia: 700 years.</b> Phoenician (800 BC - 250 BC), Islamic (750 - 900)</li>
+
+<li><b>Corsica: 550 years.</b> Phoenician (800 BC - 250 BC)</li>
+
+<li><b>Spain: 1100 years.</b> Phoenician (800 BC - 200 BC), Islamic (700 onward)</li>
+
+<li><b>Romania: 200 years.</b> Hun (380 - 450), Avar (570 - 800)</li>
+</ul>
+
+<p>
+You will note that in terms of resisting foreign invasions, India was on par with Europe, vastly stronger than the Middle East, and weaker than China. Some opinionated ranting about the absolute state of Indian history has been relegated to a footnote.
+</p>
+
+<p>
+Generally, India was <i>politically</i> insular (didn&rsquo;t invade much, didn&rsquo;t get conquered much), culturally and scientifically/technologically it was very influential on the rest of the world, but slow in uptaking <i>from</i> the rest of the world. <sup><a id="fnr.iii" class="footref" href="#fn.iii" role="doc-backlink">2</a></sup>
+</p>
+
+<p>
+The only reason we talk about the invasions of India is that we actually successfully resisted them, and that our identity has remained fairly constant throughout the ages &#x2013; unlike other civilizations which were conquered so thoroughly they no longer even regard their conquerors as invaders (e.g. the Middle East was once Christian). Perhaps the words of Ferdowsi, lamenting the Islamic conquest of Persia while himself being a devout Muslim, shed light on how other civilizations viewed their conquerors:
+</p>
+
+<p>
+How can this happen? That the faithless [Arabs] will come to a land &#x2026; from them the faithful [Persian Muslims] have risen.
+</p>
+
+<p>
+<a href="https://twitter.com/razibkhan/status/1655380921174876161">&#x2014;Ferdowsi, in the Shahnameh, c. 1000</a>
+</p>
+
+<p>
+<b>Who&rsquo;s a barbarian?</b>
+</p>
+
+<p>
+Note that this only counts <i>occupations</i>, so e.g. the Indo-Greek invasions of Mathura, or the Achaemenid invasions of Greece are not counted &#x2013; see <a href="https://www.reddit.com/r/IndiaSpeaks/comments/rh8dmd/vikramaditya_reconstructing_the_interregnum_of_57/">here</a> for a fuller analysis. I have counted the Western Satraps even though they were probably of significant Apracarāja (Aśvaka) and Abhira (Kashmiri) heritage.
+</p>
+
+<p>
+It&rsquo;s also worth noting that in the case of other civilizations, foreign conquests were so thorough we don&rsquo;t even regard them as conquests anymore &#x2013; e.g. the fall of Rome to Christianity, the Islamic conquest of the once-Christian Middle East, many Byzantine rulers were from modern-day Turkey, the complete replacement of the Austronesian civilizations of Southern China by Han expansion. We think about foreign invasions of India at all, only because we actually resisted them enough to still consider them &ldquo;foreign&rdquo;.
+</p>
+</div>
+</div>
+<div id="footnotes">
+<h2 class="footnotes">Footnotes: </h2>
+<div id="text-footnotes">
+
+<div class="footdef"><sup><a id="fn.i" class="footnum" href="#fnr.i" role="doc-backlink">1</a></sup> <div class="footpara" role="doc-footnote"><p class="footpara"></p></div></div>
+
+<div class="footdef"><sup><a id="fn.iii" class="footnum" href="#fnr.iii" role="doc-backlink">2</a></sup> <div class="footpara" role="doc-footnote"><p class="footpara"></p></div></div>
+
+
+</div>
+</div></div>
+<div id="postamble" class="status">
+<p class="author">Author: NiṣādaHermaphroditarchaṃśa (Mal'ta boy ka parivar)</p>
+<p class="date">Created: 2025-05-09 Fri 22:21</p>
+</div>
+</body>
+</html>
