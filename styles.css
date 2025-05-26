@@ -5,3 +5,9 @@ body {
 img {
     max-width: 100%; /*make the width attribute on the parent <p> affect the inner <img>*/
 }
+.byline {
+  font-style: italic;
+  font-size: 0.85em;
+  color: gray;
+  margin-top: -1em;
+}
