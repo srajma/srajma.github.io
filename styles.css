@@ -2,3 +2,6 @@ body {
     font-family: sans-serif;
     line-height: 150%
 }
+img {
+    max-width: 100%; /*make the width attribute on the parent <p> affect the inner <img>*/
+}
