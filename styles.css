@@ -11,3 +11,14 @@ img {
   color: gray;
   margin-top: -1em;
 }
+.nav-home {
+  font-size: 0.85em;
+  margin-top: 2em;
+}
+.nav-home a {
+  color: #666;
+  text-decoration: none;
+}
+.nav-home a:hover {
+  text-decoration: underline;
+}
