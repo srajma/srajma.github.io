@@ -1,0 +1,1521 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+<!-- 2025-07-14 Mon 19:41 -->
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Snippetjeetry</title>
+<meta name="author" content="NiṣādaHermaphroditarchaṃśa (Mal'ta boy ka parivar)" />
+<meta name="generator" content="Org Mode" />
+<style type="text/css">
+  #content { max-width: 60em; margin: auto; }
+  .title  { text-align: center;
+             margin-bottom: .2em; }
+  .subtitle { text-align: center;
+              font-size: medium;
+              font-weight: bold;
+              margin-top:0; }
+  .todo   { font-family: monospace; color: red; }
+  .done   { font-family: monospace; color: green; }
+  .priority { font-family: monospace; color: orange; }
+  .tag    { background-color: #eee; font-family: monospace;
+            padding: 2px; font-size: 80%; font-weight: normal; }
+  .timestamp { color: #bebebe; }
+  .timestamp-kwd { color: #5f9ea0; }
+  .org-right  { margin-left: auto; margin-right: 0px;  text-align: right; }
+  .org-left   { margin-left: 0px;  margin-right: auto; text-align: left; }
+  .org-center { margin-left: auto; margin-right: auto; text-align: center; }
+  .underline { text-decoration: underline; }
+  #postamble p, #preamble p { font-size: 90%; margin: .2em; }
+  p.verse { margin-left: 3%; }
+  pre {
+    border: 1px solid #e6e6e6;
+    border-radius: 3px;
+    background-color: #f2f2f2;
+    padding: 8pt;
+    font-family: monospace;
+    overflow: auto;
+    margin: 1.2em;
+  }
+  pre.src {
+    position: relative;
+    overflow: auto;
+  }
+  pre.src:before {
+    display: none;
+    position: absolute;
+    top: -8px;
+    right: 12px;
+    padding: 3px;
+    color: #555;
+    background-color: #f2f2f299;
+  }
+  pre.src:hover:before { display: inline; margin-top: 14px;}
+  /* Languages per Org manual */
+  pre.src-asymptote:before { content: 'Asymptote'; }
+  pre.src-awk:before { content: 'Awk'; }
+  pre.src-authinfo::before { content: 'Authinfo'; }
+  pre.src-C:before { content: 'C'; }
+  /* pre.src-C++ doesn't work in CSS */
+  pre.src-clojure:before { content: 'Clojure'; }
+  pre.src-css:before { content: 'CSS'; }
+  pre.src-D:before { content: 'D'; }
+  pre.src-ditaa:before { content: 'ditaa'; }
+  pre.src-dot:before { content: 'Graphviz'; }
+  pre.src-calc:before { content: 'Emacs Calc'; }
+  pre.src-emacs-lisp:before { content: 'Emacs Lisp'; }
+  pre.src-fortran:before { content: 'Fortran'; }
+  pre.src-gnuplot:before { content: 'gnuplot'; }
+  pre.src-haskell:before { content: 'Haskell'; }
+  pre.src-hledger:before { content: 'hledger'; }
+  pre.src-java:before { content: 'Java'; }
+  pre.src-js:before { content: 'Javascript'; }
+  pre.src-latex:before { content: 'LaTeX'; }
+  pre.src-ledger:before { content: 'Ledger'; }
+  pre.src-lisp:before { content: 'Lisp'; }
+  pre.src-lilypond:before { content: 'Lilypond'; }
+  pre.src-lua:before { content: 'Lua'; }
+  pre.src-matlab:before { content: 'MATLAB'; }
+  pre.src-mscgen:before { content: 'Mscgen'; }
+  pre.src-ocaml:before { content: 'Objective Caml'; }
+  pre.src-octave:before { content: 'Octave'; }
+  pre.src-org:before { content: 'Org mode'; }
+  pre.src-oz:before { content: 'OZ'; }
+  pre.src-plantuml:before { content: 'Plantuml'; }
+  pre.src-processing:before { content: 'Processing.js'; }
+  pre.src-python:before { content: 'Python'; }
+  pre.src-R:before { content: 'R'; }
+  pre.src-ruby:before { content: 'Ruby'; }
+  pre.src-sass:before { content: 'Sass'; }
+  pre.src-scheme:before { content: 'Scheme'; }
+  pre.src-screen:before { content: 'Gnu Screen'; }
+  pre.src-sed:before { content: 'Sed'; }
+  pre.src-sh:before { content: 'shell'; }
+  pre.src-sql:before { content: 'SQL'; }
+  pre.src-sqlite:before { content: 'SQLite'; }
+  /* additional languages in org.el's org-babel-load-languages alist */
+  pre.src-forth:before { content: 'Forth'; }
+  pre.src-io:before { content: 'IO'; }
+  pre.src-J:before { content: 'J'; }
+  pre.src-makefile:before { content: 'Makefile'; }
+  pre.src-maxima:before { content: 'Maxima'; }
+  pre.src-perl:before { content: 'Perl'; }
+  pre.src-picolisp:before { content: 'Pico Lisp'; }
+  pre.src-scala:before { content: 'Scala'; }
+  pre.src-shell:before { content: 'Shell Script'; }
+  pre.src-ebnf2ps:before { content: 'ebfn2ps'; }
+  /* additional language identifiers per "defun org-babel-execute"
+       in ob-*.el */
+  pre.src-cpp:before  { content: 'C++'; }
+  pre.src-abc:before  { content: 'ABC'; }
+  pre.src-coq:before  { content: 'Coq'; }
+  pre.src-groovy:before  { content: 'Groovy'; }
+  /* additional language identifiers from org-babel-shell-names in
+     ob-shell.el: ob-shell is the only babel language using a lambda to put
+     the execution function name together. */
+  pre.src-bash:before  { content: 'bash'; }
+  pre.src-csh:before  { content: 'csh'; }
+  pre.src-ash:before  { content: 'ash'; }
+  pre.src-dash:before  { content: 'dash'; }
+  pre.src-ksh:before  { content: 'ksh'; }
+  pre.src-mksh:before  { content: 'mksh'; }
+  pre.src-posh:before  { content: 'posh'; }
+  /* Additional Emacs modes also supported by the LaTeX listings package */
+  pre.src-ada:before { content: 'Ada'; }
+  pre.src-asm:before { content: 'Assembler'; }
+  pre.src-caml:before { content: 'Caml'; }
+  pre.src-delphi:before { content: 'Delphi'; }
+  pre.src-html:before { content: 'HTML'; }
+  pre.src-idl:before { content: 'IDL'; }
+  pre.src-mercury:before { content: 'Mercury'; }
+  pre.src-metapost:before { content: 'MetaPost'; }
+  pre.src-modula-2:before { content: 'Modula-2'; }
+  pre.src-pascal:before { content: 'Pascal'; }
+  pre.src-ps:before { content: 'PostScript'; }
+  pre.src-prolog:before { content: 'Prolog'; }
+  pre.src-simula:before { content: 'Simula'; }
+  pre.src-tcl:before { content: 'tcl'; }
+  pre.src-tex:before { content: 'TeX'; }
+  pre.src-plain-tex:before { content: 'Plain TeX'; }
+  pre.src-verilog:before { content: 'Verilog'; }
+  pre.src-vhdl:before { content: 'VHDL'; }
+  pre.src-xml:before { content: 'XML'; }
+  pre.src-nxml:before { content: 'XML'; }
+  /* add a generic configuration mode; LaTeX export needs an additional
+     (add-to-list 'org-latex-listings-langs '(conf " ")) in .emacs */
+  pre.src-conf:before { content: 'Configuration File'; }
+
+  table { border-collapse:collapse; }
+  caption.t-above { caption-side: top; }
+  caption.t-bottom { caption-side: bottom; }
+  td, th { vertical-align:top;  }
+  th.org-right  { text-align: center;  }
+  th.org-left   { text-align: center;   }
+  th.org-center { text-align: center; }
+  td.org-right  { text-align: right;  }
+  td.org-left   { text-align: left;   }
+  td.org-center { text-align: center; }
+  dt { font-weight: bold; }
+  .footpara { display: inline; }
+  .footdef  { margin-bottom: 1em; }
+  .figure { padding: 1em; }
+  .figure p { text-align: center; }
+  .equation-container {
+    display: table;
+    text-align: center;
+    width: 100%;
+  }
+  .equation {
+    vertical-align: middle;
+  }
+  .equation-label {
+    display: table-cell;
+    text-align: right;
+    vertical-align: middle;
+  }
+  .inlinetask {
+    padding: 10px;
+    border: 2px solid gray;
+    margin: 10px;
+    background: #ffffcc;
+  }
+  #org-div-home-and-up
+   { text-align: right; font-size: 70%; white-space: nowrap; }
+  textarea { overflow-x: auto; }
+  .linenr { font-size: smaller }
+  .code-highlighted { background-color: #ffff00; }
+  .org-info-js_info-navigation { border-style: none; }
+  #org-info-js_console-label
+    { font-size: 10px; font-weight: bold; white-space: nowrap; }
+  .org-info-js_search-highlight
+    { background-color: #ffff00; color: #000000; font-weight: bold; }
+  .org-svg { }
+</style>
+<link rel="stylesheet" href="/styles.css"">
+</head>
+<body>
+<div id="preamble" class="status">
+<p class='nav-home'><a href='/index.html'>← Home</a></p>
+</div>
+<div id="content" class="content">
+<h1 class="title">Snippetjeetry</h1>
+<div id="table-of-contents" role="doc-toc">
+<h2>Table of Contents</h2>
+<div id="text-table-of-contents" role="doc-toc">
+<ul>
+<li><a href="#org6817769">1. mānasataraṅginī</a>
+<ul>
+<li><a href="#org6fa7240">1.1. yantras in Śaiva rathayātras</a></li>
+</ul>
+</li>
+<li><a href="#org8408e87">2. maitra<sub>varuna</sub></a></li>
+<li><a href="#orgeef4923">3. Param Caitanya</a>
+<ul>
+<li><a href="#orgf21fe65">3.1. buddha studied ramayana</a></li>
+</ul>
+</li>
+<li><a href="#org3e7ed22">4. aayush singh</a></li>
+<li><a href="#org012c2e9">5. shrikanth krish</a>
+<ul>
+<li><a href="#org7fae75f">5.1. yoga</a></li>
+<li><a href="#org5d6e259">5.2. sikhism</a></li>
+</ul>
+</li>
+<li><a href="#org277e184">6. important philosophical themes</a>
+<ul>
+<li><a href="#orgd2c268d">6.1. wealth</a></li>
+<li><a href="#orgaef69f3">6.2. Openness to reason</a></li>
+</ul>
+</li>
+<li><a href="#org7b980a4">7. Prathamesh Godbole</a>
+<ul>
+<li><a href="#org5befa6b">7.1. mongolian invasion of khwarezm</a></li>
+</ul>
+</li>
+<li><a href="#org9f209da">8. TrueIndology</a>
+<ul>
+<li><a href="#org26e3804">8.1. gunpowder</a></li>
+</ul>
+</li>
+<li><a href="#orgf25f630">9. Akshai1993</a></li>
+<li><a href="#org0c7ae9b">10. Ugra</a></li>
+<li><a href="#orgeb4d3bd">11. reconstructions</a>
+<ul>
+<li><a href="#orgf9f6853">11.1. Ashokan Prakrit song</a></li>
+<li><a href="#orgac947ef">11.2. Old Prakrits</a></li>
+</ul>
+</li>
+<li><a href="#org301d336">12. misc history</a>
+<ul>
+<li><a href="#orgafd8779">12.1. Kumārila Bhaṭṭa comparative linguistics</a></li>
+<li><a href="#orgb4be4a5">12.2. Water wheel</a></li>
+<li><a href="#org52c96a2">12.3. dīpāvalī</a></li>
+<li><a href="#org3295f73">12.4. giraffes</a></li>
+<li><a href="#org0719926">12.5. agrammes</a></li>
+<li><a href="#orgaf634d7">12.6. mumbai</a></li>
+<li><a href="#orgd239a81">12.7. hun assimilation</a></li>
+<li><a href="#orgb2433a0">12.8. muhammad</a></li>
+<li><a href="#org05b91fc">12.9. voltaire on india</a></li>
+<li><a href="#org51f0170">12.10. Chanakya Neeti is just Neetisaar from Garuda Purana</a></li>
+<li><a href="#orgd0ad12b">12.11. Famines never visited India</a></li>
+<li><a href="#org83e7226">12.12. mumbai etymology</a></li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-org6817769" class="outline-2">
+<h2 id="org6817769"><span class="section-number-2">1.</span> mānasataraṅginī</h2>
+<div class="outline-text-2" id="text-1">
+</div>
+<div id="outline-container-org6fa7240" class="outline-3">
+<h3 id="org6fa7240"><span class="section-number-3">1.1.</span> yantras in Śaiva rathayātras</h3>
+<div class="outline-text-3" id="text-1-1">
+<p>
+<p class="byline">Published on <a href="https://x.com/blog_supplement/status/1078168015747891200">Twitter</a> by <a href="https://x.com/blog_supplement">@blog_supplement</a></p>
+</p>
+
+<p>
+An account of the shaiva rathayAtra from the shivadharma. I&rsquo;d like to draw attention to the following: 1) Note the use of wooden automata of mAtR<sup>i</sup>-s, yakSha-s and gaNa-s; 2) note the use of other machines for fire and water displays; 3) The chakra-yantra is notable.
+</p>
+
+<p>
+<img src="/img/snippetry/saiva_yantras.jpeg" alt="saiva_yantras.jpeg" />
+</p>
+
+<p>
+I believe it&rsquo;s one of the earliest mentions of a giant-wheel or a horizontal spin-wheel. 4: various machines are set along with entertainment parks to produce wonderment. This points to an active culture of such automata long before king bhojadeva. This feature is largely lost in modern rathayAtra-s.
+</p>
+
+<p>
+Though occassional displays might exist like I think @madrasmami23 had posted one. This emphasis on yantra-chamatkAra-s has a close parallel in later Platonic tradition of theurgy where the yavana theorists propose use of such yantra-s for involving the lay in religion. More generally such activities might be compared to other such shaiva festivities as we had described here:
+</p>
+
+<p>
+<a href="https://manasataramgini.wordpress.com/2013/01/20/some-notes-on-the-shaiva-temple-celebrations-and-an-excursus-on-the-fishing-diving-and-hunting-festivals-of-rudra/">https://manasataramgini.wordpress.com/2013/01/20/some-notes-on-the-shaiva-temple-celebrations-and-an-excursus-on-the-fishing-diving-and-hunting-festivals-of-rudra/</a>
+</p>
+
+<p>
+After this this the shiva-dharma promises that he who does this kind of shiva-ratha-yAtra after enjoying shivaloka: जम्बूद्वीपाधिपः श्रीमांस् तस्यान्ते च भवेत् पुनः |
+</p>
+
+<p>
+He thereafter again becomes the emperor of the whole of the Indian subcontinent: The ideal of single emperor for the subcontinent is clearly seen and the reflects the image of the gupta when the core of the text was likely put in place.
+</p>
+</div>
+</div>
+</div>
+<div id="outline-container-org8408e87" class="outline-2">
+<h2 id="org8408e87"><span class="section-number-2">2.</span> maitra<sub>varuna</sub></h2>
+<div class="outline-text-2" id="text-2">
+<p>
+<p class="byline">Published on <a href="https://x.com/maitra_varuna/status/1703258534958285063">Twitter</a> by <a href="https://x.com/maitra_varuna">@maitra_varuna</a></p>
+</p>
+
+<p>
+The Kalachakra Tantra is unique in that it is one of the few Sanskrit works that actually analyses &amp; references the religious practices of the Turkic invaders in real time.
+</p>
+
+<p>
+Although ascribed to the Buddha, the text provides one of the earliest descriptions of Islam in India
+</p>
+
+<p>
+<img src="/img/snippetry/kalachakra_1.png" alt="kalachakra_1.png" />
+</p>
+
+<p>
+The text references a rather impressive list of Arabic religious terminology.
+</p>
+
+<p>
+All the while using puns and wordplay to insult the Turushkas with references to wine and pigs
+</p>
+
+<p>
+<img src="/img/snippetry/kalachakra_2.png" alt="kalachakra_2.png" />
+</p>
+
+<p>
+<img src="/img/snippetry/kalachakra_3.png" alt="kalachakra_3.png" />
+</p>
+</div>
+</div>
+<div id="outline-container-orgeef4923" class="outline-2">
+<h2 id="orgeef4923"><span class="section-number-2">3.</span> Param Caitanya</h2>
+<div class="outline-text-2" id="text-3">
+</div>
+<div id="outline-container-orgf21fe65" class="outline-3">
+<h3 id="orgf21fe65"><span class="section-number-3">3.1.</span> buddha studied ramayana</h3>
+<div class="outline-text-3" id="text-3-1">
+<p>
+<p class="byline">Published on <a href="https://x.com/h_unappologetic/status/1875636593417187557">Twitter</a> by <a href="https://x.com/Param_Chaitanya">@Param_Chaitanya</a></p>
+Maitreyasamitināṭaka composed by the Vaibhāṣikya Āryacandra.
+</p>
+
+<p>
+<img src="/img/snippetry/buddha_ramayana.jpeg" alt="buddha_ramayana.jpeg" />
+</p>
+</div>
+</div>
+</div>
+<div id="outline-container-org3e7ed22" class="outline-2">
+<h2 id="org3e7ed22"><span class="section-number-2">4.</span> aayush singh</h2>
+<div class="outline-text-2" id="text-4">
+<p>
+<p class="byline">Published on <a href="https://x.com/aayush_sin60488/status/1829724831845097681aayush_sin60488">Twitter</a> by <a href="https://x.com/">@</a></p>
+Extremely rare issue of a King named Vikrama from Ujjain city state, 1st century BCE.
+</p>
+
+<p>
+In all likelihood it belongs to one of the most famous Indian King &ldquo;Vikramaditya&rdquo;.
+<img src="/img/snippetry/vikramaditya_coin.jpeg" alt="vikramaditya_coin.jpeg" />
+</p>
+
+<p>
+It&rsquo;s from Prashant Kulkarni paper &#x2013; quite recent:
+</p>
+
+<p>
+<a href="https://www.academia.edu/118762303/Inscribed_Coinage_of_Ujjaini_JAINS_Vol_XXV_XXVI_2011_2012_p_201_205">https://www.academia.edu/118762303/Inscribed_Coinage_of_Ujjaini_JAINS_Vol_XXV_XXVI_2011_2012_p_201_205</a>
+</p>
+</div>
+</div>
+<div id="outline-container-org012c2e9" class="outline-2">
+<h2 id="org012c2e9"><span class="section-number-2">5.</span> shrikanth krish</h2>
+<div class="outline-text-2" id="text-5">
+</div>
+<div id="outline-container-org7fae75f" class="outline-3">
+<h3 id="org7fae75f"><span class="section-number-3">5.1.</span> yoga</h3>
+<div class="outline-text-3" id="text-5-1">
+<p>
+<p class="byline">Published on <a href="https://x.com/shrikanth_krish/status/1358760899331375112">Twitter</a> by <a href="https://x.com/shrikanth_krish">@shrikanth_krish</a></p>
+Yoga in India appears to have two lineages
+</p>
+
+<ol class="org-ol">
+<li>Bhagavad Gita -&gt; Patanjali Yoga Sutra -&gt; Vivekananda</li>
+
+<li>Amritasiddhi / Khecarīvidyā -&gt; Dattatreya Yoga shastra, Siva Samhita -&gt; Hatha Yoga Pradipika -&gt; Gheranda Samhita -&gt; Kuvalayananda / Sivananda / Krishnamacarya and their pupils</li>
+</ol>
+
+<p>
+The former is the one people talk about a lot, in a &ldquo;Vedantic&rdquo; context
+</p>
+
+<p>
+It is &ldquo;Yoga as philosophy&rdquo;
+</p>
+
+<p>
+The latter is what influences Yoga on the ground
+</p>
+
+<p>
+The tradition of Hatha yoga with its heavy early influence of Tantra (both Shaivite Tantra and Buddhist Tantra)
+</p>
+
+<p>
+The great Yoga gurus of our time pay tributes to the Vedantic Yoga tradition
+</p>
+
+<p>
+Which is well deserved. The tradition of Gita, Yoga Sutras
+</p>
+
+<p>
+But their own &ldquo;Yoga&rdquo; is more influenced by the Tantric texts - the second lineage
+</p>
+
+<p>
+Generally speaking, the last 500-1000 years have seen a decline of both Buddhist Tantra and also Shaivism
+</p>
+
+<p>
+So when modern &ldquo;haTha Yogis&rdquo; think of their traditional inspiration, they use the texts close to the Vedantic tradition, which are likelier to strike a chord
+</p>
+
+<p>
+The haTha yoga texts in contrast remain understudied and somewhat ignored
+</p>
+
+<p>
+They lack the &ldquo;high status&rdquo; of Patanjali&rsquo;s Yoga sutras.
+</p>
+
+<p>
+Maybe because of their focus on postural Yoga and their idiom being v different from the high Vedanta of the Gita
+</p>
+
+
+<p>
+When modern &ldquo;scholars&rdquo; like Meera Nanda have attempted to disregard Yoga&rsquo;s antiquity, their line of argument has been -
+</p>
+
+<p>
+&ldquo;Yoga in ancient India was mostly abstract philosophy
+Modern postural Yoga is largely a 20th cen thing, inspired by Western gymnastics etc&rdquo;
+</p>
+
+<p>
+This is obviously wrong
+</p>
+
+<p>
+Because people like Ms Nanda focus only on the first lineage - that of Gita and Yoga Sutras
+</p>
+
+<p>
+Disregarding the equally rich tradition of Yoga in Tantric literature, which I outlined
+</p>
+
+<p>
+This alternative lineage has had a huge influence on modern postural Yoga
+</p>
+</div>
+</div>
+<div id="outline-container-org5d6e259" class="outline-3">
+<h3 id="org5d6e259"><span class="section-number-3">5.2.</span> sikhism</h3>
+<div class="outline-text-3" id="text-5-2">
+<p>
+<p class="byline">Published on <a href="https://x.com/shrikanth_krish/status/1846388144192586131">Twitter</a> by <a href="https://x.com/shrikanth_krish">@shrikanth_krish</a></p>
+Up until early 20th cen, the Sikh identity was not altogether distinct from the Hindu identity in the Punjab
+</p>
+
+<p>
+It was a continuum of sorts, with many families straddling both faiths and cultures. It was often common for the eldest son to be raised Sikh in many H-households.
+</p>
+
+<p>
+As late as 1901, in united Punjab, Hindu population 41.3% and Sikh population 8.6%. Barely 30 years later in 1931, only 30.2% of Punjabis called themselves Hindu, while 14.3% were now Sikh
+</p>
+
+<p>
+Bulk of this change was not conversion but rather the assertion of a subculture to the point that a rather heterodox indic sect began to take the shape of a distinct religion
+</p>
+
+<p>
+The British indologists played a significant role in the development of this subculture and its elevation to the status of a religion altogether distinct from Hinduism
+</p>
+
+<p>
+One of the key figures is Max Arthur MacAuliffe. He wrote his magnum opus on the Sikh religion in the early 1900s in which he made an impassioned plea not to confuse Sikhs with Hindus (as shown in the extract attached)
+</p>
+
+<p>
+Besides academics / indologists, there were legal developments that also pushed the development of a distinct Sikh identity - like the Anand marriage act of 1909 that legitimized a distinctly Sikh marriage ritual
+</p>
+
+<p>
+On top of that there was the army recruitment policy that started privileging Sikhs and other &ldquo;martial&rdquo; communities post 1857, to reduce the reliance of the Army on Purabiyas who had proved troublesome.
+</p>
+
+<p>
+All these little developments must have seemed small back then. But small ripples in one era can have an inordinate impact on many generations to come
+</p>
+
+<p>
+<img src="/img/snippetry/sikh.png" alt="sikh.png" />
+</p>
+</div>
+</div>
+</div>
+<div id="outline-container-org277e184" class="outline-2">
+<h2 id="org277e184"><span class="section-number-2">6.</span> important philosophical themes</h2>
+<div class="outline-text-2" id="text-6">
+</div>
+<div id="outline-container-orgd2c268d" class="outline-3">
+<h3 id="orgd2c268d"><span class="section-number-3">6.1.</span> wealth</h3>
+<div class="outline-text-3" id="text-6-1">
+<p>
+<p class="byline">Published on <a href="https://x.com/termite_colony/status/1858540569062179199">Twitter</a> by <a href="https://x.com/termite_colony">@termite_colony</a></p>
+Dharma is important, no doubt, but in order to be dharmic, one needs to be wealthy as possible.
+You can&rsquo;t pour from an empty cup.
+<img src="/img/snippetry/wealth_bg.jpeg" alt="wealth_bg.jpeg" />
+</p>
+
+<p>
+<p class="byline">Published on <a href="https://x.com/muditfx/status/1804834556186706041">Twitter</a> by <a href="https://x.com/muditfx">@muditfx</a></p>
+</p>
+
+<p>
+“Profit is not a dirty word” – straight outta Mahābhārata
+</p>
+
+<p>
+<img src="/img/snippetry/wealth_mbh.jpeg" alt="wealth_mbh.jpeg" />
+</p>
+
+<p>
+<img src="/img/snippetry/wealth_bhishma.png" alt="wealth_bhishma.png" />
+</p>
+</div>
+</div>
+<div id="outline-container-orgaef69f3" class="outline-3">
+<h3 id="orgaef69f3"><span class="section-number-3">6.2.</span> Openness to reason</h3>
+<div class="outline-text-3" id="text-6-2">
+<p>
+<p class="byline">Also published on <a href="https://x.com/real_mahalingam/status/1943430706153296151">Twitter</a></p>
+</p>
+
+<p>
+Wrong attitude. In fact, Dharma explicitly rejects this.
+</p>
+
+<p>
+E.g. Kumarila Bhaṭṭa says: on matters not directly pertaining to religion, we may freely learn from &ldquo;western plebs&rdquo;. Ādi Śankara says something similar. Manu famously says: even the lowest can have something to teach us.
+</p>
+
+<blockquote>
+<p>
+श्रद्दधानः शुभां विद्यामाददीतावरादपि ।
+अन्यादपि परं धर्मं स्त्रीरत्नं दुष्कुलादपि ॥ २३८ ॥
+</p>
+
+<p>
+śraddadhānaḥ śubhāṃ vidyāmādadītāvarādapi |
+anyādapi paraṃ dharmaṃ strīratnaṃ duṣkulādapi || 238 ||
+</p>
+
+<p>
+One imbued with faith may acquire excellent learning even from a lowly person, special law even from the lowest, and the gem of a wife even from a base family.—(238)
+</p>
+</blockquote>
+
+<p>
+<p class="byline">Published on <a href="https://x.com/arya_amsha/status/1373214242552250376">Twitter</a> by <a href="https://x.com/arya_amsha">@arya_amsha</a></p>
+Reliable testimony &amp; skill of the mlecchas (barbarians) were considered sources of valid knowledge by both the Naiyāyika-s like Vātsyāyana &amp; Mīmāṃsaka-s like Kumarila Bhaṭṭa
+</p>
+
+<p>
+This means in laukika issues like armor, construction, weapons, science any people can be knowledgable
+</p>
+
+<p>
+Nyāyasūtra 1.1.7 (आप्तोपदेशः शब्दः)
+</p>
+
+<p>
+Here, mlecchas are included as sources of shabda-pramāṇa by both Vātsyāyana &amp; Vācaspati Miśra.
+</p>
+
+<p>
+(ऋष्यार्यम्लेच्छानां समानं लक्षणम्). The Sages, Aryans, Mlecchas all are similar here &amp; can be āpta (reliable) people in shabda-pramāṇā
+</p>
+
+<p>
+Kumarila Bhaṭṭa goes as far as suggesting the Mlecchas are even superior in many laukika activities like house-building, silk production, armor production to the Arya-s.
+</p>
+
+<p>
+[INTERJECTION: appears to me to say that we <i>can</i> admit the superior authority of the mlecchas on matters under such topics, i.e. we can adopt their practices in such matters where they are superior, not that they always are.]
+</p>
+
+<p>
+<img src="/img/snippetry/free_1.png" alt="free_1.png" />
+</p>
+
+<p>
+The Arya only have superior authority in religious theology, not in anything else.
+</p>
+
+<p>
+<p class="byline">Published on <a href="https://www.reddit.com/r/hinduism/comments/pxtacu/hinduism_is_scientific_but_not_for_the_reasons/">Reddit</a> by <a href="https://reddit.com/user/jai_sri_ram108">@jai_sri_ram108</a></p>
+</p>
+
+
+<p>
+Please check my comments as well in the comment section. For reasons of brevity I didn&rsquo;t include in the main post.
+#Introduction
+</p>
+
+<p>
+We hear all the time that Hinduism is a scientific religion. Usually the way this is shown is someone will quote some sloka which seems unscientific, someone else will explain the Sanskrit meaning, then again another sloka is quoted and it goes back and forth.
+</p>
+
+<p>
+I will just say this - It accepts the words of science wherever it is applicable.
+#Because of Authority of Pratyaksha and Anumana
+</p>
+
+<p>
+There are different Pramanas, evidences, to decide the truth of something. Different schools accept different evidences as authority. Vedanta schools in common hold that pramana (direct observation), anumana (logical reasoning/inference), and sabda(Sruti) are three independent sources of knowledge.
+</p>
+
+<p>
+There is a hierarchy though here. To put it loosely, say that you can see a fire. Then Pratyaksha tells you that there is a fire.
+</p>
+
+<p>
+Say you cannot see the fire but only the smoke rising from it. Pratyaksha cannot tell you that there is a fire. But with anumana, you can understand that the cause for the smoke is fire.
+</p>
+
+<p>
+Whatever cannot be known by direct perception or inference can be known by sabda. What that could be will be explained later. So the hierarchy is that Pratyaksha is to be applied before Anumana, and Anumana before Sabda.
+</p>
+
+<p>
+Sri Ramanujacharya writes the following statements in his works.
+</p>
+
+<p>
+For it is an acknowledged principle that Scripture has meaning only with regard to what is not established by other sources of knowledge.
+</p>
+
+<p>
+In cases of Scripture conflicting with Perception, Scripture is not stronger. The True cannot be known through the Untrue.
+</p>
+
+<p>
+Srutiopapattaye&rsquo;py anupapannam viruddham na kalpanIyam&ldquo; &#x2013; &rdquo;even for supporting the Vedas, what is against reason or contradicts evidence should not be postulated
+</p>
+
+<p>
+Sri Adi Shankaracharya writes in his works,
+</p>
+
+<p>
+Surely, even a hundred Vedic texts cannot become valid if they assert that fire is cold or non-luminous! Should a Vedic text say that fire is cold or non-luminous, even then one has to assume that the intended meaning of the text is different, for otherwise (its) validity cannot be maintained; but one should not assume its meaning in a way that might contradict some other valid means of knowledge or contradict its own statement.
+</p>
+
+<p>
+The validity of the Vedas holds good only with regard to matters concerning the relation between ends and means of Agnihotra etc., which are not known through such valid means of knowledge as direct perception; but not with regard to objects of direct perception etc., because the validity of the Vedas lies in revealing what is beyond direct perception.
+</p>
+
+<p>
+This is why it is explicitly explained in the Vedanta Sutras that Brahman cannot be understood through Pratyaksha or Anumana and only through Shabda. If Brahman could be understood through the others then they would be the means of knowledge.
+</p>
+
+<p>
+Realm of science works with Pratyaksha and Anumana mainly. Hence wherever these conflict with the scripture in their sphere of influence, the former is to be considered.
+</p>
+
+<p>
+Edit - It&rsquo;s not as black and white as saying to trust Pratyaksha always. For example, a mirage. It is more nuanced, please read the comments of others to understand.
+</p>
+
+<p>
+Jai Sita Rama
+</p>
+
+<hr />
+
+
+<p>
+Then is Scripture meaningless?
+</p>
+
+<p>
+It is not that Scripture is meaningless. It is just that there is a hierarchy of Pramanas. Take the example of scriptures themselves. Sruti &gt; Itihasa &gt; Purana. So if we are presented some fact from Purana, we should try to reconcile Purana and Sruti both. But if this is truly impossible, then reject the Puranic verse. However, if it is that the Puranic verse is about something that is not mentioned in Sruti then we can accept it, because there is nothing in conflicts with.
+</p>
+
+<p>
+Similarly in matters of perception, we should trust Pratyaksha. Scripture should be interpreted in such a way that it does not conflict with the perception. As with the fire cold and hot example given by Shankara, if this is really not possible then trust Pratyaksha.
+</p>
+
+<p>
+Essentially this is why Vedantacharyas explains that Brahman cannot be known by Pratyaksha or Anumana and then only explains that Brahman can be known only through the scriptures.
+</p>
+
+<p>
+Not because they are faulty. But that the one applying can be faulty. For example, the frog in the well. The frog cannot see anything beyond the well, and also has no logical framework to understand the concept of an ocean.
+</p>
+
+<p>
+The way I understand it is that the Pratyaksha for enlightened is the Sabda for the ignorant. Those whose vision is covered by karma-vasanas cannot see the Truth. Their vision has not expanded. But for one who has seen the Truth their vision is infinity. This is what omniscience really means, the ability to know anything what they want. Basically they can see anything. This is why Avadhuta Upanishad says that the Avadhuta will think like
+</p>
+
+<p>
+Let them, who are ignorant of the reality, study the scriptures; knowing (the reality) why should I study ? Let them who have doubts reflect (upon what was studied). Having no doubts, I do not reflect.
+</p>
+
+<p>
+This is not true for the bound ones of course. We must continue to act in a detached manner and consider right and wrong. But the point is that it is simply Pratyaksha for the enlightened one as their vision has become infinity.
+</p>
+
+<p>
+Jai Sita Rama
+</p>
+</div>
+</div>
+</div>
+<div id="outline-container-org7b980a4" class="outline-2">
+<h2 id="org7b980a4"><span class="section-number-2">7.</span> Prathamesh Godbole</h2>
+<div class="outline-text-2" id="text-7">
+</div>
+<div id="outline-container-org5befa6b" class="outline-3">
+<h3 id="org5befa6b"><span class="section-number-3">7.1.</span> mongolian invasion of khwarezm</h3>
+<div class="outline-text-3" id="text-7-1">
+<p>
+<p class="byline">Published on <a href="https://x.com/prathgodbole/status/1896083864956899356">Twitter</a> by <a href="https://x.com/prathgodbole">@prathgodbole</a></p>
+</p>
+
+<p>
+Apparently a rude Indian merchant insulting the Khwarezmian governor Inalchuq was responsible for their execution, triggering Genghis Khan&rsquo;s invasion and wipeout of the Khwarezmian state entirely.
+</p>
+
+<p>
+<img src="/img/snippetry/khwarezm.png" alt="khwarezm.png" />
+</p>
+</div>
+</div>
+</div>
+<div id="outline-container-org9f209da" class="outline-2">
+<h2 id="org9f209da"><span class="section-number-2">8.</span> TrueIndology</h2>
+<div class="outline-text-2" id="text-8">
+</div>
+<div id="outline-container-org26e3804" class="outline-3">
+<h3 id="org26e3804"><span class="section-number-3">8.1.</span> gunpowder</h3>
+<div class="outline-text-3" id="text-8-1">
+<p>
+<p class="byline">Published on <a href="https://x.com/TrueIndology/status/1851695896720797868">Twitter</a> by <a href="https://x.com/TrueIndology">@TrueIndology</a></p>
+According to Chinese sources themselves, an Indian Buddhist monk who brought gunpowder technology to China  
+</p>
+
+<p>
+In 664 CE, he discovered soils in China containing Saltpetre (primary constituent of gunpowder).
+</p>
+
+<p>
+Chinese studies of Chemistry of saltpetre show evidence of Indian origin.
+</p>
+
+<p>
+<img src="/img/snippetry/gunpowder_chinese.png" alt="gunpowder_chinese.png" />
+</p>
+
+<p>
+Of course, this is not to say that Chinese have no contribution to Gunpowder technology. They improvised it &amp; made innovations.
+</p>
+
+<p>
+However, the initial knowledge of Gunpowder came to China from India.
+</p>
+
+<p>
+Even Scholar Roger Pauly, a hardcore Sinophile, admits &ldquo;Indian inspiration&rdquo;.
+</p>
+
+
+<p>
+<img src="/img/snippetry/gunpowder_chinese_2.png" alt="gunpowder_chinese_2.png" />
+</p>
+
+<p>
+For those familiar with Indian literature, this should hardly come as a surprise. Indian literature contains ample references to what could be seen as an early form of Gunpowder.
+</p>
+
+<p>
+Let us examine these references before jumping into the discussion about Dipavali.
+</p>
+
+<p>
+Vaisampayana, the narrator of Mahabharata, describes the manufacture of smoke balls by ancient Indians using what many scholars see as Gunpowder.
+</p>
+
+<p>
+According to a medieval commentator of the verse, the aforementioned smoke balls were indeed made of Gunpowder.
+</p>
+
+<p>
+<img src="/img/snippetry/gunpowder_chinese_3.png" alt="gunpowder_chinese_3.png" />
+</p>
+
+<p>
+Atharvanarahasya mentions the use of charcoal, sulphur and saltpetre to make gunpowder, which are the same ingredients used even today to manufacture Gunpowder.
+</p>
+
+<p>
+In-fact, workers at Sivakasi use these ingredients to make fireworks even today (more below).
+</p>
+
+<p>
+<img src="/img/snippetry/gunpowder_chinese_4.png" alt="gunpowder_chinese_4.png" />
+</p>
+
+<p>
+Diwali fireworks are manufactured by traditional makers to this day  in this manner.
+</p>
+
+<p>
+This video shows traditional maker of fireworks from Andhra in action.
+</p>
+
+<p>
+This is a simple form of crackers but use of such crackers is very widespread
+</p>
+
+<p>
+<a href="https://www.youtube.com/watch?v=EdQ1HS1YYsM">https://www.youtube.com/watch?v=EdQ1HS1YYsM</a>
+</p>
+
+<p>
+In the above video, the Andhra cracker maker uses basic ingredients to make simple fireworks.
+</p>
+
+<ol class="org-ol">
+<li>Suryakara (सूर्यकार, Telugu సురేకారము)= Saltpetre
+
+<ol class="org-ol">
+<li>Gandhaka(गन्धक, గంధకము)= Sulphur.</li>
+</ol></li>
+
+<li>Sand.</li>
+</ol>
+
+<p>
+These were known in India since ancient age . Why would Indians borrow this from anywhere?
+</p>
+
+<p>
+The etymology of the ingredients tells us about their origin. The Indian firecracker workers of Andhra and Sivakasi use the Indic Saltpetre (सूर्यकार) whose origin is Sanskritic. They do not use the word Shora (शोरा شورہ) which is Persian for Saltpetre imported in medieval age.
+</p>
+
+<p>
+It takes an extremely colonized mindset to claim that Indians were incapable of making simple fireworks themselves when they had all basic ingredients since antiquity.  Did they have to wait for Muslims to come and teach them to put all these ingredients in a container?
+</p>
+
+<p>
+Uptil this point, we have seen that Indians had knowledge about use of Saltpetre/gunpowder &amp; were perfectly capable of making fireworks themselves.
+</p>
+
+<p>
+Now we shall come to Diwali.  Why are fireworks used in Diwali? What is the underlying theology?
+</p>
+
+<p>
+At the core of Dipavali is a belief that our departed ancestors would come back on this night.  It is believed that on the night of Chaturdashi &amp; Amavasya, the Pitrs would come back.
+</p>
+
+<p>
+It is the light &amp; noise which shows them the path in the dark. Hence we illuminate our houses.
+</p>
+
+<p>
+The Skanda Purāṇa is largest of the 18 MahāPurāṇas. It describes the rites to be performed on Dīpāvalī and it mentions this belief.
+</p>
+
+<p>
+The Vaiṣṇava-khaṇḍa of Skanda Purāṇa says
+</p>
+
+<p>
+उल्काहस्ता नराः कुर्युः पितॄणां मार्गदर्शनम्।
+नरकस्थास्तु ये प्रेतास्ते मार्गं तु व्रतात्सदा ।।
+</p>
+
+<p>
+<img src="/img/snippetry/gunpowder_chinese_5.png" alt="gunpowder_chinese_5.png" />
+</p>
+
+<p>
+The Skanda Purana says Diwali should be celebrated by holding Ulkas in our hands. This will show path to our ancestors.
+</p>
+
+<p>
+What are &ldquo;Ulkas&rdquo;? The meaning of this word has changed with time. GV Tagare translates it as &ldquo;firebrands&rdquo;.
+</p>
+
+<p>
+[Firecrackers in their early form were firebrands]
+</p>
+
+
+<p>
+<img src="/img/snippetry/gunpowder_chinese_6.png" alt="gunpowder_chinese_6.png" />
+</p>
+
+<p>
+<img src="/img/snippetry/gunpowder_chinese_7.png" alt="gunpowder_chinese_7.png" />
+</p>
+
+<p>
+Analysing such verses, professor of Sanskrit and historian Dr. GV Raghavan concludes that (an early form of) crackers have been a part of Dipavali celebrations since earliest times.
+</p>
+
+<p>
+He says that their religious purpose was to illuminate &amp; resonate the path of departed pitrs.
+</p>
+
+
+<p>
+<img src="/img/snippetry/gunpowder_chinese_8.png" alt="gunpowder_chinese_8.png" />
+</p>
+
+<p>
+<img src="/img/snippetry/gunpowder_chinese_9.png" alt="gunpowder_chinese_9.png" />
+</p>
+
+<p>
+In her thesis, Indologist Tracy Pintchman says that the core of Diwali festivity is illuminating the path of deceased ancestors with firecrackers and lights
+</p>
+
+<p>
+<img src="/img/snippetry/gunpowder_chinese_10.png" alt="gunpowder_chinese_10.png" />
+</p>
+
+<p>
+This is also corroborated in Ananda Ramayana.  
+</p>
+
+<p>
+Ananda Ramayana is an epic that has been traditionally been attributed to Valmiki.
+</p>
+
+<p>
+It mentions that fireworks were burst during Lord Rama&rsquo;s homecoming.
+</p>
+
+<p>
+It mentions crackers which burst and shine in the sky (gaganantarvirajitan)
+</p>
+
+<p>
+<img src="/img/snippetry/gunpowder_chinese_11.png" alt="gunpowder_chinese_11.png" />
+</p>
+
+<p>
+As against this, it is objected that Ananda Rāmāyaṇa is a work of 15th century.
+</p>
+
+<p>
+But these dates have been assigned by same Indologists who assigned a date of 500-100 BC (post Buddha) for Valmiki Rāmāyaṇa.
+</p>
+
+<p>
+In Hinduism,date doesn&rsquo;t determine validity.
+</p>
+
+<p>
+What does is acceptance of texts among Sampradayas .
+</p>
+
+<p>
+Ananda Ramayana easily qualifies such test and is accepted by most Sampradayas.  &ldquo;This practice isn&rsquo;t old enough,ban it&rdquo; is Abrahamic. This isn&rsquo;t really how Hindu tradition operates.
+</p>
+
+<p>
+Such an idea could be seen in Medhātithi&rsquo;s 11th century commentary on Manusmriti 2.6.
+</p>
+
+<p>
+He says that a practice (in our case bursting firecrackers), what is actually done with a view to invisible results, by persons learned in the Veda has the authority of Smriti.
+</p>
+
+<p>
+Hard archaeological evidence for all festivals has been allusive in a tropical &amp; frequently (re)populated civilization like India.
+</p>
+
+<p>
+These are wall murals(of a possibly later date) on 9th century Tyagaraja temple in Tamilnadu.
+</p>
+
+<p>
+They depict festival celebrations with firecrackers.
+</p>
+
+<p>
+<img src="/img/snippetry/gunpowder_chinese_tamil_1.png" alt="gunpowder_chinese_tamil_1.png" />
+<img src="/img/snippetry/gunpowder_chinese_tamil_2.png" alt="gunpowder_chinese_tamil_2.png" />
+<img src="/img/snippetry/gunpowder_chinese_tamil_3.png" alt="gunpowder_chinese_tamil_3.png" />
+<img src="/img/snippetry/gunpowder_chinese_tamil_4.png" alt="gunpowder_chinese_tamil_4.png" />
+</p>
+
+
+<p>
+(continued&#x2026;)
+</p>
+</div>
+</div>
+</div>
+<div id="outline-container-orgf25f630" class="outline-2">
+<h2 id="orgf25f630"><span class="section-number-2">9.</span> Akshai1993</h2>
+<div class="outline-text-2" id="text-9">
+<p>
+<p class="byline">Published on <a href="https://x.com/Akshai1993/status/1731564985451749427">Twitter</a> by <a href="https://x.com/Akshai1993">@Akshai1993</a></p>
+</p>
+
+<p>
+Vedic religion spread via the Brahmins of Kuru-Panchala region mingling and acting as priests to the non-Vedic borderlanders and passed on the Vedic tenets to them without any force. It&rsquo;s clear from Vedic texts like Jaiminiya Brahmana itself, no need to look anywhere else.
+</p>
+
+<p>
+<img src="/img/snippetry/traveling_brahmins_1.jpeg" alt="traveling_brahmins_1.jpeg" />
+</p>
+
+<p>
+<img src="/img/snippetry/traveling_brahmins_2.jpeg" alt="traveling_brahmins_2.jpeg" />
+</p>
+
+<p>
+JB 1.245
+</p>
+</div>
+</div>
+<div id="outline-container-org0c7ae9b" class="outline-2">
+<h2 id="org0c7ae9b"><span class="section-number-2">10.</span> Ugra</h2>
+<div class="outline-text-2" id="text-10">
+<p>
+<p class="byline">Published on <a href="https://x.com/Ugra___/status/1734905446433980854">Twitter</a> by <a href="https://x.com/Ugra___">@Ugra___</a></p>
+The Achaemenid influence into India is one of the egregious examples of historical inventionism without any archaeological basis. Never has so much (lions, gods, empire-formation, epigraphy, coinage) been propounded by so many (Romila Thapar, Darlymple etc.) with so little!
+</p>
+
+<p>
+A 2023 science paper further yanks the floor from beneath the legs of this rather bizarre theorizing that has passed its 7th decade of existence. But first, we look at the claims before getting into the finer details of this paper.
+</p>
+
+<p>
+<a href="https://link.springer.com/article/10.1007/s12520-022-01537-y">https://link.springer.com/article/10.1007/s12520-022-01537-y</a>
+</p>
+
+<p>
+In the History of Early India, Romila Thapar makes what seems to be expansive claims. In reality though, the Achaemenids never refer to the city of Takshashila or Taxila - not even once in the Persepolis Fortification Texts. They did not even have a metonym for the city.
+</p>
+
+<p>
+Much more expansive claims follow about the satrapies in North-west India, based on the third-hand account of Herodotus. Again these are all untenable repetitions with no material basis.
+</p>
+
+<p>
+Serious historians and archaeologists have always questioned such fables. David Fleming, in 1993, produced a sober paper summarizing the air-gap between claim and reality.
+</p>
+
+<p>
+The complete lack of textual corroboration from the Indian side is a red-flag for Fleming, who eventually concludes that a single mound in Taxila may represent the extent of Achaemenid presence in India.
+</p>
+
+<p>
+As we now find out in 2023, even that might not have been the case. A new method that traces the lead-isotopic content in silver coins to their sites of provenance provides an objective answer to the question of Achaemenid presence in India.
+</p>
+
+<p>
+The backstory - when Alexander serial-defeated the Achaemenid forces at Granicus, Issus and Gaugamela by 331 BCE, there was still one last goal - plundering the royal treasuries at Susa and Persepolis.
+</p>
+
+<p>
+After the Battle of the Persian Gate in 330 BCE, the final march to Persepolis took place. There Alexander and his forces seized one of the largest ever silver treasures in human history.
+</p>
+
+<p>
+A little over 5000 tons of silver.
+</p>
+
+<p>
+How much was the immensity of this treasure? Judge for yourself.
+</p>
+
+<p>
+A Greek hoplite&rsquo;s (soldier) daily wage was 4.3 grams of silver. The treasure represented 1.3 billion daily wages - enough to pay an army of 50000 for more than 60 years. (Blichert-Toft et al, 2022)
+</p>
+
+
+<p>
+So what did they use it for?
+</p>
+
+<p>
+Alexander and his Diadochi converted the silver bullion into their own coinage and expanded the money supply in their respective fiefdoms and patronage.
+</p>
+
+<p>
+Many of these coins, that were minted from the Persepolis Loot, have survived into modernity - making them available for scientific fingerprinting.
+</p>
+
+<p>
+In the ancient world, it was common to find silver, lead (Pb) and zinc naturally occurring together in ores (galena). By verifying the Pb-isotopic data (model ages), it would be possible to accurately trace the provenance of the silver.
+</p>
+
+<p>
+Janne Blichert-Toft and team compared the Pb-isotopic data from 4 sources -
+</p>
+
+<p>
+(1) silver alexanders;
+(2) silver sigloi;
+(3) another subset of Greek coins
+(4) shatamanas (bent silver bars and imprinted pieces) from Gandhara &amp; Kamboja Janapadas
+</p>
+
+<p>
+The Greek and Persian silver coins show a very tight band of model age distributions for the Pb isotopes while the Indian coins provide a very wide scatter of fit.
+</p>
+
+<p>
+The diversity of model ages (both -ve &amp; +ve) rule out the possibility of an Indian contribution to the Achaemenid treasury.
+</p>
+
+<p>
+In addition, the isotopic data allowed the researchers to trace the source of the Persian silver - to areas in the Aegean, Macedonia and Thrace - which were also Achaemenid satrapy for extended periods.
+</p>
+
+<p>
+A highly vital paper - that has ruled out any silver tribute paid to the Achaemenids from the Indian provinces and vice-versa &#x2026;.also the lack of circulation of Achaemenid bullion in the Indian provinces.
+</p>
+
+<p>
+It also has implications for the Indo-Greeks, who ruled later, who did not seem to have any bullion contact with the Greek mainland. The sources of silver and shared coinage between the Indian landmass and the Persian-Greek system seems to be trivial.
+</p>
+
+
+<p>
+Combined with the already meager lack of evidence in archaeology and textual sources, this is yet another nail in the fable of &ldquo;Achaemenid India&rdquo;.
+</p>
+</div>
+</div>
+<div id="outline-container-orgeb4d3bd" class="outline-2">
+<h2 id="orgeb4d3bd"><span class="section-number-2">11.</span> reconstructions</h2>
+<div class="outline-text-2" id="text-11">
+</div>
+<div id="outline-container-orgf9f6853" class="outline-3">
+<h3 id="orgf9f6853"><span class="section-number-3">11.1.</span> Ashokan Prakrit song</h3>
+<div class="outline-text-3" id="text-11-1">
+<p>
+<a href="https://x.com/Rtam86418021/status/1804929613275255150">https://x.com/Rtam86418021/status/1804929613275255150</a>
+</p>
+</div>
+</div>
+<div id="outline-container-orgac947ef" class="outline-3">
+<h3 id="orgac947ef"><span class="section-number-3">11.2.</span> Old Prakrits</h3>
+<div class="outline-text-3" id="text-11-2">
+<p>
+Listen to how the four ancient languages of India would have sounded like - Maharashtri, Shauraseni, Gandhari, and Magadhi
+</p>
+
+<p>
+<a href="https://x.com/indiainpixels/status/1829078200984428893">https://x.com/indiainpixels/status/1829078200984428893</a>
+</p>
+</div>
+</div>
+</div>
+<div id="outline-container-org301d336" class="outline-2">
+<h2 id="org301d336"><span class="section-number-2">12.</span> misc history</h2>
+<div class="outline-text-2" id="text-12">
+</div>
+<div id="outline-container-orgafd8779" class="outline-3">
+<h3 id="orgafd8779"><span class="section-number-3">12.1.</span> Kumārila Bhaṭṭa comparative linguistics</h3>
+<div class="outline-text-3" id="text-12-1">
+<p>
+<p class="byline">Published on <a href="https://x.com/cobbaltt/status/1884803636783464682">Twitter</a> by <a href="https://x.com/cobbaltt">@cobbaltt</a></p>
+</p>
+
+<p>
+<img src="/img/snippetry/comparative_linguistics.jpeg" alt="comparative_linguistics.jpeg" />
+</p>
+
+<p>
+Very interesting passage.
+</p>
+
+<p>
+Implies that Indians were aware of parallels between Indian and Iranian/European languages in Kumārilabhaṭṭa&rsquo;s time (though he downplays it).
+</p>
+
+<p>
+Also first passage I know of that acknowledges Drāviḍas/the South as part of Āryāvarta.
+</p>
+</div>
+</div>
+<div id="outline-container-orgb4be4a5" class="outline-3">
+<h3 id="orgb4be4a5"><span class="section-number-3">12.2.</span> Water wheel</h3>
+<div class="outline-text-3" id="text-12-2">
+<p>
+{{{byline-tweet-xhttps://x.com/SchoolVedic/status/557928987314253824,SchoolVedic}}}
+Description of water wheel by Bhaskaracharya
+</p>
+
+<p>
+<img src="/img/snippetry/water_wheel.jpeg" alt="water_wheel.jpeg" />
+</p>
+</div>
+</div>
+<div id="outline-container-org52c96a2" class="outline-3">
+<h3 id="org52c96a2"><span class="section-number-3">12.3.</span> dīpāvalī</h3>
+<div class="outline-text-3" id="text-12-3">
+<p>
+<p class="byline">Published on <a href="https://x.com/Kal_Chiron/status/1852166097568686261">Twitter</a> by <a href="https://x.com/Kal_Chiron">@Kal_Chiron</a></p>
+</p>
+
+<p>
+Yes and no. This is not correct understanding of Diwali. Diwali happened even before krishNa killed narakāsura. 
+</p>
+
+<p>
+Dīpāvalī is essentially culmination of series of rituals Hindus do to propitiate their departed ancestors. On all the days of dīpāvalī, yamarājā is one of the main deities that is invoked and worshipped.
+</p>
+
+<p>
+From dhanatrayodashi (we worship yama and dhanvantari - death and doctor in modern parlance) to yamadvitiyā (bhaidooj), the common thread is to say goodbye to our beloved ancestors who had descended on earth to visit us during pitrupaksha. We light Diya and burst fireworks to show them way back to pitruloka.
+</p>
+
+<p>
+Rāma’s return to Ayodhya and krishNa’s slaying of Narakāsura on this tithi are both apocryphal and supplementary to the main celebration of Diwali.
+</p>
+
+<p>
+Diwali is NOT victory of good over evil. It is about honouring the ancestors and the dèvatā who looks after them (and us when we depart).
+</p>
+
+<p>
+One small part but the core of Diwali is worship of dèvī (mostly lakshmi but some places Kālī) on amāvāsyā.
+</p>
+</div>
+</div>
+<div id="outline-container-org3295f73" class="outline-3">
+<h3 id="org3295f73"><span class="section-number-3">12.4.</span> giraffes</h3>
+<div class="outline-text-3" id="text-12-4">
+<p>
+<p class="byline">Published on <a href="https://x.com/ElBotCinico/status/1783582132406829297">Twitter</a> by <a href="https://x.com/ElBotCinico">@ElBotCinico</a></p>
+</p>
+
+<p>
+In the 15th century, the Chinese explorer Zheng He made a series of voyages. And he even reached East Africa.
+</p>
+
+<p>
+In Bengal (India), he received a giraffe as a gift, which in turn was a tribute received from a kingdom in Kenya.
+</p>
+
+<p>
+They mistook it for a mythological being, the qilin.
+</p>
+</div>
+</div>
+<div id="outline-container-org0719926" class="outline-3">
+<h3 id="org0719926"><span class="section-number-3">12.5.</span> agrammes</h3>
+<div class="outline-text-3" id="text-12-5">
+<p>
+<p class="byline">Published on <a href="https://x.com/Ugra___/status/1720331622011043962">Twitter</a> by <a href="https://x.com/Ugra___">@Ugra___</a></p>
+The Greek accounts describe an Indian ruler called &ldquo;Agrammes&rdquo; or &ldquo;Xandrames&rdquo; when Alexander was crossing the Indus. This could simply be a corruption of &ldquo;Agra-mahiṣī.&rdquo; (अग्रमहिषी)— designation of the Principal Queen - who also plays the role of Regent between successions.
+</p>
+</div>
+</div>
+<div id="outline-container-orgaf634d7" class="outline-3">
+<h3 id="orgaf634d7"><span class="section-number-3">12.6.</span> mumbai</h3>
+<div class="outline-text-3" id="text-12-6">
+<p>
+<p class="byline">Published on <a href="https://x.com/Deshpacito661/status/1912148878792466895">Twitter</a> by <a href="https://x.com/Deshpacito661">@Deshpacito661</a></p>
+</p>
+
+<p>
+TIL Mumbai is referenced on 1800 year old Greco-Roman maps as ‘Heptasia’ or ‘7 islands’.
+</p>
+
+<p>
+<p class="byline">Published on <a href="https://x.com/Aparantak/status/1724686841612505248">Twitter</a> by <a href="https://x.com/Aparantak">@Aparantak</a></p>
+A lot of Marathis themselves don&rsquo;t know that bombay is also derived from bimbasthanaka.
+</p>
+
+<p>
+Both Mumbai &amp; Bimbasthan are OG names only.
+</p>
+
+<p>
+Named after its founder- Marhattabala Samrat Bimbadev Ramchandra Jadhavrao.
+</p>
+
+<p>
+Maternal ancestor of Chh Shivaji Maharaj
+</p>
+
+<p>
+<img src="/img/snippetry/mumbai_1.jpeg" alt="mumbai_1.jpeg" />
+<img src="/img/snippetry/mumbai_2.jpeg" alt="mumbai_2.jpeg" />
+<img src="/img/snippetry/mumbai_3.jpeg" alt="mumbai_3.jpeg" />
+</p>
+</div>
+</div>
+<div id="outline-container-orgd239a81" class="outline-3">
+<h3 id="orgd239a81"><span class="section-number-3">12.7.</span> hun assimilation</h3>
+<div class="outline-text-3" id="text-12-7">
+<p>
+<p class="byline">Published on <a href="https://x.com/peshwaspeaks/status/1874936280628277592">Twitter</a> by <a href="https://x.com/peshwaspeaks">@peshwaspeaks</a></p>
+Mother of Yashkarnadeva Kalachuri of MP was a Huna princess named Avalladevi. The wife of Rawal Allata of Guhilots (ancestors of Mewar Ranas) was a Huna princess named Hariyadevi. Tells you how slowly and steadily the Hunas were absorbed in the Hindu society. All we wuzz kangz pure blood lineage claims only look good in rhetoric, not on paper.
+</p>
+</div>
+</div>
+<div id="outline-container-orgb2433a0" class="outline-3">
+<h3 id="orgb2433a0"><span class="section-number-3">12.8.</span> muhammad</h3>
+<div class="outline-text-3" id="text-12-8">
+<p>
+<p class="byline">Published on <a href="https://x.com/MainstreamViews/status/1928124859705397449">Twitter</a> by <a href="https://x.com/MainstreamViews">@MainstreamViews</a></p>
+</p>
+
+<p>
+Researching a Hadith where Mohammed gets gang raped by a bunch of Indian guys but he preaches Islam to them and eventually, by the morning, they are convinced to convert
+</p>
+
+<blockquote>
+<p>
+Then he [Abdullah] mentioned a group of male members [haneen, i.e. men] who looked like Zutt people. ‘Affan narrated (or something like what &rsquo;Affan said, Allah willing): They didn&rsquo;t have any clothes on, and I didn&rsquo;t see their genitals, and they were tall and scrawny. He [Abdullah] said: And they came and started to ride [yarkaboun] the Messenger of Allah (SAW), and the Prophet of Allah (SAW) began to recite to them. And they started to move closer and lean around me, and get in my way, and I became intensely terrified of them, so I sat down (or something like that). And when the morning light broke, they began to go away (or something like that). Then the Messenger of Allah (SAW) came back exhausted and in pain, or practically in pain, from how they had ridden him; He said: Indeed I am exhausted (or something like that). Then the Messenger of Allah (SAW) put his head in my lap (or something like that). And the men came with tall white garments on, but the Messenger of Allah (SAW) had fallen asleep. And I became more intensely terrified of them than I was the first time.
+<a href="https://sunnah2.com/262">https://sunnah2.com/262</a>
+</p>
+</blockquote>
+</div>
+</div>
+<div id="outline-container-org05b91fc" class="outline-3">
+<h3 id="org05b91fc"><span class="section-number-3">12.9.</span> voltaire on india</h3>
+<div class="outline-text-3" id="text-12-9">
+<p>
+<a href="https://www.online-literature.com/voltaire/4408/">https://www.online-literature.com/voltaire/4408/</a>
+</p>
+
+<p>
+All the world knows that Pythagoras, while he resided in India, attended the school of the Gymnosophists, and learned the language of beasts and plants.[1] One day, while he was walking in a meadow near the seashore, he heard these words:
+</p>
+
+<p>
+&ldquo;How unfortunate that I was born an herb! I scarcely attain two inches in height, when a voracious monster, an horrid animal, tramples me under his large feet; his jaws are armed with rows of sharp scythes, by which he cuts, then grinds, and then swallows me. Men call this monster a sheep. I do not suppose there is in the whole creation a more detestable creature.&rdquo;
+</p>
+
+<p>
+Pythagoras proceeded a little way and found an oyster yawning on a small rock. He had not yet adopted that admirable law, by which we are enjoined not to eat those animals which have a resemblance to us.[2] He had scarcely taken up the oyster to swallow it, when it spoke these affecting words:
+</p>
+
+<p>
+&ldquo;O, Nature, how happy is the herb, which is, as I am, thy work! though it be cut down, it is regenerated and immortal; and we, poor oysters, in vain are defended by a double cuirass: villains eat us by dozens at their breakfast, and all is over with us forever. What an horrible fate is that of an oyster, and how barbarous are men!&rdquo;
+</p>
+
+<p>
+Pythagoras shuddered; he felt the enormity of the crime he had nearly committed; he begged pardon of the oyster with tears in his eyes, and replaced it very carefully on the rock.
+</p>
+
+<p>
+As he was returning to the city, profoundly meditating on this adventure, he saw spiders devouring flies; swallows eating spiders, and sparrow-hawks eating swallows. &ldquo;None of these,&rdquo; said he, &ldquo;are philosophers.&rdquo;
+</p>
+
+<p>
+On his entrance, Pythagoras was stunned, bruised, and thrown down by a lot of tatterdemalions, who were running and crying: &ldquo;Well done, he fully deserved it.&rdquo; &ldquo;Who? What?&rdquo; said Pythagoras, as he was getting up. The people continued running and crying: &ldquo;O how delightful it will be to see them boiled!&rdquo;
+</p>
+
+<p>
+Pythagoras supposed they meant lentiles, or some other vegetables: but he was in an error; they meant two poor Indians. &ldquo;Oh!&rdquo; said Pythagoras, &ldquo;these Indians, without doubt, are two great philosophers weary of their lives, they are desirous of regenerating under other forms; it affords pleasure to a man to change his place of residence, though he may be but indifferently lodged: there is no disputing on taste.&rdquo;[3]
+</p>
+
+<p>
+He proceeded with the mob to the public square, where he perceived a lighted pile of wood, and a bench opposite to it, which was called a tribunal. On this bench judges were seated, each of whom had a cow&rsquo;s tail in his hand, and a cap on his head, with ears resembling those of the animal which bore Silenus when he came into that country with Bacchus, after having crossed the Erytrean sea without wetting a foot, and stopping the sun and moon; as it is recorded with great fidelity in the Orphicks.
+</p>
+
+<p>
+Among these judges there was an honest man with whom Pythagoras was acquainted. The Indian sage explained to the sage of Samos the nature of that festival to be given to the people of India.
+</p>
+
+<p>
+&ldquo;These two Indians,&rdquo; said he, &ldquo;have not the least desire to be committed to the flames. My grave brethren have adjudged them to be burnt; one for saying, that the substance of Xaca is not that of Brahma; and the other for supposing, that the approbation of the Supreme Being was to be obtained at the point of death without holding a cow by the tail; &lsquo;Because,&rsquo; said he, &lsquo;we may be virtuous at all times, and we cannot always have a cow to lay hold of just when we may have occasion.&rsquo; The good women of the city were greatly terrified at two such heretical opinions; they would not allow the judges a moment&rsquo;s peace until they had ordered the execution of those unfortunate men.&rdquo;
+</p>
+
+<p>
+Pythagoras was convinced that from the herb up to man, there were many causes of chagrin. However, he obliged the judges and even the devotees to listen to reason, which happened only at that time.
+</p>
+
+<p>
+He went afterwards and preached toleration at Crotona; but a bigot set fire to his house, and he was burnt—the man who had delivered the two Hindoos from the flames? Let those save themselves who can![4]
+</p>
+
+<p>
+[1] Perhaps it would be impossible at the present day to convince scientists that oysters formerly conversed intelligibly with mankind and protested eloquently against human injustice; but all men are not scientists, and there are many worthy people who still have implicit faith in ancient Semitic records—who firmly believe in miracles and prodigies—and who would consider it rank heresy to doubt that the serpent, though now as mute as an oyster, formerly held a very animated conversation, in the original Edenic language, with the inexperienced and confiding female who then graced with her charming presence the bowers of Paradise; and this sacred narrative of the &ldquo;maiden and the reptile&rdquo; is quite as repugnant to modern science as the sentimental fish story of &ldquo;Pythagoras and the oyster&rdquo;.
+</p>
+
+<p>
+As a matter of fact, the doctrine of the metempsichosis, as taught by the Samian sage, was formerly held in great repute by the most civilized nations of antiquity, and it is surely as easy to credit the assertion of our author, that the ancient Gymnosophists &ldquo;had learned the language of beasts and plants&rdquo; as to believe the unquestioned and orthodox statement that a certain quadruped, (Asinus vulgaris,) —whose romantic history is recorded in the twenty-second chapter of Numbers,—was once upon a time able to converse in very good Hebrew with Monsieur Balaam, an ancient prophet of great merit and renown.—E.
+</p>
+
+<p>
+[2] The resemblance of oysters to mankind, here implied, can only be apparent to the &ldquo;eye of faith,&rdquo; and lovers of these delicious bivalves will fail to recognize the family likeness.—E.
+</p>
+
+<p>
+[3] Pythagoras was born at Samos, about 590 years before the Christian era. He received an education well calculated to enlighten his mind and invigorate his body. He studied poetry, music, eloquence and astronomy, and became so proficient in gymnastic exercises, that in his eighteenth year he won the prize for wrestling at the Olympic games. He then visited Egypt and Chaldea, and gaining the confidence of the priests, learned from them the artful policy by which they governed the people. On his return to Samos he was saluted by the name of Sophist, or wise man, but he declined the name, and was satisfied with that of philosopher, or the friend of wisdom. He ultimately fixed his residence in Magna Gr�cia, in the town of Crotona, where he founded the school called the Italian.
+</p>
+
+<p>
+This school became very prosperous, and hundreds of pupils received the secret instructions of Pythagoras, who taught by the use of ciphers or numbers, and hieroglyphic writings. His pupils were thus enabled to correspond together in unknown characters; and, by the signs and words employed, they could discover among strangers those who had been educated in the Pythagorean school. All the pupils of the philosopher greatly reverenced their teacher, and deemed it a crime to dispute his word. One of their expressions &ldquo;thus saith the Master,&rdquo; has been adopted by modern sects.
+</p>
+
+<p>
+The Samian sage taught the doctrine of the metempsichosis, or the transmigration of the soul into different bodies, which he had probably learned from the Brahmins; who believed that, in these various peregrinations, the soul or thinking principle was purged from all evil, and was ultimately absorbed into the Divine substance from which it was supposed to have emanated.
+</p>
+
+<p>
+Godfrey Higgins in the Anacalypsis cites authorities to prove that the doctrine of the metempsichosis was held by "many of the early fathers of the Christians, which they defended on several texts of the New Testament. It was held by Origin, Calcidius, Synesius, and by the Simonians, Basilidians, Valentiniens, Marcionites, and the Gnostics in general. It was also held by the Pharisees among the Jews, and by the most learned of the Greeks, and by many Chinese, Hindoos and Indians.
+</p>
+
+<p>
+&ldquo;When all the circumstances relating to Pythagoras and to his doctrines, both in moral and natural philosophy, are considered,&rdquo; continues Higgins, &ldquo;nothing can be more striking than the exact conformity of the latter to the received opinions of the moderns, and of the former to the moral doctrines of Jesus Christ.&rdquo;
+</p>
+
+<p>
+&ldquo;The pupils of Pythagoras,&rdquo; says Eschenburg, Manual of Classical Literature, &ldquo;soon amounted to 600, dwelt in one public building, and held their property in common. Under philosophy, the Italic school included every object of human knowledge. But Pythagoras considered music and astronomy of special value. He is supposed to have had some very correct views of astronomy, agreeing with the true Copernican system. The beautiful fancy of the music of the spheres is attributed to him. The planets striking on the ether, through which they pass, must produce a sound; this must vary according to their different magnitudes, velocities, and relative distances; these differences were all adjusted with perfect regularity and exact proportions, so that the movements of the bodies produced the richest tones of harmony; not heard, however, by mortal ears.&rdquo;
+</p>
+
+<p>
+Pythagoras taught, and his followers maintained, the absolute equality of property, &ldquo;all their worldly possessions being brought into a common store&rdquo;. The early Christians had also &ldquo;all things in common,&rdquo; and the doctrines of Jesus and Pythagoras have many points of resemblance. Both were reformers, both sought to benefit the poor and the oppressed, both taught and practised the doctrines now known as Communism, and both, for their love to the human race, suffered a cruel martyrdom from an orthodox and vindictive priesthood.
+</p>
+
+<p>
+In obedience to an oracle, the Romans, long after the death of Pythagoras, erected a statue to his memory as the wisest of mankind.—E.
+</p>
+
+<p>
+[4] Godfrey Higgins in the Anacalypsis draws aside the veil of Isis, and explains in a satisfactory manner the reason why Pythagoras, like Socrates and Jesus, was condemned to death by the established priesthood. Each of these great reformers had been initiated into the sacred mysteries, and each taught his followers by secret symbols or parables that contained a hidden meaning; so &ldquo;that seeing the uninitiated might see and not perceive, and hearing might hear and not understand.&rdquo; The reason that Jesus gave for following this method was &ldquo;because it is given unto you (i.e. the initiated) to know the mysteries of the kingdom of heaven, but to them (i.e. the people) it is not given.&rdquo; (Matt. XIII: II.) The mass of mankind, being excluded from this secret knowledge, were kept in a state of debasement as compared with the favored few who were acquainted with the jealously guarded secrets of the Cabala; and the earnest desire of these great reformers—of these noble men who cheerfully gave their lives to benefit their race—was, without divulging the secrets of their initiation, to teach mankind to partake of the forbidden fruit of the tree of knowledge, and to learn &ldquo;that a virtuous life would secure eternal happiness.&rdquo; Such philanthropic doctrines were denounced as wicked and heretical by the orthodox priesthood, who instinctively oppose human progress, and who, like the silversmith of Ephesus, described by St. Paul, felt that &ldquo;this our craft is in danger&rdquo; should the people become enlightened. They therefore, excited a popular clamor, and aroused the worst passions and prejudices of their followers; who, inspired with fanatic zeal, cruelly and wickedly burned Pythagoras of Crotona, poisoned Socrates of Athens, and crucified Jesus of Nazareth.—E.
+</p>
+</div>
+</div>
+<div id="outline-container-org51f0170" class="outline-3">
+<h3 id="org51f0170"><span class="section-number-3">12.10.</span> Chanakya Neeti is just Neetisaar from Garuda Purana</h3>
+</div>
+
+<div id="outline-container-orgd0ad12b" class="outline-3">
+<h3 id="orgd0ad12b"><span class="section-number-3">12.11.</span> Famines never visited India</h3>
+<div class="outline-text-3" id="text-12-11">
+<p>
+<p class="byline">Published on <a href="https://x.com/infinitchy/status/1840671928824004862">Twitter</a> by <a href="https://x.com/infinitchy">@infinitchy</a></p>
+</p>
+
+<p>
+&rsquo;Dharma or something&rsquo; indeed. Megasthenes notes in his much-quoted work that &ldquo;famine has never visited India&rdquo;. R. Ganguli&rsquo;s paper published by BORI (1933-34) suggests that India&rsquo;s decline in food security coincides with the invasion of the Huns (5th/6th century CE). However, recurrent famines were unknown until nearly nine centuries later. In fact, only two significant famines occurred during this period—one in Kashmir in 917-18 CE and another in the Delhi region during the reign of Muhammad Tughlaq. According to Zia Barani, the latter was caused by excessive land taxes, leading to the devastation of cultivators. From the time of Babur, famines became more frequent and widespread, culminating in the most severe famine in history, which occurred in 1899-1900 CE. The paper delves into the major factors contributing to famines like forest &amp; rainfall, irrigation &amp; method of cultivation, agricultural land &amp; population, cattle &amp; bullock power and transport facilities &amp; export. The paper concludes that &ldquo;in olden days, conditions were distinctly far more unfavourable to the occurrence of famine than they are so now&rdquo; and &ldquo;in ancient India, famines were much less frequent and usually much less terrible in character than now.&rdquo;
+</p>
+
+<p>
+<p class="byline">Published on <a href="https://x.com/Vajrapani4/status/1840680415423496475">Twitter</a> by <a href="https://x.com/Vajrapani4">@Vajrapani4</a></p>
+</p>
+
+<p>
+this coincides with the observation that late anupam mishra made regarding ponds.
+</p>
+
+<p>
+no. of ponds &amp; people indulging in pond economy saw a rapid decline and disorganization from medieval
+</p>
+
+<p>
+secular classic sanskrit literature indicates an abundance of ponds/near absence of famines.
+</p>
+</div>
+</div>
+<div id="outline-container-org83e7226" class="outline-3">
+<h3 id="org83e7226"><span class="section-number-3">12.12.</span> mumbai etymology</h3>
+<div class="outline-text-3" id="text-12-12">
+<p>
+<p class="byline">Published on <a href="https://x.com/KhareAyush94/status/1457994050829574147">Twitter</a> by <a href="https://x.com/KhareAyush94">@KhareAyush94</a></p>
+From Borivali to Goregaon, names of Mumbai&rsquo;s local areas can be traced to both Dravidian and Indo-Aryan languages. Truly cosmopolitan! 
+</p>
+
+<p>
+(Picture from &rsquo;Early Indians&rsquo; by Tony Joseph)
+</p>
+
+<p>
+<img src="/img/snippetry/mumbai.jpeg" alt="mumbai.jpeg" />
+</p>
+</div>
+</div>
+</div>
+</div>
+<div id="postamble" class="status">
+<p class="author">Author: NiṣādaHermaphroditarchaṃśa (Mal'ta boy ka parivar)</p>
+<p class="date">Created: 2025-07-14 Mon 19:41</p>
+</div>
+</body>
+</html>

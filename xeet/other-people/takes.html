@@ -1,0 +1,934 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+<!-- 2025-07-14 Mon 19:41 -->
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Favorite tweets by others</title>
+<meta name="author" content="NiṣādaHermaphroditarchaṃśa (Mal'ta boy ka parivar)" />
+<meta name="generator" content="Org Mode" />
+<style type="text/css">
+  #content { max-width: 60em; margin: auto; }
+  .title  { text-align: center;
+             margin-bottom: .2em; }
+  .subtitle { text-align: center;
+              font-size: medium;
+              font-weight: bold;
+              margin-top:0; }
+  .todo   { font-family: monospace; color: red; }
+  .done   { font-family: monospace; color: green; }
+  .priority { font-family: monospace; color: orange; }
+  .tag    { background-color: #eee; font-family: monospace;
+            padding: 2px; font-size: 80%; font-weight: normal; }
+  .timestamp { color: #bebebe; }
+  .timestamp-kwd { color: #5f9ea0; }
+  .org-right  { margin-left: auto; margin-right: 0px;  text-align: right; }
+  .org-left   { margin-left: 0px;  margin-right: auto; text-align: left; }
+  .org-center { margin-left: auto; margin-right: auto; text-align: center; }
+  .underline { text-decoration: underline; }
+  #postamble p, #preamble p { font-size: 90%; margin: .2em; }
+  p.verse { margin-left: 3%; }
+  pre {
+    border: 1px solid #e6e6e6;
+    border-radius: 3px;
+    background-color: #f2f2f2;
+    padding: 8pt;
+    font-family: monospace;
+    overflow: auto;
+    margin: 1.2em;
+  }
+  pre.src {
+    position: relative;
+    overflow: auto;
+  }
+  pre.src:before {
+    display: none;
+    position: absolute;
+    top: -8px;
+    right: 12px;
+    padding: 3px;
+    color: #555;
+    background-color: #f2f2f299;
+  }
+  pre.src:hover:before { display: inline; margin-top: 14px;}
+  /* Languages per Org manual */
+  pre.src-asymptote:before { content: 'Asymptote'; }
+  pre.src-awk:before { content: 'Awk'; }
+  pre.src-authinfo::before { content: 'Authinfo'; }
+  pre.src-C:before { content: 'C'; }
+  /* pre.src-C++ doesn't work in CSS */
+  pre.src-clojure:before { content: 'Clojure'; }
+  pre.src-css:before { content: 'CSS'; }
+  pre.src-D:before { content: 'D'; }
+  pre.src-ditaa:before { content: 'ditaa'; }
+  pre.src-dot:before { content: 'Graphviz'; }
+  pre.src-calc:before { content: 'Emacs Calc'; }
+  pre.src-emacs-lisp:before { content: 'Emacs Lisp'; }
+  pre.src-fortran:before { content: 'Fortran'; }
+  pre.src-gnuplot:before { content: 'gnuplot'; }
+  pre.src-haskell:before { content: 'Haskell'; }
+  pre.src-hledger:before { content: 'hledger'; }
+  pre.src-java:before { content: 'Java'; }
+  pre.src-js:before { content: 'Javascript'; }
+  pre.src-latex:before { content: 'LaTeX'; }
+  pre.src-ledger:before { content: 'Ledger'; }
+  pre.src-lisp:before { content: 'Lisp'; }
+  pre.src-lilypond:before { content: 'Lilypond'; }
+  pre.src-lua:before { content: 'Lua'; }
+  pre.src-matlab:before { content: 'MATLAB'; }
+  pre.src-mscgen:before { content: 'Mscgen'; }
+  pre.src-ocaml:before { content: 'Objective Caml'; }
+  pre.src-octave:before { content: 'Octave'; }
+  pre.src-org:before { content: 'Org mode'; }
+  pre.src-oz:before { content: 'OZ'; }
+  pre.src-plantuml:before { content: 'Plantuml'; }
+  pre.src-processing:before { content: 'Processing.js'; }
+  pre.src-python:before { content: 'Python'; }
+  pre.src-R:before { content: 'R'; }
+  pre.src-ruby:before { content: 'Ruby'; }
+  pre.src-sass:before { content: 'Sass'; }
+  pre.src-scheme:before { content: 'Scheme'; }
+  pre.src-screen:before { content: 'Gnu Screen'; }
+  pre.src-sed:before { content: 'Sed'; }
+  pre.src-sh:before { content: 'shell'; }
+  pre.src-sql:before { content: 'SQL'; }
+  pre.src-sqlite:before { content: 'SQLite'; }
+  /* additional languages in org.el's org-babel-load-languages alist */
+  pre.src-forth:before { content: 'Forth'; }
+  pre.src-io:before { content: 'IO'; }
+  pre.src-J:before { content: 'J'; }
+  pre.src-makefile:before { content: 'Makefile'; }
+  pre.src-maxima:before { content: 'Maxima'; }
+  pre.src-perl:before { content: 'Perl'; }
+  pre.src-picolisp:before { content: 'Pico Lisp'; }
+  pre.src-scala:before { content: 'Scala'; }
+  pre.src-shell:before { content: 'Shell Script'; }
+  pre.src-ebnf2ps:before { content: 'ebfn2ps'; }
+  /* additional language identifiers per "defun org-babel-execute"
+       in ob-*.el */
+  pre.src-cpp:before  { content: 'C++'; }
+  pre.src-abc:before  { content: 'ABC'; }
+  pre.src-coq:before  { content: 'Coq'; }
+  pre.src-groovy:before  { content: 'Groovy'; }
+  /* additional language identifiers from org-babel-shell-names in
+     ob-shell.el: ob-shell is the only babel language using a lambda to put
+     the execution function name together. */
+  pre.src-bash:before  { content: 'bash'; }
+  pre.src-csh:before  { content: 'csh'; }
+  pre.src-ash:before  { content: 'ash'; }
+  pre.src-dash:before  { content: 'dash'; }
+  pre.src-ksh:before  { content: 'ksh'; }
+  pre.src-mksh:before  { content: 'mksh'; }
+  pre.src-posh:before  { content: 'posh'; }
+  /* Additional Emacs modes also supported by the LaTeX listings package */
+  pre.src-ada:before { content: 'Ada'; }
+  pre.src-asm:before { content: 'Assembler'; }
+  pre.src-caml:before { content: 'Caml'; }
+  pre.src-delphi:before { content: 'Delphi'; }
+  pre.src-html:before { content: 'HTML'; }
+  pre.src-idl:before { content: 'IDL'; }
+  pre.src-mercury:before { content: 'Mercury'; }
+  pre.src-metapost:before { content: 'MetaPost'; }
+  pre.src-modula-2:before { content: 'Modula-2'; }
+  pre.src-pascal:before { content: 'Pascal'; }
+  pre.src-ps:before { content: 'PostScript'; }
+  pre.src-prolog:before { content: 'Prolog'; }
+  pre.src-simula:before { content: 'Simula'; }
+  pre.src-tcl:before { content: 'tcl'; }
+  pre.src-tex:before { content: 'TeX'; }
+  pre.src-plain-tex:before { content: 'Plain TeX'; }
+  pre.src-verilog:before { content: 'Verilog'; }
+  pre.src-vhdl:before { content: 'VHDL'; }
+  pre.src-xml:before { content: 'XML'; }
+  pre.src-nxml:before { content: 'XML'; }
+  /* add a generic configuration mode; LaTeX export needs an additional
+     (add-to-list 'org-latex-listings-langs '(conf " ")) in .emacs */
+  pre.src-conf:before { content: 'Configuration File'; }
+
+  table { border-collapse:collapse; }
+  caption.t-above { caption-side: top; }
+  caption.t-bottom { caption-side: bottom; }
+  td, th { vertical-align:top;  }
+  th.org-right  { text-align: center;  }
+  th.org-left   { text-align: center;   }
+  th.org-center { text-align: center; }
+  td.org-right  { text-align: right;  }
+  td.org-left   { text-align: left;   }
+  td.org-center { text-align: center; }
+  dt { font-weight: bold; }
+  .footpara { display: inline; }
+  .footdef  { margin-bottom: 1em; }
+  .figure { padding: 1em; }
+  .figure p { text-align: center; }
+  .equation-container {
+    display: table;
+    text-align: center;
+    width: 100%;
+  }
+  .equation {
+    vertical-align: middle;
+  }
+  .equation-label {
+    display: table-cell;
+    text-align: right;
+    vertical-align: middle;
+  }
+  .inlinetask {
+    padding: 10px;
+    border: 2px solid gray;
+    margin: 10px;
+    background: #ffffcc;
+  }
+  #org-div-home-and-up
+   { text-align: right; font-size: 70%; white-space: nowrap; }
+  textarea { overflow-x: auto; }
+  .linenr { font-size: smaller }
+  .code-highlighted { background-color: #ffff00; }
+  .org-info-js_info-navigation { border-style: none; }
+  #org-info-js_console-label
+    { font-size: 10px; font-weight: bold; white-space: nowrap; }
+  .org-info-js_search-highlight
+    { background-color: #ffff00; color: #000000; font-weight: bold; }
+  .org-svg { }
+</style>
+<link rel="stylesheet" href="/styles.css"">
+</head>
+<body>
+<div id="preamble" class="status">
+<p class='nav-home'><a href='/index.html'>← Home</a></p>
+</div>
+<div id="content" class="content">
+<h1 class="title">Favorite tweets by others</h1>
+<div id="table-of-contents" role="doc-toc">
+<h2>Table of Contents</h2>
+<div id="text-table-of-contents" role="doc-toc">
+<ul>
+<li><a href="#orgaaf7a91">1. Shashank</a>
+<ul>
+<li><a href="#org9124d0f">1.1. cathedral</a></li>
+<li><a href="#orgf07eef9">1.2. understanding things instinctively</a></li>
+<li><a href="#org50b38cc">1.3. moral ideologues vs mercenaries</a></li>
+<li><a href="#org5b7d942">1.4. understanding a totalizing social movement</a></li>
+<li><a href="#orgbd55606">1.5. using power</a></li>
+<li><a href="#org5297180">1.6. foreign policy</a></li>
+<li><a href="#orgb6df350">1.7. retreating</a></li>
+<li><a href="#org66ea2d6">1.8. adopting enemy framework</a></li>
+<li><a href="#org9577fc8">1.9. focusing on the left</a></li>
+<li><a href="#orge907264">1.10. shantipoorvak</a></li>
+<li><a href="#org3eb8d72">1.11. election analysis</a></li>
+</ul>
+</li>
+<li><a href="#org9607cd7">2. Akshay VAK</a>
+<ul>
+<li><a href="#orgb9160a9">2.1. Thread on soft power, subversion and the Ayatollah</a></li>
+<li><a href="#org5544532">2.2. co-ordination</a></li>
+<li><a href="#org0b69c3f">2.3. on nehru apologia</a>
+<ul>
+<li><a href="#orgd4fc9a8">2.3.1. international context</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="#org8e454c2">3. Lolbert Pitāmāh</a>
+<ul>
+<li><a href="#org34c3bc6">3.1. when to criticize</a></li>
+<li><a href="#org1d55dc4">3.2. agenda detection thread</a></li>
+<li><a href="#orge0aa4a6">3.3. people over ideas</a></li>
+<li><a href="#org690750e">3.4. BJP mental model</a></li>
+<li><a href="#orgfe0ea40">3.5. RW ecosystem</a></li>
+<li><a href="#orgbe757cc">3.6. Thank the goy</a></li>
+<li><a href="#orgfb7cd95">3.7. micro-targeting</a></li>
+</ul>
+</li>
+<li><a href="#orga5e7e60">4. Misc</a>
+<ul>
+<li><a href="#orgab0d834">4.1. sub sub sub jati</a></li>
+<li><a href="#org5a10f94">4.2. white guilt</a></li>
+<li><a href="#orgb936400">4.3. elite factionalism</a></li>
+<li><a href="#org0c4bbeb">4.4. baby boom</a></li>
+<li><a href="#orge14dc87">4.5. Polite fictions</a></li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-orgaaf7a91" class="outline-2">
+<h2 id="orgaaf7a91"><span class="section-number-2">1.</span> Shashank</h2>
+<div class="outline-text-2" id="text-1">
+</div>
+<div id="outline-container-org9124d0f" class="outline-3">
+<h3 id="org9124d0f"><span class="section-number-3">1.1.</span> cathedral</h3>
+<div class="outline-text-3" id="text-1-1">
+<p>
+<p class="byline">Published on <a href="https://x.com/ShazCoder/status/1829157014523785447">Twitter</a> by <a href="https://x.com/ShazCoder">@ShazCoder</a></p>
+Moldbug&rsquo;s &ldquo;Cathedral&rdquo; is better visualized as a dense, deep and comprehensive information supply chain. Its immense breadth and depth provides massive competitive advantage to aligned political movements. The most important component of that is the human capital foundation.
+</p>
+
+<p>
+<p class="byline">Published on <a href="https://x.com/ShazCoder/status/1941875036379648107">Twitter</a> by <a href="https://x.com/ShazCoder">@ShazCoder</a></p>
+The funny thing about the term &ldquo;Cathedral&rdquo; is that modern leftism and left-liberalism doesn&rsquo;t actually function like medieval Catholic Europe but instead resembles the de-centralized and stigmergically cooperating institutions of Sunni Islam united by a totalizing doctrine.
+</p>
+
+<p>
+<p class="byline">Also published on <a href="https://x.com/ShazCoder/status/1906355836013998206">Twitter</a></p>
+The left wing social movements that operate transnationally.
+</p>
+
+<p>
+It has managed to combine the flexibility of &rsquo;anarchic&rsquo; social organization of Hinduism and the cohesiveness, planet spanning folk consciousness and intense theological commitment of Islam.
+</p>
+</div>
+</div>
+<div id="outline-container-orgf07eef9" class="outline-3">
+<h3 id="orgf07eef9"><span class="section-number-3">1.2.</span> understanding things instinctively</h3>
+<div class="outline-text-3" id="text-1-2">
+<p>
+<p class="byline">Published on <a href="https://x.com/ShazCoder/status/1647963657685352449">Twitter</a> by <a href="https://x.com/ShazCoder">@ShazCoder</a></p>
+In competitive democracies, factions with the understanding of great importance  of unsaid views and instinctive sense to co-ordinate with other &ldquo;party&rdquo; members without any instruction from top or formal organizations wins. Specific groups and movements are extraordinary in this.
+</p>
+
+<p>
+<p class="byline">Published on <a href="https://x.com/ShazCoder/status/1934995733767417879">Twitter</a> by <a href="https://x.com/ShazCoder">@ShazCoder</a></p>
+The other side from medieval to the present time have engaged in these mercantile transactions while never ever losing sight of the real big picture (&ldquo;who we are and why we fight&rdquo;). 
+</p>
+
+<p>
+And they don&rsquo;t have these retarded &ldquo;debates&rdquo; because their people understand this instinctively.
+</p>
+</div>
+</div>
+<div id="outline-container-org50b38cc" class="outline-3">
+<h3 id="org50b38cc"><span class="section-number-3">1.3.</span> moral ideologues vs mercenaries</h3>
+<div class="outline-text-3" id="text-1-3">
+<p>
+<p class="byline">Published on <a href="https://x.com/ShazCoder/status/1750807107132395748">Twitter</a> by <a href="https://x.com/ShazCoder">@ShazCoder</a></p>
+It is funny that nationalists from India to Pakistan to China to even the Gulf rulers all make the same category error.
+</p>
+
+<p>
+Liberals and leftists who write for these publications are moral fanatics and not mercenaries. Ideocracies do not function by way of mercantile exchanges.
+</p>
+
+<p>
+Even the people in these spheres who are morally weaker or are desperate enough for funds to consider it are likely to be turned off by the extremely crude कितनी लोगे posture.
+</p>
+</div>
+</div>
+<div id="outline-container-org5b7d942" class="outline-3">
+<h3 id="org5b7d942"><span class="section-number-3">1.4.</span> understanding a totalizing social movement</h3>
+<div class="outline-text-3" id="text-1-4">
+<p>
+<p class="byline">Published on <a href="https://x.com/ShazCoder/status/1575086272216866816">Twitter</a> by <a href="https://x.com/ShazCoder">@ShazCoder</a></p>
+It is under-rated how much poor theory was responsible for failure of right-libertarianism of 2000s. The rhetoric imagined a sultanistic regime which does not exist in West. The state/private distinction is inadequate when dealing with total social-cultural-political movement.
+</p>
+
+<p>
+The State was (and remains) merely an instrument for the movement which is a complex network of spheres of interest that is constituted within the radius of every important institution - business enterprise, university, media and bureaucratic apparatus.
+</p>
+
+<p>
+Focusing on the battering ram and not the weilders was a glaring omission. Taking out the central apparatus of coercion is much harder when it is buffered by such a consolidated shield. Talk of &ldquo;what if it was used against you&rdquo; only works if opposing forces ate equally balanced.
+</p>
+
+<p>
+<p class="byline">Published on <a href="https://x.com/ShazCoder/status/1747279162107183543">Twitter</a> by <a href="https://x.com/ShazCoder">@ShazCoder</a></p>
+Another take on realism/IR discourse - you cannot really run an &ldquo;apolitical&rdquo; realist foreign policy characteristic of the pre-45 imperialism state when the social revolution has consumed domestic politics and restructured the epistemic basis and foundational thought of a polity.
+</p>
+</div>
+</div>
+<div id="outline-container-orgbd55606" class="outline-3">
+<h3 id="orgbd55606"><span class="section-number-3">1.5.</span> using power</h3>
+<div class="outline-text-3" id="text-1-5">
+<p>
+<p class="byline">Published on <a href="https://x.com/ShazCoder/status/1796491036652601721">Twitter</a> by <a href="https://x.com/ShazCoder">@ShazCoder</a></p>
+Conservatives <b>loved</b> to pose as the hard nosed realists who tells the naive but well meaning liberals with their heads in the sky some difficult truths about the real world.
+</p>
+
+<p>
+In reality they are the naive well meaning simpletons while left-liberals are very realist and vicious.
+</p>
+
+<p>
+<p class="byline">Published on <a href="https://x.com/ShazCoder/status/1634197014790504449">Twitter</a> by <a href="https://x.com/">@</a></p>
+It is fine but it should be a part of broader strategy - discredit, delegitimize and dismantle. The issue with what I call naive exposers is that they think that the first step is all it takes and act as if there was an imaginary referee keeping scores who will do it for them.
+</p>
+</div>
+</div>
+<div id="outline-container-org5297180" class="outline-3">
+<h3 id="org5297180"><span class="section-number-3">1.6.</span> foreign policy</h3>
+<div class="outline-text-3" id="text-1-6">
+<p>
+<p class="byline">Published on <a href="https://x.com/ShazCoder/status/1705532283728404672">Twitter</a> by <a href="https://x.com/ShazCoder">@ShazCoder</a></p>
+A key difference -
+</p>
+
+<p>
+RW/conservatives are obsessed with geopolitics and want to fight war against foreign enemies.
+</p>
+
+<p>
+Liberals/leftists meanwhile sharpen their swords to fight a civil war against the right and conservatives. Geopol is means to that end.
+</p>
+
+
+<p>
+<p class="byline">Published on <a href="https://x.com/ShazCoder/status/1652982595418832896">Twitter</a> by <a href="https://x.com/ShazCoder">@ShazCoder</a></p>
+This is a pattern worldwide. The RW is unable to separate &ldquo;national&rdquo; interest from that of its faction/movement and it believes that differences internally is less than between the nation and foreigners. LW have ultra-patisan loyalty with nation being means to its end.
+</p>
+
+<p>
+Hence the RW support for whatever hawkish stance that liberals/leftists occasionally take (ex - critique of KSA over Yemen, critique of left government for not being pro minority enough) without realizing the purpose of such critique and alien worldview that is at the foundation.
+</p>
+
+<p>
+<p class="byline">Published on <a href="https://x.com/ShazCoder/status/1833829040211280043">Twitter</a> by <a href="https://x.com/ShazCoder">@ShazCoder</a></p>
+The right centered geopolitics excessively in image building and propaganda to the point where it was invoked by many supporters as their chief reason for supporting them. 
+</p>
+
+<p>
+Liberals know this and were pressuring their allies abroad to get their governments to rebuke Modi/BJP.
+</p>
+
+<p>
+<p class="byline">Published on <a href="https://x.com/ShazCoder/status/1799732508000768000">Twitter</a> by <a href="https://x.com/ShazCoder">@ShazCoder</a></p>
+There are some geopol obsessives on the RW who see domestic policy as an attache which exists to serve the real work of foreign policy rather than the other way round. This also impacts their political analysis because they see all threats as external foreign intrigues.
+</p>
+</div>
+</div>
+<div id="outline-container-orgb6df350" class="outline-3">
+<h3 id="orgb6df350"><span class="section-number-3">1.7.</span> retreating</h3>
+<div class="outline-text-3" id="text-1-7">
+<p>
+<p class="byline">Published on <a href="https://x.com/ShazCoder/status/1938018853247754653">Twitter</a> by <a href="https://x.com/ShazCoder">@ShazCoder</a></p>
+American conservatives have been running the Maoist film in reverse for decades. 
+</p>
+
+<p>
+Retreating from City -&gt; Suburb -&gt; Town -&gt; Rural area in a growing richer country with agriculture and primary sector shrinking in relative size.
+</p>
+
+<p>
+Voluntarily choosing to become dhimmis.
+</p>
+</div>
+</div>
+<div id="outline-container-org66ea2d6" class="outline-3">
+<h3 id="org66ea2d6"><span class="section-number-3">1.8.</span> adopting enemy framework</h3>
+<div class="outline-text-3" id="text-1-8">
+<p>
+<p class="byline">Published on <a href="https://x.com/ShazCoder/status/1453065522464034820">Twitter</a> by <a href="https://x.com/ShazCoder">@ShazCoder</a></p>
+Right wingers stop attacking other countries&rsquo; right wingers by using progressive framework challenge (impossible).
+</p>
+
+<p>
+<p class="byline">Published on <a href="https://x.com/ShazCoder/status/1803850966921547895">Twitter</a> by <a href="https://x.com/ShazCoder">@ShazCoder</a></p>
+There is also the problem of 105 IQ bad faith actors exploiting naivety of some in RW.
+</p>
+
+<p>
+Naive boomer - Abrahamism is sexist. Hinduism is truly feminist.
+</p>
+
+<p>
+Us - We should not use leftist frameworks&#x2026;
+</p>
+
+<p>
+Retards - Yes, Hindutva is feminist longhouse. Convert to Abrahamic religions.
+</p>
+
+<p>
+<a href="/xeet/politics/meme-theory/arbitrage.html">xeet/politics/meme-theory/arbitrage.org</a>
+</p>
+</div>
+</div>
+<div id="outline-container-org9577fc8" class="outline-3">
+<h3 id="org9577fc8"><span class="section-number-3">1.9.</span> focusing on the left</h3>
+<div class="outline-text-3" id="text-1-9">
+<p>
+<p class="byline">Published on <a href="https://x.com/ShazCoder/status/1786414924253610291">Twitter</a> by <a href="https://x.com/ShazCoder">@ShazCoder</a></p>
+The right wing recognizes it&rsquo;s ideological brethren far better than an alien faction and movements. 
+</p>
+
+<p>
+Despite self-deceiving theories the RW struggles to conceive the global left, allied movement and its relation to parties and institutions.
+</p>
+
+<p>
+Race memes on X are easier to grasp.
+</p>
+</div>
+</div>
+<div id="outline-container-orge907264" class="outline-3">
+<h3 id="orge907264"><span class="section-number-3">1.10.</span> shantipoorvak</h3>
+<div class="outline-text-3" id="text-1-10">
+<p>
+<p class="byline">Published on <a href="https://x.com/ShazCoder/status/1941858176090898669">Twitter</a> by <a href="https://x.com/">@</a></p>
+Funnily the online Indian RW engages in the same behavior but 10x worse while the union government here shows both groups how to actually do it (shantipoorvak, being extremely patient, not lashing out at random slights, keep eye on big picture, moving ahead slowly but surely).
+</p>
+</div>
+</div>
+<div id="outline-container-org3eb8d72" class="outline-3">
+<h3 id="org3eb8d72"><span class="section-number-3">1.11.</span> election analysis</h3>
+<div class="outline-text-3" id="text-1-11">
+<p>
+<p class="byline">Published on <a href="https://x.com/ShazCoder/status/1803103358175080462">Twitter</a> by <a href="https://x.com/ShazCoder">@ShazCoder</a></p>
+Most of Indian political analysis is completely data free. Not only that but even post-election analysis is based largely on vibes and brain dead cliches.
+</p>
+</div>
+</div>
+</div>
+<div id="outline-container-org9607cd7" class="outline-2">
+<h2 id="org9607cd7"><span class="section-number-2">2.</span> Akshay VAK</h2>
+<div class="outline-text-2" id="text-2">
+</div>
+<div id="outline-container-orgb9160a9" class="outline-3">
+<h3 id="orgb9160a9"><span class="section-number-3">2.1.</span> Thread on soft power, subversion and the Ayatollah</h3>
+<div class="outline-text-3" id="text-2-1">
+<p>
+<p class="byline">Published on <a href="https://x.com/Akshay_VAK/status/1835953956285038642">Twitter</a> by <a href="https://x.com/Akshay_VAK">@Akshay_VAK</a></p>
+</p>
+
+<p>
+As I’ve said earlier - soft power is often wrongly defined. Soft power is NOT cultural exports. Power is the ability to influence another’s policies or actions in order to serve one’s interest. Bollywood, K-pop etc. don’t
+</p>
+
+<p>
+So then what is soft power? It is the spread of an ideology such that other states and societies redefine their own interests. It is like a parasite that takes over the host and makes it pursue policies to achieve the normative goals of that ideology, not national interests
+</p>
+
+<p>
+Only two ideologies have that power now - liberalism, and Islamism. Christianity did in the colonial era, but lacks that power anymore. The legitimising ideologies of imperial power projection now are only these two (3/9)
+</p>
+
+<p>
+The techniques of soft power use are the same in both
+</p>
+
+<ol class="org-ol">
+<li>Set the ideology as a normative goal</li>
+<li>Claim that the current state structure is illegitimate since it doesn’t pursue that goal (“Democracy/ secularism in danger!” “Islam in danger!”)</li>
+<li>Hence stoke rebellion and legitimise foreign intervention to save what is supposedly in danger. Who does this is a symbiotic relationship of true believers (of liberalism and Islamism) and cynical actors who use this as a way to also pursue national interests (say of US or Iran respectively).</li>
+</ol>
+
+<p>
+The Iranian regime is a revisionist player which seeks to gain power by subverting other regimes, especially in West Asia, by the use of Islamism as soft power. &ldquo;look we are standing up for global Islam/ Ummah whereas KSA, UAE, Egypt are not&rdquo;. This way they can rile up the Islamic street in those countries and create revolutions or at least subversion and weaken their rival regimes, apart from hurting their enemies and rivals with terrorism - such as with Hezbollah or Hamas/ Brotherhood. 
+</p>
+
+<p>
+To counter soft power it doesn’t need much state capacity, but does need a lot of state <b>clarity</b>. The actions have to do with information and intellectual ecosystems, clamping down on use of non state actors (ranging from NGOs, all the way to terror outfits) etc.
+</p>
+
+<p>
+Given India’s unique situation - we have to be aware about both forms of imperial soft power, and vigilant about how we counter each of them, particularly since both are in a tactical alliance in India and our neighbourhood in the subcontinent.
+</p>
+
+<p>
+<p class="byline">Published on <a href="https://x.com/Akshay_VAK/status/1707286823431704674">Twitter</a> by <a href="https://x.com/Akshay_VAK">@Akshay_VAK</a></p>
+Yes. It is a q of what commands your loyalty. The nation, or an ideology. For the left and liberals the nation commands loyalty only in so far as it is a vessel for the ideology. And the global members of the ideology are more of an in group than fellow nationals who aren’t.
+</p>
+</div>
+</div>
+<div id="outline-container-org5544532" class="outline-3">
+<h3 id="org5544532"><span class="section-number-3">2.2.</span> co-ordination</h3>
+<div class="outline-text-3" id="text-2-2">
+<p>
+<p class="byline">Published on <a href="https://x.com/Akshay_VAK/status/1684161430650761217">Twitter</a> by <a href="https://x.com/Akshay_VAK">@Akshay_VAK</a></p>
+State power - media (at least a section of it) working in unison - doesn’t even need explicit coordination. Just a shared worldview and goals. Gramscian cultural hegemony, or MM’s Cathedral and the state framings are so powerful - you can’t stop seeing it in so many incidents
+</p>
+</div>
+</div>
+<div id="outline-container-org0b69c3f" class="outline-3">
+<h3 id="org0b69c3f"><span class="section-number-3">2.3.</span> on nehru apologia</h3>
+<div class="outline-text-3" id="text-2-3">
+<p>
+<p class="byline">Published on <a href="https://x.com/Akshay_VAK/status/1857593210845147185">Twitter</a> by <a href="https://x.com/Akshay_VAK">@Akshay_VAK</a></p>
+Nothing unfair about it - just shows that Nehru was a mediocre mind who would mindlessly copy paste the latest intellectual fad. 
+</p>
+
+<p>
+If he lived in our times he would probably say shit like “gender is a social construct”. Would it be unfair to judge him harshly then?
+</p>
+</div>
+<div id="outline-container-orgd4fc9a8" class="outline-4">
+<h4 id="orgd4fc9a8"><span class="section-number-4">2.3.1.</span> international context</h4>
+<div class="outline-text-4" id="text-2-3-1">
+<p>
+<p class="byline">Published on <a href="https://x.com/ShazCoder/status/1857604616109830172">Twitter</a> by <a href="https://x.com/ShazCoder">@ShazCoder</a></p>
+Socialism was really <b>the</b> idea of the 20th century. 
+</p>
+
+<p>
+Indians should read about Egypt under Naseer, Iraq/Syria under Baath party which started as more conservative and later went to the left of Nehru government to properly contextualize our own experience.
+</p>
+
+<p>
+There is a curious parallel in Pakistan too.
+</p>
+
+<p>
+People know about Zia&rsquo;s Islamization but less so about the leftist part of his program and the mass nationalization that wrecked many productive parts of the Pakistani economy.
+</p>
+
+<p>
+It makes for useful comparative case study for Indira.
+</p>
+</div>
+</div>
+</div>
+</div>
+<div id="outline-container-org8e454c2" class="outline-2">
+<h2 id="org8e454c2"><span class="section-number-2">3.</span> Lolbert Pitāmāh</h2>
+<div class="outline-text-2" id="text-3">
+</div>
+<div id="outline-container-org34c3bc6" class="outline-3">
+<h3 id="org34c3bc6"><span class="section-number-3">3.1.</span> when to criticize</h3>
+<div class="outline-text-3" id="text-3-1">
+<p>
+<p class="byline">Published on <a href="https://x.com/Me_Predictor/status/1940477431158366589">Twitter</a> by <a href="https://x.com/Me_Predictor">@Me_Predictor</a></p>
+Its very simple
+</p>
+<ol class="org-ol">
+<li>proven competence high integrity high skin in the game =&gt; no criticism</li>
+<li>doubtful competence, low skin in the game =&gt; ok to criticize in a measured way</li>
+<li>doubtful neeyat=&gt; dharma to criticize</li>
+</ol>
+</div>
+</div>
+<div id="outline-container-org1d55dc4" class="outline-3">
+<h3 id="org1d55dc4"><span class="section-number-3">3.2.</span> agenda detection thread</h3>
+<div class="outline-text-3" id="text-3-2">
+<p>
+<p class="byline">Published on <a href="https://x.com/Me_Predictor/status/1941396605900636511">Twitter</a> by <a href="https://x.com/Me_Predictor">@Me_Predictor</a></p>
+Doing a thread which enumerates the various levels of agenda detection cc@randomvichar
+</p>
+
+<p>
+Level 1: When the person on the other side himself admits to be on the other side and against your side
+</p>
+
+<p>
+Level 2: when the person on the other side does not admit but there are visible markers to who or what he is combined with what he argues in a speicifc instance for you to conclude that he is against your side/ bad faith actor
+</p>
+
+<p>
+Level 3: When the person on the other side makes specific arguments that are so outrageously attacking your side
+</p>
+
+<p>
+level 4: when the person on the other side doesnt admit to being on the other side but has a history of repeated behaviour indicative of his bias
+</p>
+
+<p>
+level 5: when the person on the other side actually claims to be on your side but has a history of repeated behaviour where he subtly keeps undermining your side
+</p>
+
+<p>
+level 6: when the person on the other side claims to be on your side,  is probably is in his mind but has too dumb a behaviour that he or she ends up undermining your side
+</p>
+
+<p>
+level 7: when you can detect someone who offers too much Defense for anyone in levels 1 to 6
+</p>
+
+<p>
+levels 6 and 7 are tbf re8ard and midtwit detection respectively
+</p>
+</div>
+</div>
+<div id="outline-container-orge0aa4a6" class="outline-3">
+<h3 id="orge0aa4a6"><span class="section-number-3">3.3.</span> people over ideas</h3>
+<div class="outline-text-3" id="text-3-3">
+<p>
+<p class="byline">Published on <a href="https://x.com/Me_Predictor/status/1855267682482057658">Twitter</a> by <a href="https://x.com/Me_Predictor">@Me_Predictor</a></p>
+joker mid IQs: focus on the idea, not on people
+</p>
+
+<p>
+GADOAT: focus not just on what people are tweeting,  not tweeting. what people don&rsquo;t tweet about is instructive than what they tweet about.  Figure out their agenda first from that
+</p>
+
+<p>
+ofcourse its much more wider than that
+</p>
+
+<p>
+always notice what people are not tweeting on vs what they are tweeting on.  always
+</p>
+
+<p>
+GADOAT agenda detector is undefeated.
+</p>
+</div>
+</div>
+<div id="outline-container-org690750e" class="outline-3">
+<h3 id="org690750e"><span class="section-number-3">3.4.</span> BJP mental model</h3>
+<div class="outline-text-3" id="text-3-4">
+<p>
+<p class="byline">Published on <a href="https://x.com/Me_Predictor/status/1864374740955046273">Twitter</a> by <a href="https://x.com/Me_Predictor">@Me_Predictor</a></p>
+</p>
+
+<p>
+bjp has a very bare bones ideology. this is both good in that it allows it great deal of pragmatism but it also allows various &ldquo;organized idea&rdquo; / organized lobby groups with only a tangential connection to basic bjp ideology to peddle their own ideas and influence policy in what can rightly be referred to as a &ldquo;parasitic&rdquo; model
+</p>
+
+<p>
+the reason more of such capture doesn&rsquo;t happen is partly if there are opposing lobbies but sometimes that may not be the case.  it might be just that such capture might have political costs,  which the current bjp esp is very sensitive to.
+</p>
+
+<p>
+so in a sense it is organized lobbies vs populist revolt checks and balance
+</p>
+
+<p>
+in other cases where there may not be direct political electoral implication then such checks and balances can go a bit astray
+</p>
+
+<p>
+though twitter too is a form of populist revolt ;)
+</p>
+</div>
+</div>
+<div id="outline-container-orgfe0ea40" class="outline-3">
+<h3 id="orgfe0ea40"><span class="section-number-3">3.5.</span> RW ecosystem</h3>
+<div class="outline-text-3" id="text-3-5">
+<p>
+<p class="byline">Published on <a href="https://x.com/Me_Predictor/status/1799918511734829540">Twitter</a> by <a href="https://x.com/Me_Predictor">@Me_Predictor</a></p>
+State of the RW narrative/ intellectual / ecosystem as it stands - some hard truths:
+</p>
+
+<p>
+First,  media : 2014-20 saw a good capture of the media ecosystem, to the extent that 80% anti RW media became 80% pro RW. The media also had strong capability to influence,  republic and Times now we&rsquo;re dominating the media rankings
+</p>
+
+<p>
+Fast forward to now, English TV media is now 90% captured,  but their TRPs are plummeting, Arnab is now a has been. Media capability to influence is very limited,  and it&rsquo;s usefulness at best currently is to prevent opposition narrative from gaining ground.
+</p>
+
+<p>
+The way it does so is mostly by just not concentrating on what opposition is saying ( opposition has also boycotted many of them)&#x2014; this has its advanatages- but also disadvantages as the worst of opposition ideas barely reach a Lolbertarian Democrat larger audience.
+</p>
+
+<p>
+In Hindi media, its probably a similar story,  things probably peaked few years ago. In other vernacular media,  bjp probably is outdone by the other side, even now as it stands
+</p>
+
+<p>
+(continued &#x2026;)
+</p>
+</div>
+</div>
+<div id="outline-container-orgbe757cc" class="outline-3">
+<h3 id="orgbe757cc"><span class="section-number-3">3.6.</span> Thank the goy</h3>
+<div class="outline-text-3" id="text-3-6">
+<ol class="org-ol">
+<li>Liberal leadership has the ability to ruthlessly push an advantage when they have one.  Their down the lines have enough common sense and tribalism not to virtue signal when the leadership does that.  In case of the right,  neither the first happens enough,  and when it does, the second doesn&rsquo;t happen.</li>
+
+<li>Liberal elite has ability to not buy their own spin,  be it  on their own leadership , be it on who their supporters truly are , or on any reach out to the other side. And yet they and their down the line also have the sense to not make a big deal of it when they see such spin, not monkey balance or outrage like total fools.  And yet they also have the ability to pressure their leadership into achieving their ideological goals and in course correcting. All while maintaining a sense of tribalsim. Think american liberals and Biden.</li>
+</ol>
+
+<p>
+Now think of the RW, exact opposite on each of these.
+</p>
+</div>
+</div>
+<div id="outline-container-orgfb7cd95" class="outline-3">
+<h3 id="orgfb7cd95"><span class="section-number-3">3.7.</span> micro-targeting</h3>
+<div class="outline-text-3" id="text-3-7">
+<p>
+<p class="byline">Published on <a href="https://x.com/Me_Predictor/status/1835752044931473673">Twitter</a> by <a href="https://x.com/Me_Predictor">@Me_Predictor</a></p>
+Congressi micro targeting ( maybe I might be making them out to be smarter than they are but think this is true) works like this:
+</p>
+
+<ol class="org-ol">
+<li>Standard fare congressi messaging  ( e.g on Adani) amplified in numbers by congressi celliyas across various social media</li>
+
+<li>Samvidhan khatre mein style propoganda taken to target audience by using their own and allied groups ( e.g ambedkarite) networks on the ground</li>
+
+<li>Dhruv rathee style propoganda for educated yet idiot type youthiyas</li>
+
+<li>Some caste based accounts across castes likely coopted and used to spread anti bjp content specific to those segments.</li>
+
+<li>Some bpill/ trad accounts infiltrated to attack bjp from the right.  Just a few would do.  Rest useful idiots and bots can amplify</li>
+
+<li>Some accounts to ostensibly do middle class khatre mein hai type rr. Again enough useful idiots to amplify</li>
+</ol>
+</div>
+</div>
+</div>
+<div id="outline-container-orga5e7e60" class="outline-2">
+<h2 id="orga5e7e60"><span class="section-number-2">4.</span> Misc</h2>
+<div class="outline-text-2" id="text-4">
+</div>
+<div id="outline-container-orgab0d834" class="outline-3">
+<h3 id="orgab0d834"><span class="section-number-3">4.1.</span> sub sub sub jati</h3>
+<div class="outline-text-3" id="text-4-1">
+<p>
+<p class="byline">Published on <a href="https://x.com/Rjrasva/status/1158583239424008192">Twitter</a> by <a href="https://x.com/Rjrasva">@Rjrasva</a></p>
+yes very great, u will build a great Hindu raj out of ur 1000 members of the pure sub sub sub sub sub sub jati
+</p>
+
+<p>
+china, amreeka, sullas r all quaking in their boots abt facing such a mighty enemy
+</p>
+</div>
+</div>
+<div id="outline-container-org5a10f94" class="outline-3">
+<h3 id="org5a10f94"><span class="section-number-3">4.2.</span> white guilt</h3>
+<div class="outline-text-3" id="text-4-2">
+<p>
+<p class="byline">Published on <a href="Indian_Bronson">Twitter</a> by <a href="https://x.com/https://x.com/Indian_Bronson/status/1658452152769994753">@https://x.com/Indian_Bronson/status/1658452152769994753</a></p>
+White Guilt is just a covert way of trying to feel esteem from White Supremacy.
+</p>
+
+<p>
+If you can’t justify a sense of superiority (other places have nukes and iPads, too) then you must revisit a time post-Classical and pre-Modern where you were on top.
+</p>
+
+<p>
+This is by the way, the real reason upper class Whites hate those called “White Nationalists”—what does concern with borders, immigration, crime, etc. entail? That Whites have material interests which can be unmet, they can be wounded, essentially, that they are but mere mortals.
+</p>
+
+<p>
+What Blue State professional/post-racial Obama voter Whites (their epitomization is Gavin Newsom) feel is they are at the center, driving human History—not so different than Richard Spencer (who grew up in that same class)—so racial anxieties about material status revolt them.
+</p>
+
+<p>
+An analogy; the most low status thing a man can do under sexual liberation is complain he never gets laid, even when he tries—this directly indicates inferiority in the view of women. But openly bragging about sex is gauche. Thus; implying contrition re: youthful misadventure.
+</p>
+
+<p>
+That is precisely the pose you see adopted (out of status necessity) by men even when earnestly trying to <b>critique</b> a sex liberation paradigm—because a direct criticism is simply ruinously low status. Similarly, even those opposing DEI make some sounds condemning ‘racism’.
+</p>
+</div>
+</div>
+<div id="outline-container-orgb936400" class="outline-3">
+<h3 id="orgb936400"><span class="section-number-3">4.3.</span> elite factionalism</h3>
+<div class="outline-text-3" id="text-4-3">
+<p>
+<p class="byline">Published on <a href="https://x.com/okaythenme/status/1835201905678860728">Twitter</a> by <a href="https://x.com/okaythenme">@okaythenme</a></p>
+</p>
+
+<p>
+I consider this among the best threads I’ve ever written, because it’s a great description of how states and power actually functions. 
+</p>
+
+<p>
+This goes beyond the United States, there is not a unified elite in any country on the planet, even China.
+</p>
+
+<p>
+The history of the world is the history of elite factionalism and the strategies they use to advance victory, even beyond the eyes of the emperor or king or president.
+</p>
+
+<hr />
+
+<p>
+A big reason why the Republican Party in the US is in such dire straits is that it’s party elites have never bothered to much focus on building power beyond the Crown(National Government) and the Bench(the Judiciary). Real power is far more decentralized and chaotic.
+</p>
+
+<p>
+Democratic Party elites on the other hand dominate,
+</p>
+<ul class="org-ul">
+<li>The Chest (Finance)</li>
+<li>The Mouth(National Media)</li>
+<li>The Head (elite universities and even broader educational ideology)</li>
+<li>The Chamber(Federal and State Public Bureaucracy)</li>
+<li>The Foundations(elite Philanthropy orgs + C suites of Fortune 500s)</li>
+<li>The Church(Dems don’t so much dominate it but have neutered it’s effectiveness)</li>
+</ul>
+
+<p>
+This is why even if Trump somehow manages to pull off another shocker in November, the overall direction America is moving in is still one that will be ultimately to the preferences of Democrats, the likes of JD Vance also lack the nous and capacity to really conquer all the poles needed.
+</p>
+</div>
+</div>
+<div id="outline-container-org0c4bbeb" class="outline-3">
+<h3 id="org0c4bbeb"><span class="section-number-3">4.4.</span> baby boom</h3>
+<div class="outline-text-3" id="text-4-4">
+<p>
+<p class="byline">Published on <a href="https://x.com/cremieuxrecueil/status/1824491117779251490">Twitter</a> by <a href="https://x.com/cremieuxrecueil">@cremieuxrecueil</a></p>
+During the Manhattan Project, there was a baby boom among the scientists.
+</p>
+
+<p>
+General Groves said to cut it out, but Oppenheimer didn&rsquo;t care. Why would he? He had just gotten his wife pregnant.
+</p>
+
+<blockquote>
+<p>
+By 1944 medical director Stafford Warren wrote to General Leslie Groves, the head of the Manhattan Project, stating, <b>“Approximately one-fifth of the married women are now in some stage of pregnancy.”</b> In total, 80 babies were born in the first year at Los Alamos. By war’s end, that number exceeded 200, and by 1949 over 1,000 babies were born at the site.
+</p>
+
+<p>
+Groves was not at all pleased with the extracurricular activities of the staff and insisted Oppenheimer take steps to stop the “baby boom.” Oppenheimer, however, did not feel that population control was part of his job description and declined to do anything. Moreover, <b>Oppenheimer’s wife Kitty was pregnant at the time.</b>
+</p>
+</blockquote>
+
+<p>
+It was really a funny time.
+</p>
+
+<blockquote>
+<p>
+Grove’s complaint soon spread across the community and as a result, a limerick grew in popularity among the staff:
+The General’s in a stew.
+He trusted you and you and you.
+He’d thought you’d be scientific.
+Instead, you’re just prolific.
+And what is he to do?
+</p>
+
+<p>
+Since the town of Los Alamos did not officially exist, everyone born at the site had “Post Office Box 1663” listed as the place of birth on their birth certificate. By war’s end, in a unique historical quirk of the time, over 200 babies had officially been born in a post office box.
+</p>
+</blockquote>
+</div>
+</div>
+<div id="outline-container-orge14dc87" class="outline-3">
+<h3 id="orge14dc87"><span class="section-number-3">4.5.</span> Polite fictions</h3>
+<div class="outline-text-3" id="text-4-5">
+<p>
+<p class="byline">Published on <a href="https://x.com/nixonist/status/1817726711317909617">Twitter</a> by <a href="https://x.com/nixonist">@nixonist</a></p>
+</p>
+
+<p>
+It is worth remembering that many progressive dogmas now embraced wholeheartedly by conservatives originally were such &ldquo;polite fictions.&rdquo; Everyone who wasn&rsquo;t a lunatic communist knew the open secret that human groups didn&rsquo;t <b>literally</b> have the same expectation of achievement that poor kids weren&rsquo;t just rich kids with less, etc. Human equality was a polite fiction, which most people knew wasn&rsquo;t literally true, but rudeness was uncivil, unfairness to exceptions was uncivil. So it was one of those things that you didn&rsquo;t talk about in polite company.
+</p>
+
+<p>
+&ldquo;Racism&rdquo; was rudeness based on race, which is not the behavior of a civilized human being - No matter what the truth about race was. For the reformers of the 60s, the polite fiction then became the platonic Noble Lie, and the boomers were the first generation to be true believers
+</p>
+
+<p>
+The moral of the story being that what originates in a civilized sense of politeness can within a generation become a new Orwellian fact, and The Emperor&rsquo;s New Clothes acquires a very different ending.
+</p>
+
+<p>
+The boomers bought MLK, but even for them, sexual equality between men and women remained more of a polite fiction, then a noble lie - until their grandchildren made it orthodoxy. Gay people being just straight people who like the same sex underwent the same transformation.
+</p>
+
+<p>
+We can see the same thing happening in real time with LGBTP ideology. The vast, vast majority of its adult supporters know very well that the pervert in a dress is a pervert in a dress, but he deserves our pity, and it is uncivil to be rude to him about it.
+</p>
+
+<p>
+Now look at discussions of young normies on the lower end of the bell curve. Say, r/nostupidquestions. A lot of people on the internet appear to genuinely believe that trans surgery actually transforms one sex into the other, after growing up under an Orwellian language regime which for everyone older than them, had just been a form of politeness. When I was a kid, there was a lot of confusion and discussion among my peers about &ldquo;the pregnant man&rdquo; - until an educator explained to us that it wasn&rsquo;t actually a man, the tabloids just called her that.
+</p>
+
+<p>
+Imagine how confused kids today must be about basic aspects of reality. Parents using the approved language about things <b>they</b> understand as at best politeness and at worst a &ldquo;point deer make horse&rdquo; loyalty test, not fully comprehending that their kids might never be in on it.
+</p>
+</div>
+</div>
+</div>
+</div>
+<div id="postamble" class="status">
+<p class="author">Author: NiṣādaHermaphroditarchaṃśa (Mal'ta boy ka parivar)</p>
+<p class="date">Created: 2025-07-14 Mon 19:41</p>
+</div>
+</body>
+</html>
