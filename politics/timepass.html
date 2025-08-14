@@ -1,0 +1,633 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+<!-- 2025-08-13 Wed 20:52 -->
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Timepass</title>
+<meta name="author" content="NiṣādaHermaphroditarchaṃśa (Mal'ta boy ka parivar)" />
+<meta name="generator" content="Org Mode" />
+<style type="text/css">
+  #content { max-width: 60em; margin: auto; }
+  .title  { text-align: center;
+             margin-bottom: .2em; }
+  .subtitle { text-align: center;
+              font-size: medium;
+              font-weight: bold;
+              margin-top:0; }
+  .todo   { font-family: monospace; color: red; }
+  .done   { font-family: monospace; color: green; }
+  .priority { font-family: monospace; color: orange; }
+  .tag    { background-color: #eee; font-family: monospace;
+            padding: 2px; font-size: 80%; font-weight: normal; }
+  .timestamp { color: #bebebe; }
+  .timestamp-kwd { color: #5f9ea0; }
+  .org-right  { margin-left: auto; margin-right: 0px;  text-align: right; }
+  .org-left   { margin-left: 0px;  margin-right: auto; text-align: left; }
+  .org-center { margin-left: auto; margin-right: auto; text-align: center; }
+  .underline { text-decoration: underline; }
+  #postamble p, #preamble p { font-size: 90%; margin: .2em; }
+  p.verse { margin-left: 3%; }
+  pre {
+    border: 1px solid #e6e6e6;
+    border-radius: 3px;
+    background-color: #f2f2f2;
+    padding: 8pt;
+    font-family: monospace;
+    overflow: auto;
+    margin: 1.2em;
+  }
+  pre.src {
+    position: relative;
+    overflow: auto;
+  }
+  pre.src:before {
+    display: none;
+    position: absolute;
+    top: -8px;
+    right: 12px;
+    padding: 3px;
+    color: #555;
+    background-color: #f2f2f299;
+  }
+  pre.src:hover:before { display: inline; margin-top: 14px;}
+  /* Languages per Org manual */
+  pre.src-asymptote:before { content: 'Asymptote'; }
+  pre.src-awk:before { content: 'Awk'; }
+  pre.src-authinfo::before { content: 'Authinfo'; }
+  pre.src-C:before { content: 'C'; }
+  /* pre.src-C++ doesn't work in CSS */
+  pre.src-clojure:before { content: 'Clojure'; }
+  pre.src-css:before { content: 'CSS'; }
+  pre.src-D:before { content: 'D'; }
+  pre.src-ditaa:before { content: 'ditaa'; }
+  pre.src-dot:before { content: 'Graphviz'; }
+  pre.src-calc:before { content: 'Emacs Calc'; }
+  pre.src-emacs-lisp:before { content: 'Emacs Lisp'; }
+  pre.src-fortran:before { content: 'Fortran'; }
+  pre.src-gnuplot:before { content: 'gnuplot'; }
+  pre.src-haskell:before { content: 'Haskell'; }
+  pre.src-hledger:before { content: 'hledger'; }
+  pre.src-java:before { content: 'Java'; }
+  pre.src-js:before { content: 'Javascript'; }
+  pre.src-latex:before { content: 'LaTeX'; }
+  pre.src-ledger:before { content: 'Ledger'; }
+  pre.src-lisp:before { content: 'Lisp'; }
+  pre.src-lilypond:before { content: 'Lilypond'; }
+  pre.src-lua:before { content: 'Lua'; }
+  pre.src-matlab:before { content: 'MATLAB'; }
+  pre.src-mscgen:before { content: 'Mscgen'; }
+  pre.src-ocaml:before { content: 'Objective Caml'; }
+  pre.src-octave:before { content: 'Octave'; }
+  pre.src-org:before { content: 'Org mode'; }
+  pre.src-oz:before { content: 'OZ'; }
+  pre.src-plantuml:before { content: 'Plantuml'; }
+  pre.src-processing:before { content: 'Processing.js'; }
+  pre.src-python:before { content: 'Python'; }
+  pre.src-R:before { content: 'R'; }
+  pre.src-ruby:before { content: 'Ruby'; }
+  pre.src-sass:before { content: 'Sass'; }
+  pre.src-scheme:before { content: 'Scheme'; }
+  pre.src-screen:before { content: 'Gnu Screen'; }
+  pre.src-sed:before { content: 'Sed'; }
+  pre.src-sh:before { content: 'shell'; }
+  pre.src-sql:before { content: 'SQL'; }
+  pre.src-sqlite:before { content: 'SQLite'; }
+  /* additional languages in org.el's org-babel-load-languages alist */
+  pre.src-forth:before { content: 'Forth'; }
+  pre.src-io:before { content: 'IO'; }
+  pre.src-J:before { content: 'J'; }
+  pre.src-makefile:before { content: 'Makefile'; }
+  pre.src-maxima:before { content: 'Maxima'; }
+  pre.src-perl:before { content: 'Perl'; }
+  pre.src-picolisp:before { content: 'Pico Lisp'; }
+  pre.src-scala:before { content: 'Scala'; }
+  pre.src-shell:before { content: 'Shell Script'; }
+  pre.src-ebnf2ps:before { content: 'ebfn2ps'; }
+  /* additional language identifiers per "defun org-babel-execute"
+       in ob-*.el */
+  pre.src-cpp:before  { content: 'C++'; }
+  pre.src-abc:before  { content: 'ABC'; }
+  pre.src-coq:before  { content: 'Coq'; }
+  pre.src-groovy:before  { content: 'Groovy'; }
+  /* additional language identifiers from org-babel-shell-names in
+     ob-shell.el: ob-shell is the only babel language using a lambda to put
+     the execution function name together. */
+  pre.src-bash:before  { content: 'bash'; }
+  pre.src-csh:before  { content: 'csh'; }
+  pre.src-ash:before  { content: 'ash'; }
+  pre.src-dash:before  { content: 'dash'; }
+  pre.src-ksh:before  { content: 'ksh'; }
+  pre.src-mksh:before  { content: 'mksh'; }
+  pre.src-posh:before  { content: 'posh'; }
+  /* Additional Emacs modes also supported by the LaTeX listings package */
+  pre.src-ada:before { content: 'Ada'; }
+  pre.src-asm:before { content: 'Assembler'; }
+  pre.src-caml:before { content: 'Caml'; }
+  pre.src-delphi:before { content: 'Delphi'; }
+  pre.src-html:before { content: 'HTML'; }
+  pre.src-idl:before { content: 'IDL'; }
+  pre.src-mercury:before { content: 'Mercury'; }
+  pre.src-metapost:before { content: 'MetaPost'; }
+  pre.src-modula-2:before { content: 'Modula-2'; }
+  pre.src-pascal:before { content: 'Pascal'; }
+  pre.src-ps:before { content: 'PostScript'; }
+  pre.src-prolog:before { content: 'Prolog'; }
+  pre.src-simula:before { content: 'Simula'; }
+  pre.src-tcl:before { content: 'tcl'; }
+  pre.src-tex:before { content: 'TeX'; }
+  pre.src-plain-tex:before { content: 'Plain TeX'; }
+  pre.src-verilog:before { content: 'Verilog'; }
+  pre.src-vhdl:before { content: 'VHDL'; }
+  pre.src-xml:before { content: 'XML'; }
+  pre.src-nxml:before { content: 'XML'; }
+  /* add a generic configuration mode; LaTeX export needs an additional
+     (add-to-list 'org-latex-listings-langs '(conf " ")) in .emacs */
+  pre.src-conf:before { content: 'Configuration File'; }
+
+  table { border-collapse:collapse; }
+  caption.t-above { caption-side: top; }
+  caption.t-bottom { caption-side: bottom; }
+  td, th { vertical-align:top;  }
+  th.org-right  { text-align: center;  }
+  th.org-left   { text-align: center;   }
+  th.org-center { text-align: center; }
+  td.org-right  { text-align: right;  }
+  td.org-left   { text-align: left;   }
+  td.org-center { text-align: center; }
+  dt { font-weight: bold; }
+  .footpara { display: inline; }
+  .footdef  { margin-bottom: 1em; }
+  .figure { padding: 1em; }
+  .figure p { text-align: center; }
+  .equation-container {
+    display: table;
+    text-align: center;
+    width: 100%;
+  }
+  .equation {
+    vertical-align: middle;
+  }
+  .equation-label {
+    display: table-cell;
+    text-align: right;
+    vertical-align: middle;
+  }
+  .inlinetask {
+    padding: 10px;
+    border: 2px solid gray;
+    margin: 10px;
+    background: #ffffcc;
+  }
+  #org-div-home-and-up
+   { text-align: right; font-size: 70%; white-space: nowrap; }
+  textarea { overflow-x: auto; }
+  .linenr { font-size: smaller }
+  .code-highlighted { background-color: #ffff00; }
+  .org-info-js_info-navigation { border-style: none; }
+  #org-info-js_console-label
+    { font-size: 10px; font-weight: bold; white-space: nowrap; }
+  .org-info-js_search-highlight
+    { background-color: #ffff00; color: #000000; font-weight: bold; }
+  .org-svg { }
+</style>
+<link rel="stylesheet" href="/styles.css"">
+<script>
+  window.MathJax = {
+    tex: {
+      ams: {
+        multlineWidth: '85%'
+      },
+      tags: 'ams',
+      tagSide: 'right',
+      tagIndent: '.8em'
+    },
+    chtml: {
+      scale: 1.0,
+      displayAlign: 'center',
+      displayIndent: '0em'
+    },
+    svg: {
+      scale: 1.0,
+      displayAlign: 'center',
+      displayIndent: '0em'
+    },
+    output: {
+      font: 'mathjax-modern',
+      displayOverflow: 'overflow'
+    }
+  };
+</script>
+
+<script
+  id="MathJax-script"
+  async
+  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+</script>
+</head>
+<body>
+<div id="preamble" class="status">
+<p class='nav-home'><a href='/index.html'>← Home</a></p>
+</div>
+<div id="content" class="content">
+<h1 class="title">Timepass</h1>
+<div id="table-of-contents" role="doc-toc">
+<h2>Table of Contents</h2>
+<div id="text-table-of-contents" role="doc-toc">
+<ul>
+<li><a href="#org84f10ad">1. Nobel WAR prize</a></li>
+<li><a href="#org881d955">2. battle hymn of the Hindu republic</a></li>
+<li><a href="#orgba7352d">3. Ashwini Vaishnaw</a></li>
+<li><a href="#orgc424ba1">4. West Bengal</a></li>
+<li><a href="#orgc381852">5. Civilization LARP</a></li>
+<li><a href="#orgd44c09a">6. Civs</a></li>
+<li><a href="#org24ed461">7. Coal</a></li>
+<li><a href="#org3ce4a2d">8. Cope</a></li>
+<li><a href="#orgbd00d17">9. Gurgaon</a></li>
+<li><a href="#orga0bff94">10. Imagine</a></li>
+<li><a href="#orgbacea59">11. Namaste Pakistani oil deposits</a></li>
+<li><a href="#orgab0a5c8">12. countries as operating systems</a></li>
+<li><a href="#org866c7d7">13. prophecy</a></li>
+<li><a href="#org3ed5dc1">14. Optimal Robot</a></li>
+<li><a href="#orga4a4bce">15. Sanjay Gandhi</a></li>
+<li><a href="#org5ed7e0c">16. WAR game</a></li>
+</ul>
+</div>
+</div>
+<div id="outline-container-org84f10ad" class="outline-2">
+<h2 id="org84f10ad"><span class="section-number-2">1.</span> Nobel WAR prize</h2>
+<div class="outline-text-2" id="text-1">
+<p>
+<p class="byline">Also published on <a href="https://x.com/real_mahalingam/status/1939842472420811155">Twitter</a></p>
+</p>
+
+<p>
+To fight the Nobel Peace Prize syndrome, I am announcing the Nobel WAR Prize: awarded to the heroes who decisively defeated in WAR the forces of barbarism and nihilism which come in various forms like Left-liberalism and Steppe-nomad risk.
+</p>
+
+<p>
+I award this to:
+</p>
+
+<ol class="org-ol">
+<li>the ancient Sumerians, for winning the WAR against nature by inventing agriculture and farming it</li>
+
+<li>the rice-farmers, Wootz steel manufacturers, warlords and adventurous Ascetics of early Iron Age India who, clearing massive swathes of wild tracts, brought the most fertile land in the world under cultivation</li>
+
+<li>Cāṇakya and Candragupta for manipulating the steppe hordes into a meat-grinder in their war for the throne of Pāṭaliputra, rendering them impotent for centuries; and then beginning the Silk Road Sanskritization project. &ldquo;Hind fucks, Śāka bucks&rdquo; as kids in ancient Arachosia used to say.</li>
+
+<li>Emperor Wu for his successes against the Xiongnu.</li>
+
+<li>Chandragupta-II, for expelling the mlecchas from the blackbuck&rsquo;s natural habitat and presiding over the Golden Age.</li>
+
+<li>Yaśodharman of Malwa for uniting the Āryas to end the Hun menace, which would secure the border for 700 years to come</li>
+
+<li>Ivan the Terrible, for bringing the entire steppe under his boot—ending Steppe-Nomad risk in its original form forever, and forging an entirely new type of Civilization.</li>
+
+<li>Shivaji and those who came after him, for uprooting the Mlecchavaṃśa and establishing a Hindu Svarājya bathed in the two most sacred liquids: the water of the Ganges and the blood of its enemies—for establishing, beyond doubt, that THIS FORTRESS OF CIVILIZATION SHALL NOT FALL.</li>
+</ol>
+
+<p>
+Today again, the forces of barbarism have returned: in the form of
+</p>
+<ul class="org-ul">
+<li>the Left-liberal Rāj, which seeks to impose upon the world its ideology of Dehātization, a perverse and inverted view of morality: in which the criminal is promoted over the civilized, the leech over the productive and industrious man, the protesting obstacle over the capitalist, barbarian and backward cultures over civilizing ones, degenerate lifestyles over healthy ones, civilizational suicide over reproduction, nature over Man and rioting luddites over machines and technology.</li>
+<li>and its lawfully-wedded bride, Islamism.</li>
+</ul>
+
+<p>
+Who will be be the next hero to win the Nobel WAR Prize? Will it be Netanyahu and Mossad? Will it be Modi and the Hindutva movement? Will it be Elon Musk and the tech right? Will it be you, anon?
+</p>
+
+<p>
+Who will defeat the forces of barbarism today—who will win the Mandate of the Nobel WAR Prize?
+</p>
+
+<p>
+<img src="/img/memes/russia.png" alt="russia.png" />
+</p>
+</div>
+</div>
+<div id="outline-container-org881d955" class="outline-2">
+<h2 id="org881d955"><span class="section-number-2">2.</span> battle hymn of the Hindu republic</h2>
+<div class="outline-text-2" id="text-2">
+<p>
+<p class="byline">Also published on <a href="https://x.com/real_mahalingam/status/1878481882079199404">Twitter</a></p>
+</p>
+
+<p>
+Nothing makes me more patriotic for The Republic than seeing low-signal shitslops cry about how their hometown is no longer the quiet hobbit shithole without running water it used to be.
+</p>
+
+<p>
+Your petty family businesses will be replaced by a corporate megapolis. Your ancestral home will be torn down and replaced with 1000-story skyscrapers. We will raze your serene mountains and run trains through them.
+</p>
+
+<p>
+You will eat Idli-dosa with paneer, pay obeisance to Śivājī and say Jai Śrī Rām, dance to Punjabi lyrics about kuḍi and munḍa, speak Hindi and English, clean the gutkha, say &ldquo;Tamil is the oldest language&rdquo;, and you will LIKE it.
+</p>
+
+<p>
+Your kulchur, history, jaat, petty kings are ephemeral specks of dust in the history of this nation restricted to 2 acre zameen and 2 centuries of time.
+</p>
+
+<p>
+The Republic, Hinduism, Capitalism&#x2014;these are eternal.
+</p>
+
+<p>
+Get on that direct train, or be crushed underneath it. COPE AND SEETHE.
+</p>
+</div>
+</div>
+<div id="outline-container-orgba7352d" class="outline-2">
+<h2 id="orgba7352d"><span class="section-number-2">3.</span> Ashwini Vaishnaw</h2>
+<div class="outline-text-2" id="text-3">
+<p>
+<p class="byline">Also published on <a href="https://x.com/real_mahalingam/status/1913209470236180644">Twitter</a></p>
+</p>
+
+<p>
+We&rsquo;re going to BVILD so much, you may even get tired of BVILDing. And you&rsquo;ll say please, please, it&rsquo;s too much BVILDing, we can&rsquo;t take it anymore. Mr Ashwini Vaishnaw, it&rsquo;s too much. And I&rsquo;ll say NO IT ISN&rsquo;T, we have to keep BVILDing, we have to BVILD more, we&rsquo;re going to BVILD more, we&rsquo;re going to BVILD so much. We&rsquo;re going to BVILD at every level&#x2013;we&rsquo;re going to BVILD with the economy, we&rsquo;re going to BVILD militarily, we&rsquo;re going to BVILD with ATMs in the trains. You&rsquo;re going to be so proud of your trains when you get in. You&rsquo;re going to be so proud of your Railroad Minister.
+</p>
+
+<p>
+<img src="/img/memes/ashwini_vaishnaw.png" alt="ashwini_vaishnaw.png" />
+</p>
+</div>
+</div>
+<div id="outline-container-orgc424ba1" class="outline-2">
+<h2 id="orgc424ba1"><span class="section-number-2">4.</span> West Bengal</h2>
+<div class="outline-text-2" id="text-4">
+<p>
+<p class="byline">Also published on <a href="https://x.com/real_mahalingam/status/1913930968278196565">Twitter</a></p>
+</p>
+
+<p>
+West Bengal is the India of India.
+</p>
+
+<p>
+5th world poverty
+1st world wokeness
+a glorious past
+an elite diaspora
+inflated pride over being marginally better than its Northwestern neighbour
+</p>
+</div>
+</div>
+<div id="outline-container-orgc381852" class="outline-2">
+<h2 id="orgc381852"><span class="section-number-2">5.</span> Civilization LARP</h2>
+<div class="outline-text-2" id="text-5">
+<p>
+<p class="byline">Also published on <a href="https://x.com/real_mahalingam/status/1913369465322103182">Twitter</a></p>
+</p>
+
+<p>
+They&rsquo;re steppe-nomad LARPing because they wisely understand that LARPing as Settled Civilization BVILDers like
+</p>
+
+<p>
+Dumuzid the Shepherd
+Ārya-Paṇi union enforcer
+Silk Road Sanskritizer
+En-men-luana, who bred the earth with his seed and sired civilization
+</p>
+
+<p>
+would be blasphemy.
+</p>
+</div>
+</div>
+<div id="outline-container-orgd44c09a" class="outline-2">
+<h2 id="orgd44c09a"><span class="section-number-2">6.</span> Civs</h2>
+<div class="outline-text-2" id="text-6">
+<p>
+<p class="byline">Also published on <a href="https://x.com/real_mahalingam/status/1952085907491934508">Twitter</a></p>
+</p>
+
+<p>
+Rome = Reddit
+Greece = Twitter
+India = Substack
+Persia = Instagram
+China = LinkedIn
+Fertile Cresent = Facebook
+Steppe = 4chan
+Transoxiana, Tarim, Tibet, SEA = Comment sections
+Egypt = Bumble
+Afghanistan = Grindr
+Everyone else = Passive lurkers
+</p>
+</div>
+</div>
+<div id="outline-container-org24ed461" class="outline-2">
+<h2 id="org24ed461"><span class="section-number-2">7.</span> Coal</h2>
+<div class="outline-text-2" id="text-7">
+<p>
+<p class="byline">Also published on <a href="https://x.com/real_mahalingam/status/1910341788725829840">Twitter</a></p>
+</p>
+
+<p>
+One thing I learned about the coal poasters &#x2013; that&rsquo;s what they want to do. You could give them a penthouse on 5th Avenue and a different kind of a job and they&rsquo;d be unhappy. They want to poast coal. She was gonna put them in a high signal bubble where you post little esoteric snippets and things. You think he&rsquo;d be good at that? He poasts coal.
+</p>
+
+<p>
+<img src="/img/memes/coal.png" alt="coal.png" />
+</p>
+
+<p>
+<a href="https://x.com/drishtadyumn/status/1910217321031032926">https://x.com/drishtadyumn/status/1910217321031032926</a>
+</p>
+</div>
+</div>
+<div id="outline-container-org3ce4a2d" class="outline-2">
+<h2 id="org3ce4a2d"><span class="section-number-2">8.</span> Cope</h2>
+<div class="outline-text-2" id="text-8">
+<p>
+<p class="byline">Also published on <a href="https://x.com/real_mahalingam/status/1944570662737387529">Twitter</a></p>
+</p>
+
+<p>
+Let&rsquo;s rewind 2 days ago hey fucktard, let&rsquo;s rewind 2 years ago you dumbass idiot, let&rsquo;s rewind 3 years ago. IT WAS ALWAYS SEETHE, IT WAS ALWAYS COPE. WHERE WERE YOU? We were drawing Best Goy on some wignat&rsquo;s face, we were doing mudfights &#x2013; WHERE WERE YOU? Where were you when &ldquo;the Republic&rdquo; was seethed on? Where were you when the birth of bhōsaḍpilling happened. IT WAS ALWAYS COPE. ALWAYS COPE, ALWAYS IS COPE, ALWAYS WILL BE COPE.
+</p>
+
+<p>
+&ldquo;Well um, 2 months ago we bombed &#x2026;&rdquo; Your new India is 11 years old. India was a Congressi country once, lest I remind you. And then they elected their own government so that their pOoR PeOPlE cAn gET tOilEtS&#x2013;FUCK YOU! THIS HAS ALWAYS BEEN A CONGRESSI COUNTRY, WE HAVE ALWAYS BEEN COPING. The Hindus invaded our congressi caliphate&#x2013;never forget, that in the 1990s, the Hindus invaded Babri Masjid with their flags of orange. Never forget that India was a Congressi country, then it elected Modi, and then it let all the poor people have tap water.
+</p>
+</div>
+</div>
+<div id="outline-container-orgbd00d17" class="outline-2">
+<h2 id="orgbd00d17"><span class="section-number-2">9.</span> Gurgaon</h2>
+<div class="outline-text-2" id="text-9">
+<p>
+<p class="byline">Also published on <a href="https://x.com/real_mahalingam/status/1943638117392728170">Twitter</a></p>
+</p>
+
+<p>
+Yes and I will pray for a hundred more Gurgaons. Your ooga-booga university, your ooga-booga forest, your favorite poverty-porn slum, will all be uprooted and razed for new gurgaons. A thousand more gurgaons, a gurgaon in your face, a gurgaon up your poop-shoot. you are mortal, but gurgaon is eternal. A million more gurgaons, all your favorite countries will fall, just gurgaons will prevail. No pakistan no bangladesh, just infinite gurgaons. so long as men can see and breathe, there is no higher calling on earth but to populate the universe with gurgaons. Cope and seethe commie.
+</p>
+</div>
+</div>
+<div id="outline-container-orga0bff94" class="outline-2">
+<h2 id="orga0bff94"><span class="section-number-2">10.</span> Imagine</h2>
+<div class="outline-text-2" id="text-10">
+<p>
+🎶Imagine all the wannabe caliphs 🎶
+</p>
+
+<p>
+had their own personal Great Powers oppressing them.
+America oppressing Iran
+India oppressing Turkey
+Israel oppressing Qatar
+Russia oppressing Europeistan
+</p>
+
+<p>
+🎶Imagine there&rsquo;s no Pakistan🎶
+🎶it isn&rsquo;t hard to do🎶
+🎶I hope someday China&rsquo;ll join us🎶
+🎶And the world will be as one🎶
+</p>
+
+
+<p>
+<img src="/img/memes/sabka/modi_perfect_but_no_putin_with_label_and_putin_and_lolbert.png" alt="modi_perfect_but_no_putin_with_label_and_putin_and_lolbert.png" />
+</p>
+</div>
+</div>
+<div id="outline-container-orgbacea59" class="outline-2">
+<h2 id="orgbacea59"><span class="section-number-2">11.</span> Namaste Pakistani oil deposits</h2>
+<div class="outline-text-2" id="text-11">
+<p>
+<p class="byline">Also published on <a href="https://x.com/real_mahalingam/status/1926078225769283901">Twitter</a></p>
+</p>
+
+<p>
+Modi must invite Trump to India ASAP, do a Gujju-maxxed laser-projector show on the Taj Mahal for him. Show him all the news about Pakistan discovering OIL DEPOSITS and doing nothing with them (!!) Announce the BIG, BEAUTIFUL JOINT AMERICAN-INDIAN PLAN FOR THE SECOND BARBARY WAR!
+</p>
+
+<p>
+<img src="/img/art/india_us_summit/2.png" alt="2.png" />
+</p>
+</div>
+</div>
+<div id="outline-container-orgab0a5c8" class="outline-2">
+<h2 id="orgab0a5c8"><span class="section-number-2">12.</span> countries as operating systems</h2>
+<div class="outline-text-2" id="text-12">
+<p>
+<p class="byline">Also published on <a href="https://x.com/real_mahalingam/status/1855624160451473615">Twitter</a></p>
+</p>
+
+<p>
+China is MacOS. Walled garden, but open on the things that matter so that it just works really well. Your life is at their mercy tho.
+</p>
+
+<p>
+Singapore is Linux. Very open market; centralization only in the form of establishing standards. Literally the best at everything, except time-pass. Very small.
+</p>
+
+<p>
+India is Windows. You can technically do anything, but only after going through a ton of useless bureaucracy that god knows where to find. Lots of stuff just broken. Total lack of perfectionism. Open market for viruses mainly.
+</p>
+
+<p>
+America is an Arch linux installation that has gotten fakkḍ up beyond repair. Random bloatware everywhere. At some point you recompiled the kernel; your uncle says this made a malicious AI take over your computer from within and it uploads little copies of itself onto the internet to infect other systems. There is no driver for the keyboard so you enter inputs by scanning pieces of paper with the camera.
+</p>
+
+<p>
+Europe is iOS. Literally only exists to be a pain in the ass for anyone who wants to BVILD anything.
+</p>
+
+<p>
+UK is Unix. The original perfect system which America made a democratic version of (Linux). Now dead.
+</p>
+
+<p>
+Gulf countries are Android. Very lite system based on Linux. Little boys play with them in bed.
+</p>
+
+<p>
+Israel is TempleOS. God&rsquo;s temple is finished. Now, God kills CIA until it spreads. I asked God about racism. He said, &ldquo;sports&rdquo;. I don&rsquo;t care. God says&#x2026; C:\Text\WEALTH.TXT
+</p>
+
+<p>
+<img src="/img/memes/os.png" alt="os.png" />
+</p>
+</div>
+</div>
+<div id="outline-container-org866c7d7" class="outline-2">
+<h2 id="org866c7d7"><span class="section-number-2">13.</span> prophecy</h2>
+<div class="outline-text-2" id="text-13">
+<p>
+<p class="byline">Also published on <a href="https://x.com/real_mahalingam/status/1829753986943238421">Twitter</a></p>
+</p>
+
+<pre class="example" id="org8d466c9">
+&gt; originate in Maharashtra
+&gt; immediately gain some Southern holdings
+&gt; Prosperity &amp; Hindoo unity
+&gt; condemned by a few trads &amp; unionists
+&gt; stronghold in Gujarat &amp; MP
+&gt; conquer the nation in a complete tsunami
+&gt; afuera the mlecchavaṁṣa
+&gt; face a shock setback
+&gt; ___________________
+&gt; Bengali Muslim state falls to Global Hegemonic Thalassocracy, giving it a foothold in the subcontinent
+&gt; ?
+</pre>
+</div>
+</div>
+<div id="outline-container-org3ed5dc1" class="outline-2">
+<h2 id="org3ed5dc1"><span class="section-number-2">14.</span> Optimal Robot</h2>
+<div class="outline-text-2" id="text-14">
+<p>
+<p class="byline">Also published on <a href="https://x.com/real_mahalingam/status/1930540688115961860">Twitter</a></p>
+</p>
+
+<p>
+THIS is what robots must look like. A flying modular octopus with wheels. Hands are modules (imagine keeping a full collection of hands in a part of your central pregMANcy/storage box), and the default hand must be a gecko foot with metallic claws.
+<img src="/img/art/robot/4.png" alt="4.png" />
+<img src="/img/art/robot/5.png" alt="5.png" />
+<img src="/img/art/robot/6.png" alt="6.png" />
+</p>
+</div>
+</div>
+<div id="outline-container-orga4a4bce" class="outline-2">
+<h2 id="orga4a4bce"><span class="section-number-2">15.</span> Sanjay Gandhi</h2>
+<div class="outline-text-2" id="text-15">
+<p>
+<p class="byline">Also published on <a href="https://x.com/real_mahalingam/status/1929128404051198397">Twitter</a></p>
+</p>
+
+<p>
+Sanjay Gandhi simps/anti-natalists will be forcibly impregMANted in Priest-king&rsquo;s India. Oh you want a vasectomy? No problem, just grow a fetus in your own balls.
+</p>
+
+<p>
+<img src="/img/memes/pregman/nice.webp" alt="nice.webp" />
+</p>
+</div>
+</div>
+<div id="outline-container-org5ed7e0c" class="outline-2">
+<h2 id="org5ed7e0c"><span class="section-number-2">16.</span> WAR game</h2>
+<div class="outline-text-2" id="text-16">
+<p>
+<p class="byline">Also published on <a href="https://x.com/real_mahalingam/status/1947115310232023123">Twitter</a></p>
+</p>
+
+<p>
+A player with a Pakistan flag spawning in the Indus valley spent his entire time attacking the India NPC and losing. I killed him and he nuked himself in panic as he died. Then I got destroyed by a Chinese player and spent the remaining game peacefully trademaxxing in islands across the world like a scattered prosperous diaspora while constantly getting nuked by WokeHitler69 and random annoying weak players. WokeHitler69 won the game and MIRVed the world back into wilderness.
+</p>
+</div>
+</div>
+</div>
+<div id="postamble" class="status">
+<p class="author">Author: NiṣādaHermaphroditarchaṃśa (Mal'ta boy ka parivar)</p>
+<p class="date">Created: 2025-08-13 Wed 20:52</p>
+</div>
+</body>
+</html>
