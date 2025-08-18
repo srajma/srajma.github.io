@@ -22,3 +22,6 @@ img {
 .nav-home a:hover {
   text-decoration: underline;
 }
+.footpara {
+  display: inline-block;
+}
